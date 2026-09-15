@@ -103,6 +103,7 @@ export default function App() {
   const [toast, setToast] = useState<string | null>(null);
   const [showJson, setShowJson] = useState(false);
   const [copied, setCopied] = useState<string | null>(null);
+  const [previewImg, setPreviewImg] = useState<string | null>(null);
   const inputRef = useRef<HTMLInputElement>(null);
   const toastTimer = useRef<number | undefined>(undefined);
 
@@ -712,6 +713,22 @@ export default function App() {
                           <div dir="ltr" className="text-left text-[11px] text-stone-400 dark:text-stone-500 font-mono truncate">
                             {unit.المسار}
                           </div>
+                          {unit.الصور && unit.الصور.length > 0 && (
+                            <div className="flex items-center gap-1.5">
+                              <span className="relative w-16 h-12 rounded-lg overflow-hidden border border-stone-200 dark:border-stone-700 shadow-xs group cursor-zoom-in" onClick={() => setPreviewImg(unit.الصور![0]!.الرابط)}>
+                                <img src={unit.الصور![0]!.الرابط} alt={unit.الصور![0]!.الوصف} loading="lazy" className="w-full h-full object-cover transition-transform group-hover:scale-110" />
+                              </span>
+                              <div className="flex flex-col gap-0.5 min-w-0">
+                                <span className="text-[10px] font-bold text-purple-700 dark:text-purple-300 flex items-center gap-1">
+                                  <FileCheck className="w-3 h-3" />
+                                  {unit.الصور.length} صورة مرفقة
+                                </span>
+                                <span className="text-[10px] text-stone-400 dark:text-stone-500 truncate max-w-[220px]">
+                                  {unit.الصور![0]!.الوصف}
+                                </span>
+                              </div>
+                            </div>
+                          )}
                         </div>
 
                         <div className="flex items-center gap-2 shrink-0">
@@ -880,6 +897,50 @@ export default function App() {
                   {JSON.stringify(dataset, null, 2)}
                 </pre>
               </div>
+            </motion.div>
+          </motion.div>
+        )}
+      </AnimatePresence>
+
+      {/* ===== image lightbox ===== */}
+      <AnimatePresence>
+        {previewImg && (
+          <motion.div
+            initial={{opacity: 0}}
+            animate={{opacity: 1}}
+            exit={{opacity: 0}}
+            className="fixed inset-0 z-50 bg-stone-950/85 backdrop-blur-sm flex items-center justify-center p-4"
+            onClick={() => setPreviewImg(null)}
+          >
+            <motion.div
+              initial={{scale: 0.95, y: 8}}
+              animate={{scale: 1, y: 0}}
+              exit={{scale: 0.95, y: 8}}
+              onClick={(e) => e.stopPropagation()}
+              className="max-w-3xl w-full max-h-[88vh] flex flex-col"
+            >
+              <div className="flex items-center justify-between gap-2 p-2">
+                <a
+                  href={previewImg}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="text-[11px] font-semibold text-amber-300 hover:text-amber-200 underline underline-offset-2 font-mono truncate"
+                >
+                  فتح الصورة الأصلية
+                </a>
+                <button
+                  onClick={() => setPreviewImg(null)}
+                  className="p-2 rounded-full bg-white/10 hover:bg-white/20 text-white cursor-pointer"
+                  title="إغلاق"
+                >
+                  <X className="w-4 h-4" />
+                </button>
+              </div>
+              <img
+                src={previewImg}
+                alt="معاينة"
+                className="w-full max-h-[80vh] object-contain rounded-xl shadow-2xl bg-white"
+              />
             </motion.div>
           </motion.div>
         )}

@@ -11,6 +11,17 @@ export interface UnitPlanItem {
   تاريخ_التحقق: string;
   الحجم: string;
   الصيغة: string;
+  الصور?: UnitImage[];
+}
+
+export interface UnitImage {
+  الرابط: string;
+  نوع_الرابط: string;
+  الصيغة: string;
+  الوصف: string;
+  المصدر: string;
+  حالة_التحقق: string;
+  تاريخ_التحقق: string;
 }
 
 export interface SubjectPlan {
