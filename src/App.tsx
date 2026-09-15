@@ -154,6 +154,7 @@ export default function App() {
   };
 
   const total = dataset.إحصائيات_المكتبة.إجمالي_الملفات_المحققة;
+  const totalImages = dataset.إحصائيات_المكتبة.عدد_الصور_التقييمية ?? 0;
   const stats = dataset.إحصائيات_المكتبة;
 
   const linkCountByYear = useMemo(() => {
@@ -448,9 +449,9 @@ export default function App() {
           {[
             {
               icon: <BookOpen className="w-4 h-4 text-amber-600" />,
-              label: 'إجمالي الوثائق',
-              value: total,
-              hint: 'ملف ومخطّط محقَّق',
+              label: 'وثائق ومخططات',
+              value: total + totalImages,
+              hint: `${total} وثيقة + ${totalImages} صورة تقييمية`,
             },
             {
               icon: <Link2 className="w-4 h-4 text-sky-600" />,
@@ -468,7 +469,7 @@ export default function App() {
               icon: <FileText className="w-4 h-4 text-violet-600" />,
               label: 'صيغ متعددة',
               value: `${formats.reduce((a, [, c]) => a + c, 0)} ملف`,
-              hint: 'PDF · Word · RAR · JPG',
+              hint: 'PDF · Word · JPG',
             },
           ].map((c, i) => (
             <motion.div
