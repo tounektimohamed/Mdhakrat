@@ -1,0 +1,6 @@
+{
+  "name": "مخططات الابتدائي التونسي",
+  "description": "قاعدة بيانات موثقة وشاملة لمخططات وتوزيعات وحدات التعليم الابتدائي التونسي من السنة الأولى إلى السنة السادسة",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
