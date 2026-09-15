@@ -4449,5 +4449,60 @@
     "ent_cnte_tn": "WAF FortiGuard 403 - necessite vrai navigateur avec session enseignante",
     "facebook": "Authentification requise - inaccessible en CLI",
     "scribd_cloudflare": "Cloudflare 403 - copie equivalente trouvee sur najahni.tn"
+  },
+  "صفحات_فيسبوك": {
+    "outil": "skill opencode facebook-page-finder (Google Search via Apify, Actor nFJndFXA5zjCTuudP)",
+    "date": "2026-09-15",
+    "note": "Pages confirmées via SERP Google (Apify). Facebook bloque le scraping direct; ces URLs sont les handles canoniques.",
+    "pages": [
+      {
+        "source": "najahni.tn",
+        "page": "Najahni - نجحني في حياتي",
+        "handle": "najja7ni",
+        "url": "https://www.facebook.com/najja7ni"
+      },
+      {
+        "source": "medrassatouna.com",
+        "page": "استاذ / medrassatouna",
+        "handle": "ramzimim",
+        "url": "https://www.facebook.com/ramzimim"
+      },
+      {
+        "source": "9raya.tn",
+        "page": "9raya.tn",
+        "handle": "9raya.tn",
+        "url": "https://www.facebook.com/9raya.tn"
+      },
+      {
+        "source": "مكتبة المعلم التونسي",
+        "page": "مكتبة المعلم التونسي",
+        "handle": "teacher.tunisie",
+        "url": "https://www.facebook.com/teacher.tunisie"
+      },
+      {
+        "source": "فضاء التلميذ التونسي",
+        "page": "تلميذ تونسي",
+        "handle": "tilmidh.tounsii",
+        "url": "https://www.facebook.com/tilmidh.tounsii"
+      },
+      {
+        "source": "فضاء التلميذ التونسي",
+        "page": "5et6PrimaireTN",
+        "handle": "5et6PrimaireTN",
+        "url": "https://www.facebook.com/5et6PrimaireTN"
+      },
+      {
+        "source": "المربي الفاضل",
+        "page": "المربي الفاضل",
+        "handle": "alhaaliy",
+        "url": "https://www.facebook.com/alhaaliy"
+      },
+      {
+        "source": "مكتبة عمر",
+        "page": "مكتبة عمر التعليمية",
+        "handle": "maktbaomar",
+        "url": "https://www.facebook.com/maktbaomar"
+      }
+    ]
   }
 }
