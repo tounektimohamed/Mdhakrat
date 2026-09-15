@@ -22,6 +22,7 @@ export interface UnitImage {
   المصدر: string;
   حالة_التحقق: string;
   تاريخ_التحقق: string;
+  نوع_التقييم?: string;
 }
 
 export interface ExternalLink {
@@ -46,6 +47,10 @@ export interface DatasetStats {
   توزيع_الملفات_حسب_المواد: Record<string, number>;
   توزيع_الملفات_حسب_الصيغ: Record<string, number>;
   المصادر_المدمجة: string[];
+  عدد_الوثائق?: number;
+  عدد_الصور_التقييمية?: number;
+  إجمالي_الملفات_الواقعية?: number;
+  إجمالي_الروابط_الخارجية?: number;
 }
 
 export interface Dataset {

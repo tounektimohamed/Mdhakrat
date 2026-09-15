@@ -1,6 +1,7 @@
 import {useEffect, useMemo, useRef, useState} from 'react';
 import {motion, AnimatePresence} from 'motion/react';
 import {dataset} from './data';
+import {fbImages, FbImage} from './fbImages';
 import {SubjectPlan, UnitPlanItem} from './types';
 import {
   BookOpen,
@@ -105,6 +106,10 @@ export default function App() {
   const [showJson, setShowJson] = useState(false);
   const [copied, setCopied] = useState<string | null>(null);
   const [previewImg, setPreviewImg] = useState<string | null>(null);
+  const [gallery, setGallery] = useState(false);
+  const [galleryLevel, setGalleryLevel] = useState<'all' | string>('all');
+  const [galleryFormat, setGalleryFormat] = useState<'all' | 'JPG' | 'PNG'>('all');
+  const [galleryLimit, setGalleryLimit] = useState(60);
   const inputRef = useRef<HTMLInputElement>(null);
   const toastTimer = useRef<number | undefined>(undefined);
 
@@ -200,6 +205,55 @@ export default function App() {
     );
     return Array.from(m.entries()).sort((a, b) => b[1] - a[1]);
   }, []);
+
+  /* ---------- galerie d'images (fb-evaluations) ---------- */
+
+  const galleryFolders = useMemo(() => {
+    const order = ['annee-1', 'annee-2', 'annee-3', 'annee-4', 'annee-5', 'annee-6', 'autre'];
+    const m = new Map<string, number>();
+    fbImages.forEach((i) => m.set(i.المجلد, (m.get(i.المجلد) || 0) + 1));
+    return order.map((f) => [f, m.get(f) || 0] as const);
+  }, []);
+
+  const gallerySubjects = useMemo(() => {
+    const m = new Map<string, number>();
+    fbImages.forEach((i) => {
+      const s = i.المادة || 'غير مصنّف';
+      m.set(s, (m.get(s) || 0) + 1);
+    });
+    return Array.from(m.entries()).sort((a, b) => b[1] - a[1]);
+  }, []);
+
+  const galleryImgFormat = (i: FbImage) => (i.الصيغة || i.المسار.split('.').pop()?.toUpperCase() || '');
+
+  const filteredImages = useMemo(() => {
+    const q = normalize(search);
+    return fbImages.filter((i) => {
+      if (galleryLevel !== 'all' && i.المجلد !== galleryLevel) return false;
+      if (subject !== 'all' && i.المادة !== subject) return false;
+      if (galleryFormat !== 'all' && galleryImgFormat(i) !== galleryFormat) return false;
+      if (!q) return true;
+      return (
+        normalize(i.المسار).includes(q) ||
+        normalize(i.الوصف).includes(q) ||
+        normalize(i.المادة).includes(q) ||
+        normalize(i.الوحدة).includes(q) ||
+        normalize(i.المصدر).includes(q)
+      );
+    });
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [galleryLevel, galleryFormat, search, subject]);
+
+  const visibleImages = filteredImages.slice(0, galleryLimit);
+  const galleryActiveFilters =
+    (galleryLevel !== 'all' ? 1 : 0) + (subject !== 'all' ? 1 : 0) + (galleryFormat !== 'all' ? 1 : 0) + (search.trim() ? 1 : 0);
+  const resetGallery = () => {
+    setGalleryLevel('all');
+    setGalleryFormat('all');
+    if (subject !== 'all') setSubject('all');
+    if (search) setSearch('');
+    setGalleryLimit(60);
+  };
 
   const yearCount = (y: number | 'all') => {
     const base =
@@ -338,6 +392,32 @@ export default function App() {
           </div>
 
           <div className="flex items-center gap-2 shrink-0">
+            <div className="flex items-center gap-0.5 p-1 rounded-xl border border-stone-200 bg-stone-100/80 dark:border-stone-700 dark:bg-stone-800/80">
+              <button
+                onClick={() => setGallery(false)}
+                className={`px-2.5 py-1.5 text-[11px] font-bold rounded-lg transition-colors cursor-pointer ${
+                  !gallery
+                    ? 'bg-white text-stone-900 shadow-xs dark:bg-stone-900 dark:text-white'
+                    : 'text-stone-500 hover:text-stone-700 dark:text-stone-400 dark:hover:text-stone-200'
+                }`}
+              >
+                الوثائق
+              </button>
+              <button
+                onClick={() => setGallery(true)}
+                className={`inline-flex items-center gap-1 px-2.5 py-1.5 text-[11px] font-bold rounded-lg transition-colors cursor-pointer ${
+                  gallery
+                    ? 'bg-white text-amber-700 shadow-xs dark:bg-stone-900 dark:text-amber-400'
+                    : 'text-stone-500 hover:text-stone-700 dark:text-stone-400 dark:hover:text-stone-200'
+                }`}
+              >
+                <span className="relative">
+                  الصور
+                  <span className="absolute -top-1 -right-2 w-1.5 h-1.5 rounded-full bg-amber-500 animate-pulse" />
+                </span>
+                <span className="text-[10px] text-stone-400">2050</span>
+              </button>
+            </div>
             <button
               onClick={downloadJson}
               title="تحميل ملف البيانات"
@@ -368,14 +448,18 @@ export default function App() {
           <div className="text-center max-w-2xl mx-auto">
             <span className="inline-flex items-center gap-1.5 px-3 py-1 rounded-full bg-white/70 dark:bg-stone-800/70 border border-stone-200 dark:border-stone-700 text-[11px] font-bold text-stone-600 dark:text-stone-300 shadow-xs">
               <Sparkles className="w-3.5 h-3.5 text-amber-600" />
-              كل الوثائق البيداغوجية في مكان واحد
+              {gallery ? 'معرض الصور التقييمية المحققّة' : 'كل الوثائق البيداغوجية في مكان واحد'}
             </span>
             <h2 className="mt-3 text-2xl sm:text-3xl font-extrabold tracking-tight text-stone-900 dark:text-white">
-              ابحث، صفِّ، وحمّل مخطّطاتك في ثوانٍ
+              {gallery
+                ? 'تصفّح كل الصور حسب المسار والمستوى'
+                : 'ابحث، صفِّ، وحمّل مخطّطاتك في ثوانٍ'}
             </h2>
             <p className="mt-2 text-sm text-stone-600 dark:text-stone-400 leading-relaxed">
-              جذاذات، خطط سنوية وفصلية، أدلة المعلم، وتقييمات رسمية — مصنّفة حسب المستوى،
-              المادة، نوع الوثيقة والصيغة.
+              {gallery
+                ? 'فلاتر حسب المسار (annee-1..6 / autres)، المادة، الصيغة والبحث في الأوصاف.'
+                : 'جذاذات، خطط سنوية وفصلية، أدلة المعلم، وتقييمات رسمية — مصنّفة حسب المستوى،'}
+              {!gallery && ' المادة، نوع الوثيقة والصيغة.'}
             </p>
           </div>
 
@@ -391,7 +475,11 @@ export default function App() {
                   setSearch(e.target.value);
                   setLimit(30);
                 }}
-                placeholder={`ابحث في ${total} ملفاً و${totalLinks} رابطاً…  (مثال: دليل المعلم، الوحدة 1، الفرنسية، تقييم، CNP)`}
+                placeholder={
+                  gallery
+                    ? `ابحث في المسار أو الأوصاف أو المواد… (مثال: annee-3، تقييم، Français)`
+                    : `ابحث في ${total} ملفاً و${totalLinks} رابطاً…  (مثال: دليل المعلم، الوحدة 1، الفرنسية، تقييم، CNP)`
+                }
                 className="w-full pl-12 pr-12 py-3.5 text-sm rounded-2xl border border-stone-200 bg-white shadow-sm placeholder:text-stone-400 focus:outline-hidden focus:ring-4 focus:ring-amber-500/20 focus:border-amber-500 transition-all dark:bg-stone-900 dark:border-stone-700 dark:placeholder:text-stone-500"
               />
               {search && (
@@ -410,34 +498,76 @@ export default function App() {
 
             {/* Level pills */}
             <div className="mt-4 flex flex-wrap items-center justify-center gap-2">
-              {(['all', 0, 1, 2, 3, 4, 5, 6] as (number | 'all')[]).map((y) => {
-                const active = year === y;
-                return (
+              {gallery ? (
+                <>
                   <button
-                    key={String(y)}
                     onClick={() => {
-                      setYear(y);
-                      setLimit(30);
+                      setGalleryLevel('all');
+                      setGalleryLimit(60);
                     }}
                     className={`px-3.5 py-1.5 text-xs font-bold rounded-full border transition-all cursor-pointer ${
-                      active
-                        ? y === 'all'
-                          ? 'bg-stone-900 border-stone-900 text-white shadow-xs dark:bg-white dark:border-white dark:text-stone-900'
-                          : 'bg-amber-600 border-amber-600 text-white shadow-sm dark:bg-amber-500 dark:border-amber-500'
+                      galleryLevel === 'all'
+                        ? 'bg-stone-900 border-stone-900 text-white shadow-xs dark:bg-white dark:border-white dark:text-stone-900'
                         : 'bg-white/80 border-stone-200 text-stone-600 hover:border-amber-400 hover:text-amber-700 dark:bg-stone-800/80 dark:border-stone-700 dark:text-stone-300 dark:hover:border-amber-500/60'
                     }`}
                   >
-                    {y === 'all' ? 'جميع المستويات' : levelLabel(y)}
-                    <span
-                      className={`mr-1.5 text-[10px] font-semibold ${
-                        active ? 'opacity-80' : 'text-stone-400 dark:text-stone-500'
-                      }`}
-                    >
-                      {yearCount(y)}
+                    كل المسارات
+                    <span className="mr-1.5 text-[10px] text-stone-400 dark:text-stone-500">
+                      {fbImages.length}
                     </span>
                   </button>
-                );
-              })}
+                  {galleryFolders.map(([f, c]) => (
+                    <button
+                      key={f}
+                      onClick={() => {
+                        setGalleryLevel(galleryLevel === f ? 'all' : f);
+                        setGalleryLimit(60);
+                      }}
+                      className={`px-3.5 py-1.5 text-xs font-bold rounded-full border transition-all cursor-pointer ${
+                        galleryLevel === f
+                          ? 'bg-amber-600 border-amber-600 text-white shadow-sm dark:bg-amber-500 dark:border-amber-500'
+                          : 'bg-white/80 border-stone-200 text-stone-600 hover:border-amber-400 hover:text-amber-700 dark:bg-stone-800/80 dark:border-stone-700 dark:text-stone-300 dark:hover:border-amber-500/60'
+                      }`}
+                    >
+                      <span className="font-mono" dir="ltr">
+                        {f}
+                      </span>
+                      <span className={`mr-1.5 text-[10px] ${galleryLevel === f ? 'opacity-80' : 'text-stone-400 dark:text-stone-500'}`}>
+                        {c}
+                      </span>
+                    </button>
+                  ))}
+                </>
+              ) : (
+                (['all', 0, 1, 2, 3, 4, 5, 6] as (number | 'all')[]).map((y) => {
+                  const active = year === y;
+                  return (
+                    <button
+                      key={String(y)}
+                      onClick={() => {
+                        setYear(y);
+                        setLimit(30);
+                      }}
+                      className={`px-3.5 py-1.5 text-xs font-bold rounded-full border transition-all cursor-pointer ${
+                        active
+                          ? y === 'all'
+                            ? 'bg-stone-900 border-stone-900 text-white shadow-xs dark:bg-white dark:border-white dark:text-stone-900'
+                            : 'bg-amber-600 border-amber-600 text-white shadow-sm dark:bg-amber-500 dark:border-amber-500'
+                          : 'bg-white/80 border-stone-200 text-stone-600 hover:border-amber-400 hover:text-amber-700 dark:bg-stone-800/80 dark:border-stone-700 dark:text-stone-300 dark:hover:border-amber-500/60'
+                      }`}
+                    >
+                      {y === 'all' ? 'جميع المستويات' : levelLabel(y)}
+                      <span
+                        className={`mr-1.5 text-[10px] font-semibold ${
+                          active ? 'opacity-80' : 'text-stone-400 dark:text-stone-500'
+                        }`}
+                      >
+                        {yearCount(y)}
+                      </span>
+                    </button>
+                  );
+                })
+              )}
             </div>
           </div>
         </div>
@@ -500,14 +630,14 @@ export default function App() {
               <span className="w-7 h-7 rounded-lg bg-amber-500/15 border border-amber-500/25 flex items-center justify-center">
                 <SlidersHorizontal className="w-4 h-4 text-amber-700 dark:text-amber-400" />
               </span>
-              تصفية دقيقة
+              {gallery ? 'تصفية الصور حسب المسار' : 'تصفية دقيقة'}
               <span className="text-[11px] font-semibold text-stone-400 dark:text-stone-500">
-                {matchCount} نتيجة
+                {gallery ? filteredImages.length : matchCount} نتيجة
               </span>
             </div>
-            {hasActiveFilters && (
+            {(gallery ? galleryActiveFilters > 0 : hasActiveFilters) && (
               <button
-                onClick={reset}
+                onClick={gallery ? resetGallery : reset}
                 className="inline-flex items-center gap-1 text-[11px] font-semibold text-amber-700 hover:text-amber-800 dark:text-amber-400 cursor-pointer"
               >
                 <RotateCcw className="w-3.5 h-3.5" />
@@ -516,6 +646,77 @@ export default function App() {
             )}
           </div>
 
+          {gallery ? (
+            <div className="p-5 space-y-4">
+              <div>
+                <div className="flex items-center gap-2 text-[11px] font-bold text-stone-500 dark:text-stone-400 mb-2">
+                  <FolderOpen className="w-3.5 h-3.5" />
+                  المادة الدراسية
+                </div>
+                <div className="flex flex-wrap gap-1.5">
+                  <button
+                    onClick={() => setSubject('all')}
+                    className={`px-2.5 py-1 text-xs rounded-lg font-semibold transition-colors cursor-pointer ${
+                      subject === 'all'
+                        ? 'bg-stone-800 text-white dark:bg-white dark:text-stone-900'
+                        : 'bg-stone-100 text-stone-600 hover:bg-stone-200 dark:bg-stone-800 dark:text-stone-300 dark:hover:bg-stone-700'
+                    }`}
+                  >
+                    كل المواد
+                  </button>
+                  {gallerySubjects.map(([s, c]) => (
+                    <button
+                      key={s}
+                      onClick={() => setSubject(subject === s ? 'all' : s)}
+                      className={`px-2.5 py-1 text-xs rounded-lg font-semibold transition-colors cursor-pointer ${
+                        subject === s
+                          ? 'bg-amber-600 text-white shadow-sm dark:bg-amber-500'
+                          : 'bg-stone-100 text-stone-600 hover:bg-amber-100 hover:text-amber-800 dark:bg-stone-800 dark:text-stone-300 dark:hover:bg-amber-500/10 dark:hover:text-amber-300'
+                      }`}
+                    >
+                      {s}
+                      <span className={`mr-1 text-[10px] ${subject === s ? 'opacity-80' : 'text-stone-400'}`}>
+                        {c}
+                      </span>
+                    </button>
+                  ))}
+                </div>
+              </div>
+              <div className="pt-1">
+                <div className="flex items-center gap-2 text-[11px] font-bold text-stone-500 dark:text-stone-400 mb-2">
+                  <FileCheck className="w-3.5 h-3.5" />
+                  الصيغة
+                </div>
+                <div className="flex flex-wrap gap-1.5">
+                  {(['all', 'JPG', 'PNG'] as const).map((f) => {
+                    const count = f === 'all' ? fbImages.length : fbImages.filter((i) => galleryImgFormat(i) === f).length;
+                    return (
+                      <button
+                        key={f}
+                        onClick={() => setGalleryFormat(f)}
+                        className={`px-2.5 py-1 text-xs rounded-full border font-semibold transition-colors cursor-pointer ${
+                          galleryFormat === f
+                            ? 'bg-amber-600 border-amber-600 text-white dark:bg-amber-500 dark:border-amber-500'
+                            : 'bg-white border-stone-200 text-stone-600 hover:border-amber-400 hover:text-amber-700 dark:bg-stone-800 dark:border-stone-700 dark:text-stone-300'
+                        }`}
+                      >
+                        {f === 'all' ? 'الكل' : f}
+                        <span className="mr-1 text-[10px] text-stone-400">
+                          {count}
+                        </span>
+                      </button>
+                    );
+                  })}
+                </div>
+              </div>
+              <div className="pt-1 border-t border-stone-100 dark:border-stone-800">
+                <div className="flex items-center gap-1.5 text-[11px] font-semibold text-stone-400 dark:text-stone-500">
+                  <Layers className="w-3.5 h-3.5" />
+                  المسارات: fb-evaluations/{'{'}{galleryLevel !== 'all' ? galleryLevel : 'annee-1…6، autre'}{'}'}
+                </div>
+              </div>
+            </div>
+          ) : (
           <div className="p-5 space-y-4">
             {/* Subjects */}
             <div>
@@ -657,11 +858,125 @@ export default function App() {
               )}
             </AnimatePresence>
           </div>
+          )}
         </div>
       </section>
 
       {/* ===== Results ===== */}
       <main className="flex-1 max-w-7xl w-full mx-auto px-4 sm:px-6 lg:px-8 py-6">
+        {gallery ? (
+          /* ===== Galerie d'images ===== */
+          <AnimatePresence mode="wait">
+            {visibleImages.length === 0 ? (
+              <motion.div
+                key="gallery-empty"
+                initial={{opacity: 0, y: 8}}
+                animate={{opacity: 1, y: 0}}
+                exit={{opacity: 0}}
+                className="text-center py-20 bg-white rounded-2xl border border-dashed border-stone-300 dark:bg-stone-900 dark:border-stone-700"
+              >
+                <div className="mx-auto w-16 h-16 rounded-2xl bg-stone-100 dark:bg-stone-800 flex items-center justify-center">
+                  <Search className="w-8 h-8 text-stone-400" />
+                </div>
+                <h3 className="mt-4 font-bold text-stone-800 dark:text-stone-200">لا توجد صور مطابقة</h3>
+                <p className="mt-1 text-sm text-stone-500 dark:text-stone-400">
+                  جرّب تغيير المسار أو إعادة ضبط الفلاتر.
+                </p>
+                <button
+                  onClick={resetGallery}
+                  className="mt-4 inline-flex items-center gap-1.5 px-4 py-2 text-xs font-bold rounded-lg bg-stone-900 text-white hover:bg-amber-600 transition-colors dark:bg-white dark:text-stone-900 cursor-pointer"
+                >
+                  <RotateCcw className="w-3.5 h-3.5" />
+                  إعادة ضبط الفلاتر
+                </button>
+              </motion.div>
+            ) : (
+              <motion.div
+                key="gallery-results"
+                initial={{opacity: 0}}
+                animate={{opacity: 1}}
+                exit={{opacity: 0}}
+              >
+                <div className="flex flex-wrap items-center justify-between gap-2 text-xs text-stone-500 dark:text-stone-400 px-1 mb-3">
+                  <span>
+                    «
+                    <span className="font-extrabold text-stone-900 dark:text-white">
+                      {filteredImages.length}
+                    </span>
+                    » صورة من أصل{' '}
+                    <span className="font-bold text-stone-700 dark:text-stone-300">
+                      {fbImages.length}
+                    </span>
+                    {' '}موجودة في المسار fb-evaluations/
+                    {hasActiveFilters || galleryActiveFilters > 0 ? ' — حسب المعايير المحددة' : ''}
+                  </span>
+                  <span className="text-[11px] text-stone-400 dark:text-stone-500">
+                    اضغط على أي صورة لعرضها بملء الشاشة
+                  </span>
+                </div>
+
+                <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 xl:grid-cols-5 gap-3">
+                  {visibleImages.map((img, idx) => (
+                    <motion.div
+                      key={img.المسار}
+                      initial={{opacity: 0, y: 10}}
+                      animate={{opacity: 1, y: 0}}
+                      transition={{delay: Math.min(idx * 0.02, 0.3), duration: 0.25}}
+                      onClick={() => setPreviewImg(img.الرابط)}
+                      className="group relative rounded-xl overflow-hidden border border-stone-200 bg-white shadow-2xs cursor-zoom-in dark:bg-stone-900 dark:border-stone-700 hover:shadow-lg hover:border-amber-300 hover:-translate-y-0.5 transition-all"
+                    >
+                      <div className="relative aspect-[4/3] overflow-hidden bg-stone-100 dark:bg-stone-800">
+                        <img
+                          src={img.الرابط}
+                          alt={img.الوصف || img.المسار}
+                          loading="lazy"
+                          className="w-full h-full object-cover transition-transform duration-300 group-hover:scale-110"
+                        />
+                        <span className="absolute top-1.5 right-1.5 px-1.5 py-0.5 text-[9px] font-mono font-bold rounded-md bg-black/60 text-white backdrop-blur-sm" dir="ltr">
+                          {img.المجلد}
+                        </span>
+                      </div>
+                      <div className="px-2.5 py-2 min-w-0">
+                        <div className="flex items-center gap-1 mb-1">
+                          <span className={`text-[9px] px-1.5 py-0.5 rounded font-mono font-bold border ${formatBadge(img.الصيغة)}`}>
+                            {galleryImgFormat(img)}
+                          </span>
+                          {img.المادة && (
+                            <span className="text-[9px] px-1.5 py-0.5 rounded font-semibold bg-stone-100 text-stone-600 border border-stone-200 dark:bg-stone-800 dark:text-stone-300 dark:border-stone-700 truncate">
+                              {img.المادة}
+                            </span>
+                          )}
+                        </div>
+                        <p className="text-[10px] text-stone-500 dark:text-stone-400 truncate" title={img.الوصف || img.المسار}>
+                          {img.الوصف || img.الوحدة || 'صورة تقييمية'}
+                        </p>
+                        {img.الوصف && img.الوحدة && img.الوحدة !== img.الوصف && (
+                          <p className="text-[9px] text-stone-400 dark:text-stone-500 truncate mt-0.5">
+                            {img.الوحدة}
+                          </p>
+                        )}
+                      </div>
+                    </motion.div>
+                  ))}
+                </div>
+
+                {filteredImages.length > galleryLimit && (
+                  <div className="text-center pt-5">
+                    <button
+                      onClick={() => setGalleryLimit((p) => p + 60)}
+                      className="px-6 py-2.5 text-xs font-bold rounded-xl bg-white border border-stone-300 text-stone-700 hover:bg-amber-50 hover:border-amber-400 hover:text-amber-800 shadow-xs dark:bg-stone-900 dark:border-stone-700 dark:text-stone-200 dark:hover:bg-amber-500/10 transition-colors cursor-pointer"
+                    >
+                      عرض المزيد من الصور
+                      <span className="mr-1.5 text-[11px] text-stone-400">
+                        ({filteredImages.length - galleryLimit} صورة متبقية)
+                      </span>
+                    </button>
+                  </div>
+                )}
+              </motion.div>
+            )}
+          </AnimatePresence>
+        ) : (
         <AnimatePresence mode="wait">
           {visiblePlans.length === 0 ? (
             <motion.div
@@ -883,6 +1198,7 @@ export default function App() {
             </motion.div>
           )}
         </AnimatePresence>
+        )}
 
         {/* ===== Sources ===== */}
         <section className="mt-8 p-5 rounded-2xl border border-stone-200 bg-white shadow-xs dark:bg-stone-900 dark:border-stone-800">
