@@ -852,6 +852,24 @@ export const dataset: Dataset = {
               "المصدر": "أفق التعليمي (horizoneducatif.blogspot.com)",
               "حالة_التحقق": "تم التحقق (200 OK)",
               "تاريخ_التحقق": "2026-09-15"
+            },
+            {
+              "الرابط": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgxaBDGNLQbWVyMnFkJax2FsKljwj-_VGWjBHG1QskGjjEUfTJorQibAFA_LJB3X55tn9-P5TFRIKN9oH4uhBebMdhs3jHg0Wk20I4yH0WNzmDbhrq3Sk2Xxe22IEUOoQn49dRQ2GfKfBMlfi7vBCgOnb8rcVrgPCUaINhbtlJXWX2kT_KydWNvX9KJJV4/s720/%D8%AA%D9%83%D9%86%D9%881.jpg",
+              "نوع_الرابط": "صورة مباشرة",
+              "الصيغة": "JPG",
+              "الوصف": "مخطط التكنولوجيا - السنة الأولى - جذع مشترك",
+              "المصدر": "أفق التعليمي (horizoneducatif.blogspot.com)",
+              "حالة_التحقق": "تم التحقق (200 OK)",
+              "تاريخ_التحقق": "2026-09-15"
+            },
+            {
+              "الرابط": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEib-xqQKggvu_pFrqiQu7fEpwiEa7cmpAJbgKNcdim49kkpnlT3qHeqgIGVoeiRENolwrkIh0DcCVg82-S48greMAZngEaT1LhArLyQJyrwbhUty2aiQD1OCDR2BWx0ScsE9XhkT6s7P8vk5H1PH3OplaVgo6DlG-BiEIgbQ6fpKHrvbL1cJ4vL8QTz-gM/s720/%D8%AA%D9%83%D9%86%D9%882.jpg",
+              "نوع_الرابط": "صورة مباشرة",
+              "الصيغة": "JPG",
+              "الوصف": "مخطط التكنولوجيا - السنة الأولى - توزيع ثلاثي",
+              "المصدر": "أفق التعليمي (horizoneducatif.blogspot.com)",
+              "حالة_التحقق": "تم التحقق (200 OK)",
+              "تاريخ_التحقق": "2026-09-15"
             }
           ]
         }
@@ -980,7 +998,17 @@ export const dataset: Dataset = {
           "تاريخ_التحقق": "2026-09-14",
           "الحجم": "4.94 MB",
           "الصيغة": "PDF",
-          "الصور": []
+          "الصور": [
+            {
+              "الرابط": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEizvXNfBBCOwagxZFj1AxMnGPTgHMcFRbTZjXIs71AK64UoqJCVnhg1Nabao5XhGNtqz5iEAMyxLQgZaL4929eX8VRwCc7H2tVdsgu6-Kc5_tHR7b2EOefiDv7yKZzh8qo9RzVMIo0ZxIg/s1600/Planing1.jpg",
+              "نوع_الرابط": "صورة مباشرة",
+              "الصيغة": "JPG",
+              "الوصف": "مخططات السنة الأولى ابتدائي (مخططات الوحدات)",
+              "المصدر": "المدرسة الابتدائية (primaecole.blogspot.com)",
+              "حالة_التحقق": "تم التحقق (200 OK)",
+              "تاريخ_التحقق": "2026-09-15"
+            }
+          ]
         },
         {
           "الوحدة": "السنة الأولى - اللغة العربية - المخطط السنوي — السنة الأولى - اللغة العربية - المخطط السنوي",
