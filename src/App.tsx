@@ -15,6 +15,7 @@ import {
   FolderOpen,
   GraduationCap,
   Layers,
+  Link2,
   Moon,
   RotateCcw,
   Search,
@@ -155,6 +156,24 @@ export default function App() {
   const total = dataset.إحصائيات_المكتبة.إجمالي_الملفات_المحققة;
   const stats = dataset.إحصائيات_المكتبة;
 
+  const linkCountByYear = useMemo(() => {
+    const m = new Map<number, number>();
+    dataset.المخططات.forEach((p) => {
+      const n = p.روابط_تحميل?.length || 0;
+      if (n) m.set(p.السنة, (m.get(p.السنة) || 0) + n);
+    });
+    return m;
+  }, []);
+
+  const linkCountBySubject = useMemo(() => {
+    const m = new Map<string, number>();
+    dataset.المخططات.forEach((p) => {
+      const n = p.روابط_تحميل?.length || 0;
+      if (n) m.set(p.المادة, (m.get(p.المادة) || 0) + n);
+    });
+    return m;
+  }, []);
+
   /* ---------- derived data ---------- */
 
   const subjects = useMemo(
@@ -181,14 +200,19 @@ export default function App() {
     return Array.from(m.entries()).sort((a, b) => b[1] - a[1]);
   }, []);
 
-  const yearCount = (y: number | 'all') =>
-    y === 'all'
-      ? total
-      : y === 0
-        ? stats.توزيع_الملفات_حسب_المستويات['البرامج والوثائق الرسمية'] || 0
-        : stats.توزيع_الملفات_حسب_المستويات[`السنة ${y}`] || 0;
+  const yearCount = (y: number | 'all') => {
+    const base =
+      y === 'all'
+        ? total
+        : y === 0
+          ? stats.توزيع_الملفات_حسب_المستويات['البرامج والوثائق الرسمية'] || 0
+          : stats.توزيع_الملفات_حسب_المستويات[`السنة ${y}`] || 0;
+    const links = y === 'all' ? totalLinks : linkCountByYear.get(y as number) || 0;
+    return base + links;
+  };
 
-  const subjectCount = (s: string) => stats.توزيع_الملفات_حسب_المواد[s] || 0;
+  const subjectCount = (s: string) =>
+    (stats.توزيع_الملفات_حسب_المواد[s] || 0) + (linkCountBySubject.get(s) || 0);
 
   /* ---------- filtering ---------- */
 
@@ -211,15 +235,34 @@ export default function App() {
           normalize(levelLabel(p.السنة)).includes(q)
         );
       });
-      if (!units.length) return null;
-      return {...p, الوحدات: units};
+      const links = (p.روابط_تحميل || []).filter((l) => {
+        if (docType !== 'all' && l.نوع && l.نوع !== docType) return false;
+        if (!q) return true;
+        return (
+          normalize(l.الوصف).includes(q) ||
+          normalize(l.الرابط).includes(q) ||
+          normalize(l.المصدر).includes(q) ||
+          normalize(l.نوع || '').includes(q) ||
+          normalize(p.المادة).includes(q) ||
+          normalize(levelLabel(p.السنة)).includes(q)
+        );
+      });
+      if (!units.length && !links.length) return null;
+      return {...p, الوحدات: units, روابط_تحميل: links.length ? links : undefined};
     });
     return sortPlans(res, sort);
   }, [year, subject, docType, format, q, sort]);
 
-  const matchCount = useMemo(
-    () => filteredPlans.reduce((acc, p) => acc + p.الوحدات.length, 0),
+  const matchUnits = useMemo(() => filteredPlans.reduce((acc, p) => acc + p.الوحدات.length, 0), [filteredPlans]);
+  const matchLinks = useMemo(
+    () => filteredPlans.reduce((acc, p) => acc + (p.روابط_تحميل?.length || 0), 0),
     [filteredPlans],
+  );
+  const matchCount = matchUnits + matchLinks;
+
+  const totalLinks = useMemo(
+    () => dataset.المخططات.reduce((acc, p) => acc + (p.روابط_تحميل?.length || 0), 0),
+    [],
   );
 
   const activeFilters = useMemo(
@@ -279,7 +322,12 @@ export default function App() {
                 </h1>
                 <span className="hidden sm:inline-flex items-center gap-1 text-[11px] font-bold px-2 py-0.5 rounded-full bg-emerald-100 text-emerald-800 border border-emerald-200 dark:bg-emerald-500/10 dark:text-emerald-300 dark:border-emerald-500/30">
                   <CheckCircle2 className="w-3 h-3" />
-                  {total} وثيقة رسمية
+                  {total} وثيقة
+                  <span className="w-px h-3 bg-emerald-300/50 dark:bg-emerald-500/40 hidden sm:inline-block" />
+                  <span className="hidden sm:inline-flex items-center gap-1">
+                    <Link2 className="w-3 h-3" />
+                    {totalLinks} رابط خارجي
+                  </span>
                 </span>
               </div>
               <p className="text-[11px] text-stone-500 dark:text-stone-400 truncate">
@@ -342,7 +390,7 @@ export default function App() {
                   setSearch(e.target.value);
                   setLimit(30);
                 }}
-                placeholder={`ابحث في ${total} ملفاً…  (مثال: دليل المعلم، الوحدة 1، الفرنسية، تقييم، CNP)`}
+                placeholder={`ابحث في ${total} ملفاً و${totalLinks} رابطاً…  (مثال: دليل المعلم، الوحدة 1، الفرنسية، تقييم، CNP)`}
                 className="w-full pl-12 pr-12 py-3.5 text-sm rounded-2xl border border-stone-200 bg-white shadow-sm placeholder:text-stone-400 focus:outline-hidden focus:ring-4 focus:ring-amber-500/20 focus:border-amber-500 transition-all dark:bg-stone-900 dark:border-stone-700 dark:placeholder:text-stone-500"
               />
               {search && (
@@ -405,10 +453,10 @@ export default function App() {
               hint: 'ملف ومخطّط محقَّق',
             },
             {
-              icon: <Building className="w-4 h-4 text-emerald-600" />,
-              label: 'أدلة المعلم CNP',
-              value: '38',
-              hint: 'المركز الوطني البيداغوجي',
+              icon: <Link2 className="w-4 h-4 text-sky-600" />,
+              label: 'روابط خارجية',
+              value: totalLinks,
+              hint: 'مخططات وتقييمات إضافية',
             },
             {
               icon: <Layers className="w-4 h-4 text-sky-600" />,
@@ -649,8 +697,21 @@ export default function App() {
               <div className="flex flex-wrap items-center justify-between gap-2 text-xs text-stone-500 dark:text-stone-400 px-1">
                 <span>
                   «
-                  <span className="font-extrabold text-stone-900 dark:text-white">{matchCount}</span>»
-                  ملف من إجمالي <span className="font-semibold text-stone-700 dark:text-stone-300">{total}</span>
+                  <span className="font-extrabold text-stone-900 dark:text-white">{matchUnits}</span>»
+                  {matchLinks > 0 && (
+                    <>
+                      ملف + «
+                      <span className="font-extrabold text-sky-700 dark:text-sky-300">{matchLinks}</span>»
+                      رابط
+                    </>
+                  )}{' '}
+                  من إجمالي{' '}
+                  <span className="font-bold text-stone-700 dark:text-stone-300">
+                    {total}
+                  </span>{' '}
+                  ملف و{' '}
+                  <span className="font-bold text-sky-700 dark:text-sky-300">{totalLinks}</span>{' '}
+                  رابط
                   {hasActiveFilters && ' — حسب المعايير المحددة'}
                 </span>
                 <span className="text-[11px] text-stone-400 dark:text-stone-500">
