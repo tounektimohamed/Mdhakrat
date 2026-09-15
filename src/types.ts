@@ -24,10 +24,18 @@ export interface UnitImage {
   تاريخ_التحقق: string;
 }
 
+export interface ExternalLink {
+  الوصف: string;
+  الرابط: string;
+  المصدر: string;
+  نوع?: string;
+}
+
 export interface SubjectPlan {
   السنة: number;
   المادة: string;
   الوحدات: UnitPlanItem[];
+  روابط_تحميل?: ExternalLink[];
 }
 
 export interface DatasetStats {
