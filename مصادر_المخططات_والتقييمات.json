@@ -1,0 +1,4453 @@
+{
+  "title": "مصادر المخططات والتقييمات - الابتدائي التونسي",
+  "date": "2026-09-15",
+  "summary": {
+    "najahni_plans_pdf": 122,
+    "9raya_plans": 5,
+    "devoir_plans": 25,
+    "medrassatouna_evals": 375,
+    "devoir_evals": 90,
+    "9raya_evals": 2,
+    "najahni_evals": 6,
+    "tunitests": 2,
+    "total_plans": 152,
+    "total_evals": 475,
+    "grand_total": 627
+  },
+  "plans": {
+    "najahni_tn": {
+      "count": 122,
+      "note": "Tous les PDFs necessitent User-Agent navigateur (403 sans). URLs dans wp-content/uploads/.",
+      "by_year": {
+        "1": 12,
+        "2": 12,
+        "3": 13,
+        "4": 48,
+        "5": 30,
+        "6": 7
+      },
+      "items": [
+        {
+          "السنة": "1",
+          "المادة": "الإيقاظ العلمي",
+          "الوصف": "مخطط ايقاظ علمي",
+          "الرابط": "https://www.najahni.tn/wp-content/uploads/2021/06/%D9%85%D8%AE%D8%B7%D8%B7-%D8%A7%D9%8A%D9%82%D8%A7%D8%B8-%D8%B9%D9%84%D9%85%D9%8A.pdf"
+        },
+        {
+          "السنة": "1",
+          "المادة": "الإيقاظ العلمي",
+          "الوصف": "مخططات الايقاظ العلمي",
+          "الرابط": "https://www.najahni.tn/wp-content/uploads/2021/06/%D9%85%D8%AE%D8%B7%D8%B7%D8%A7%D8%AA-%D8%A7%D9%84%D8%A7%D9%8A%D9%82%D8%A7%D8%B8-%D8%A7%D9%84%D8%B9%D9%84%D9%85%D9%8A.pdf"
+        },
+        {
+          "السنة": "1",
+          "المادة": "الإيقاظ العلمي",
+          "الوصف": "مذكّرات-إيقاظ-علمي-سنة-أولى-2",
+          "الرابط": "https://www.najahni.tn/wp-content/uploads/2023/07/%D9%85%D8%B0%D9%83%D9%91%D8%B1%D8%A7%D8%AA-%D8%A5%D9%8A%D9%82%D8%A7%D8%B8-%D8%B9%D9%84%D9%85%D9%8A-%D8%B3%D9%86%D8%A9-%D8%A3%D9%88%D9%84%D9%89-2.pdf"
+        },
+        {
+          "السنة": "1",
+          "المادة": "التربية البدنية",
+          "الوصف": "مخطط حسب الثلاثيات",
+          "الرابط": "https://www.najahni.tn/wp-content/uploads/2023/07/%D9%85%D8%AE%D8%B7%D8%B7-%D8%AD%D8%B3%D8%A8-%D8%A7%D9%84%D8%AB%D9%84%D8%A7%D8%AB%D9%8A%D8%A7%D8%AA.pdf"
+        },
+        {
+          "السنة": "1",
+          "المادة": "التربية البدنية",
+          "الوصف": "مخططات التربية البدنية س1",
+          "الرابط": "https://www.najahni.tn/wp-content/uploads/2023/07/%D9%85%D8%AE%D8%B7%D8%B7%D8%A7%D8%AA-%D8%A7%D9%84%D8%AA%D8%B1%D8%A8%D9%8A%D8%A9-%D8%A7%D9%84%D8%A8%D8%AF%D9%86%D9%8A%D8%A9-%D8%B31.pdf"
+        },
+        {
+          "السنة": "1",
+          "المادة": "التربية التشكيلية",
+          "الوصف": "مذكرات-تربية-تشكيليةس1",
+          "الرابط": "https://www.najahni.tn/wp-content/uploads/2023/07/%D9%85%D8%B0%D9%83%D8%B1%D8%A7%D8%AA-%D8%AA%D8%B1%D8%A8%D9%8A%D8%A9-%D8%AA%D8%B4%D9%83%D9%8A%D9%84%D9%8A%D8%A9%D8%B31.pdf"
+        },
+        {
+          "السنة": "1",
+          "المادة": "التواصل الشفوي",
+          "الوصف": "مذكرات-التواصل-الشفوي-س1-كل-الوحدات",
+          "الرابط": "https://www.najahni.tn/wp-content/uploads/2023/07/%D9%85%D8%B0%D9%83%D8%B1%D8%A7%D8%AA-%D8%A7%D9%84%D8%AA%D9%88%D8%A7%D8%B5%D9%84-%D8%A7%D9%84%D8%B4%D9%81%D9%88%D9%8A-%D8%B31-%D9%83%D9%84-%D8%A7%D9%84%D9%88%D8%AD%D8%AF%D8%A7%D8%AA.pdf"
+        },
+        {
+          "السنة": "1",
+          "المادة": "العربية/اللغة العربية",
+          "الوصف": "مخطط الوحدة الاولى عربية سنة اولى ابتدائي",
+          "الرابط": "https://www.najahni.tn/wp-content/uploads/2025/09/%D9%85%D8%AE%D8%B7%D8%B7-%D8%A7%D9%84%D9%88%D8%AD%D8%AF%D8%A9-%D8%A7%D9%84%D8%A7%D9%88%D9%84%D9%89-%D8%B9%D8%B1%D8%A8%D9%8A%D8%A9-%D8%B3%D9%86%D8%A9-%D8%A7%D9%88%D9%84%D9%89-%D8%A7%D8%A8%D8%AA%D8%AF%D8%A7%D8%A6%D9%8A.pdf"
+        },
+        {
+          "السنة": "1",
+          "المادة": "العربية/اللغة العربية",
+          "الوصف": "مخطط الوحدة السادسة والسابعة",
+          "الرابط": "https://www.najahni.tn/wp-content/uploads/2025/09/%D9%85%D8%AE%D8%B7%D8%B7-%D8%A7%D9%84%D9%88%D8%AD%D8%AF%D8%A9-%D8%A7%D9%84%D8%B3%D8%A7%D8%AF%D8%B3%D8%A9-%D9%88%D8%A7%D9%84%D8%B3%D8%A7%D8%A8%D8%B9%D8%A9.pdf"
+        },
+        {
+          "السنة": "1",
+          "المادة": "العربية/اللغة العربية",
+          "الوصف": "مخطط وحدات السنة الأولى عربية جديد",
+          "الرابط": "https://www.najahni.tn/wp-content/uploads/2025/09/%D9%85%D8%AE%D8%B7%D8%B7-%D9%88%D8%AD%D8%AF%D8%A7%D8%AA-%D8%A7%D9%84%D8%B3%D9%86%D8%A9-%D8%A7%D9%84%D8%A3%D9%88%D9%84%D9%89-%D8%B9%D8%B1%D8%A8%D9%8A%D8%A9-%D8%AC%D8%AF%D9%8A%D8%AF-.pdf"
+        },
+        {
+          "السنة": "1",
+          "المادة": "العربية/اللغة العربية",
+          "الوصف": "مذكرات-قراءة",
+          "الرابط": "https://www.najahni.tn/wp-content/uploads/2023/07/%D9%85%D8%B0%D9%83%D8%B1%D8%A7%D8%AA-%D9%82%D8%B1%D8%A7%D8%A1%D8%A9.pdf"
+        },
+        {
+          "السنة": "1",
+          "المادة": "العربية/اللغة العربية",
+          "الوصف": "مذكرات-لغة-عربية-",
+          "الرابط": "https://www.najahni.tn/wp-content/uploads/2023/07/%D9%85%D8%B0%D9%83%D8%B1%D8%A7%D8%AA-%D9%84%D8%BA%D8%A9-%D8%B9%D8%B1%D8%A8%D9%8A%D8%A9-.pdf"
+        },
+        {
+          "السنة": "2",
+          "المادة": "الإيقاظ العلمي",
+          "الوصف": "مذكرات الإيقاظ و الرياضيات سنة ثانية",
+          "الرابط": "https://www.najahni.tn/wp-content/uploads/2023/08/%D9%85%D8%B0%D9%83%D8%B1%D8%A7%D8%AA-%D8%A7%D9%84%D8%A5%D9%8A%D9%82%D8%A7%D8%B8-%D9%88-%D8%A7%D9%84%D8%B1%D9%8A%D8%A7%D8%B6%D9%8A%D8%A7%D8%AA-%D8%B3%D9%86%D8%A9-%D8%AB%D8%A7%D9%86%D9%8A%D8%A9.pdf"
+        },
+        {
+          "السنة": "2",
+          "المادة": "التربية التشكيلية/التكنولوجية",
+          "الوصف": "مذكرات ت تشكيلية و تكنولوجية",
+          "الرابط": "https://www.najahni.tn/wp-content/uploads/2023/08/%D9%85%D8%B0%D9%83%D8%B1%D8%A7%D8%AA-%D8%AA-%D8%AA%D8%B4%D9%83%D9%8A%D9%84%D9%8A%D8%A9-%D9%88-%D8%AA%D9%83%D9%86%D9%88%D9%84%D9%88%D8%AC%D9%8A%D8%A9.pdf"
+        },
+        {
+          "السنة": "2",
+          "المادة": "الرياضيات",
+          "الوصف": "مذكرات رياضيات سنة ثانية",
+          "الرابط": "https://www.najahni.tn/wp-content/uploads/2023/08/%D9%85%D8%B0%D9%83%D8%B1%D8%A7%D8%AA-%D8%B1%D9%8A%D8%A7%D8%B6%D9%8A%D8%A7%D8%AA-%D8%B3%D9%86%D8%A9-%D8%AB%D8%A7%D9%86%D9%8A%D8%A9.pdf"
+        },
+        {
+          "السنة": "2",
+          "المادة": "الرياضيات",
+          "الوصف": "مذكرات رياضيات سنة ثانية_2",
+          "الرابط": "https://www.najahni.tn/wp-content/uploads/2023/08/%D9%85%D8%B0%D9%83%D8%B1%D8%A7%D8%AA-%D8%B1%D9%8A%D8%A7%D8%B6%D9%8A%D8%A7%D8%AA-%D8%B3%D9%86%D8%A9-%D8%AB%D8%A7%D9%86%D9%8A%D8%A9_2.pdf"
+        },
+        {
+          "السنة": "2",
+          "المادة": "العربية/اللغة العربية",
+          "الوصف": "مذكرات السنة الثانية لغة عربية",
+          "الرابط": "https://www.najahni.tn/wp-content/uploads/2023/08/%D9%85%D8%B0%D9%83%D8%B1%D8%A7%D8%AA-%D8%A7%D9%84%D8%B3%D9%86%D8%A9-%D8%A7%D9%84%D8%AB%D8%A7%D9%86%D9%8A%D8%A9-%D9%84%D8%BA%D8%A9-%D8%B9%D8%B1%D8%A8%D9%8A%D8%A9.pdf"
+        },
+        {
+          "السنة": "2",
+          "المادة": "العربية/اللغة العربية",
+          "الوصف": "مذكرات-لغة-عربية-سنة-2_2",
+          "الرابط": "https://www.najahni.tn/wp-content/uploads/2023/08/%D9%85%D8%B0%D9%83%D8%B1%D8%A7%D8%AA-%D9%84%D8%BA%D8%A9-%D8%B9%D8%B1%D8%A8%D9%8A%D8%A9-%D8%B3%D9%86%D8%A9-2_2.pdf"
+        },
+        {
+          "السنة": "2",
+          "المادة": "الفرنسية",
+          "الوصف": "cahier_d_activit_s-Mon_cahier-1deuxi_me_ann_e",
+          "الرابط": "https://www.najahni.tn/wp-content/uploads/2023/08/cahier_d_activit_s-Mon_cahier-1deuxi_me_ann_e.pdf"
+        },
+        {
+          "السنة": "2",
+          "المادة": "الفرنسية",
+          "الوصف": "Curriculumdefran_ais",
+          "الرابط": "https://www.najahni.tn/wp-content/uploads/2023/08/Curriculumdefran_ais.pdf"
+        },
+        {
+          "السنة": "2",
+          "المادة": "الفرنسية",
+          "الوصف": "supports-2e-deuxi__me-ann__e-1",
+          "الرابط": "https://www.najahni.tn/wp-content/uploads/2023/08/supports-2e-deuxi__me-ann__e-1.pdf"
+        },
+        {
+          "السنة": "2",
+          "المادة": "الفرنسية",
+          "الوصف": "Version-Prog-2e-ann__e-2019-Finalis__e-1",
+          "الرابط": "https://www.najahni.tn/wp-content/uploads/2023/08/Version-Prog-2e-ann__e-2019-Finalis__e-1.pdf"
+        },
+        {
+          "السنة": "2",
+          "المادة": "غير محدد",
+          "الوصف": "version-finale-guide",
+          "الرابط": "https://www.najahni.tn/wp-content/uploads/2023/08/version-finale-guide.pdf"
+        },
+        {
+          "السنة": "2",
+          "المادة": "غير محدد",
+          "الوصف": "version-finale-guide_2",
+          "الرابط": "https://www.najahni.tn/wp-content/uploads/2023/08/version-finale-guide_2.pdf"
+        },
+        {
+          "السنة": "3",
+          "المادة": "الإيقاظ العلمي",
+          "الوصف": "الفترة 1",
+          "الرابط": "https://www.najahni.tn/wp-content/uploads/2023/09/%D8%A7%D9%84%D9%81%D8%AA%D8%B1%D8%A9-1.pdf"
+        },
+        {
+          "السنة": "3",
+          "المادة": "الإيقاظ العلمي",
+          "الوصف": "الفترة 2",
+          "الرابط": "https://www.najahni.tn/wp-content/uploads/2023/09/%D8%A7%D9%84%D9%81%D8%AA%D8%B1%D8%A9-2.pdf"
+        },
+        {
+          "السنة": "3",
+          "المادة": "الإيقاظ العلمي",
+          "الوصف": "الفترة 3",
+          "الرابط": "https://www.najahni.tn/wp-content/uploads/2023/09/%D8%A7%D9%84%D9%81%D8%AA%D8%B1%D8%A9-3.pdf"
+        },
+        {
+          "السنة": "3",
+          "المادة": "الإيقاظ العلمي",
+          "الوصف": "الفترة 4",
+          "الرابط": "https://www.najahni.tn/wp-content/uploads/2023/09/%D8%A7%D9%84%D9%81%D8%AA%D8%B1%D8%A9-4.pdf"
+        },
+        {
+          "السنة": "3",
+          "المادة": "الإيقاظ العلمي",
+          "الوصف": "مذكرات-لإيقاظ-العلمي-للسنة-الثالثة",
+          "الرابط": "https://www.najahni.tn/wp-content/uploads/2023/09/%D9%85%D8%B0%D9%83%D8%B1%D8%A7-%D8%A7%D8%AA%D8%AF%D8%B1%D9%8A-%D9%84%D8%A5%D9%8A%D9%82%D8%A7%D8%B8-%D8%A7%D9%84%D8%B9%D9%84%D9%85%D9%8A-%D9%84%D9%84%D8%B3%D9%86%D8%A9-%D8%A7%D9%84%D8%AB%D8%A7%D9%84%D8%AB%D8%A9.pdf"
+        },
+        {
+          "السنة": "3",
+          "المادة": "التربية البدنية",
+          "الوصف": "مخططات التربية البدنية سنة ثالثة",
+          "الرابط": "https://www.najahni.tn/wp-content/uploads/2025/10/%D9%85%D8%AE%D8%B7%D8%B7%D8%A7%D8%AA-%D8%A7%D9%84%D8%AA%D8%B1%D8%A8%D9%8A%D8%A9-%D8%A7%D9%84%D8%A8%D8%AF%D9%86%D9%8A%D8%A9-%D8%B3%D9%86%D8%A9-%D8%AB%D8%A7%D9%84%D8%AB%D8%A9.pdf"
+        },
+        {
+          "السنة": "3",
+          "المادة": "التنشئة الاجتماعية",
+          "الوصف": "مخططات سنة ثالثة تنشئة",
+          "الرابط": "https://www.najahni.tn/wp-content/uploads/2024/09/%D9%85%D8%AE%D8%B7%D8%B7%D8%A7%D8%AA-%D8%B3%D9%86%D8%A9-%D8%AB%D8%A7%D9%84%D8%AB%D8%A9-%D8%AA%D9%86%D8%B4%D8%A6%D8%A9.pdf"
+        },
+        {
+          "السنة": "3",
+          "المادة": "الرياضيات",
+          "الوصف": "الوحدة 2 رياضيات",
+          "الرابط": "https://www.najahni.tn/wp-content/uploads/2024/08/%D8%A7%D9%84%D9%88%D8%AD%D8%AF%D8%A9-2-%D8%B1%D9%8A%D8%A7%D8%B6%D9%8A%D8%A7%D8%AA.pdf"
+        },
+        {
+          "السنة": "3",
+          "المادة": "الرياضيات",
+          "الوصف": "الوحدة 3رياضيات",
+          "الرابط": "https://www.najahni.tn/wp-content/uploads/2024/08/%D8%A7%D9%84%D9%88%D8%AD%D8%AF%D8%A9-3%D8%B1%D9%8A%D8%A7%D8%B6%D9%8A%D8%A7%D8%AA-1.pdf"
+        },
+        {
+          "السنة": "3",
+          "المادة": "الرياضيات",
+          "الوصف": "الوحدة 4 رياضيات",
+          "الرابط": "https://www.najahni.tn/wp-content/uploads/2024/08/%D8%A7%D9%84%D9%88%D8%AD%D8%AF%D8%A9-4-%D8%B1%D9%8A%D8%A7%D8%B6%D9%8A%D8%A7%D8%AA.pdf"
+        },
+        {
+          "السنة": "3",
+          "المادة": "الرياضيات",
+          "الوصف": "الوحدة 5 رياضيات",
+          "الرابط": "https://www.najahni.tn/wp-content/uploads/2024/08/%D8%A7%D9%84%D9%88%D8%AD%D8%AF%D8%A9-5-%D8%B1%D9%8A%D8%A7%D8%B6%D9%8A%D8%A7%D8%AA.pdf"
+        },
+        {
+          "السنة": "3",
+          "المادة": "الرياضيات",
+          "الوصف": "الوحدة الأولى رياضيات",
+          "الرابط": "https://www.najahni.tn/wp-content/uploads/2024/08/%D8%A7%D9%84%D9%88%D8%AD%D8%AF%D8%A9-%D8%A7%D9%84%D8%A3%D9%88%D9%84%D9%89-%D8%B1%D9%8A%D8%A7%D8%B6%D9%8A%D8%A7%D8%AA-1.pdf"
+        },
+        {
+          "السنة": "3",
+          "المادة": "العربية/اللغة العربية",
+          "الوصف": "السنة-الثالثة-اللغة-العربية-المخطط-السنوي",
+          "الرابط": "https://www.najahni.tn/wp-content/uploads/2021/09/%D8%A7%D9%84%D8%B3%D9%86%D8%A9-%D8%A7%D9%84%D8%AB%D8%A7%D9%84%D8%AB%D8%A9-%D8%A7%D9%84%D9%84%D8%BA%D8%A9-%D8%A7%D9%84%D8%B9%D8%B1%D8%A8%D9%8A%D8%A9-%D8%A7%D9%84%D9%85%D8%AE%D8%B7%D8%B7-%D8%A7%D9%84%D8%B3%D9%86%D9%88%D9%8A.pdf"
+        },
+        {
+          "السنة": "4",
+          "المادة": "الإنجليزية",
+          "الوصف": "مخططات انجليزية سنة رابعة",
+          "الرابط": "https://www.najahni.tn/wp-content/uploads/2024/09/%D9%85%D8%AE%D8%B7%D8%B7%D8%A7%D8%AA-%D8%A7%D9%86%D8%AC%D9%84%D9%8A%D8%B2%D9%8A%D8%A9-%D8%B3%D9%86%D8%A9-%D8%B1%D8%A7%D8%A8%D8%B9%D8%A9-1.pdf"
+        },
+        {
+          "السنة": "4",
+          "المادة": "الإيقاظ العلمي",
+          "الوصف": "مخطط-الايقاظ-العلمي",
+          "الرابط": "https://www.najahni.tn/wp-content/uploads/2022/11/%D9%85%D8%AE%D8%B7%D8%B7-%D8%A7%D9%84%D8%A7%D9%8A%D9%82%D8%A7%D8%B8-%D8%A7%D9%84%D8%B9%D9%84%D9%85%D9%8A.pdf"
+        },
+        {
+          "السنة": "4",
+          "المادة": "الإيقاظ العلمي",
+          "الوصف": "مخطّط فترات العلوم س 4",
+          "الرابط": "https://www.najahni.tn/wp-content/uploads/2023/08/%D9%85%D8%AE%D8%B7%D9%91%D8%B7-%D9%81%D8%AA%D8%B1%D8%A7%D8%AA-%D8%A7%D9%84%D8%B9%D9%84%D9%88%D9%85-%D8%B3-4.pdf"
+        },
+        {
+          "السنة": "4",
+          "المادة": "الإيقاظ العلمي",
+          "الوصف": "مذكرات السنة الرابعة رياضيات+ايقاظ",
+          "الرابط": "https://www.najahni.tn/wp-content/uploads/2022/04/%D9%85%D8%B0%D9%83%D8%B1%D8%A7%D8%AA-%D8%A7%D9%84%D8%B3%D9%86%D8%A9-%D8%A7%D9%84%D8%B1%D8%A7%D8%A8%D8%B9%D8%A9-%D8%B1%D9%8A%D8%A7%D8%B6%D9%8A%D8%A7%D8%AA%D8%A7%D9%8A%D9%82%D8%A7%D8%B8.pdf"
+        },
+        {
+          "السنة": "4",
+          "المادة": "التربية التكنولوجية",
+          "الوصف": "مخطط-الثلاثي-الاول-تربية-تكنولوجية",
+          "الرابط": "https://www.najahni.tn/wp-content/uploads/2021/08/%D9%85%D8%AE%D8%B7%D8%B7-%D8%A7%D9%84%D8%AB%D9%84%D8%A7%D8%AB%D9%8A-%D8%A7%D9%84%D8%A7%D9%88%D9%84-%D8%AA%D8%B1%D8%A8%D9%8A%D8%A9-%D8%AA%D9%83%D9%86%D9%88%D9%84%D9%88%D8%AC%D9%8A%D8%A9.pdf"
+        },
+        {
+          "السنة": "4",
+          "المادة": "العربية/اللغة العربية",
+          "الوصف": "مخطط الوحدة صفر في اللغة العربية سنة رابعة",
+          "الرابط": "https://www.najahni.tn/wp-content/uploads/2024/08/%D9%85%D8%AE%D8%B7%D8%B7-%D8%A7%D9%84%D9%88%D8%AD%D8%AF%D8%A9-%D8%B5%D9%81%D8%B1-%D9%81%D9%8A-%D8%A7%D9%84%D9%84%D8%BA%D8%A9-%D8%A7%D9%84%D8%B9%D8%B1%D8%A8%D9%8A%D8%A9-%D8%B3%D9%86%D8%A9-%D8%B1%D8%A7%D8%A8%D8%B9%D8%A9.pdf"
+        },
+        {
+          "السنة": "4",
+          "المادة": "العربية/اللغة العربية",
+          "الوصف": "مخطّط وحدات اللّغة العربيّة س 4",
+          "الرابط": "https://www.najahni.tn/wp-content/uploads/2024/09/%D9%85%D8%AE%D8%B7%D9%91%D8%B7-%D9%88%D8%AD%D8%AF%D8%A7%D8%AA-%D8%A7%D9%84%D9%84%D9%91%D8%BA%D8%A9-%D8%A7%D9%84%D8%B9%D8%B1%D8%A8%D9%8A%D9%91%D8%A9-%D8%B3-4.pdf"
+        },
+        {
+          "السنة": "4",
+          "المادة": "العربية/اللغة العربية",
+          "الوصف": "مخطّط وحدات اللّغة العربيّة س 4",
+          "الرابط": "https://www.najahni.tn/wp-content/uploads/2023/08/%D9%85%D8%AE%D8%B7%D9%91%D8%B7-%D9%88%D8%AD%D8%AF%D8%A7%D8%AA-%D8%A7%D9%84%D9%84%D9%91%D8%BA%D8%A9-%D8%A7%D9%84%D8%B9%D8%B1%D8%A8%D9%8A%D9%91%D8%A9-%D8%B3-4.pdf"
+        },
+        {
+          "السنة": "4",
+          "المادة": "العربية/اللغة العربية",
+          "الوصف": "مذكرات الوحدة الأولى سنة رابعة",
+          "الرابط": "https://www.najahni.tn/wp-content/uploads/2024/08/%D9%85%D8%B0%D9%83%D8%B1%D8%A7%D8%AA-%D8%A7%D9%84%D9%88%D8%AD%D8%AF%D8%A9-%D8%A7%D9%84%D8%A3%D9%88%D9%84%D9%89-%D8%B3%D9%86%D8%A9-%D8%B1%D8%A7%D8%A8%D8%B9%D8%A9.pdf"
+        },
+        {
+          "السنة": "4",
+          "المادة": "الفرنسية",
+          "الوصف": "4 année - Français - Répartition trimestrielle",
+          "الرابط": "https://www.najahni.tn/wp-content/uploads/2023/08/4-annee-Francais-Repartition-trimestrielle.pdf"
+        },
+        {
+          "السنة": "4",
+          "المادة": "الفرنسية",
+          "الوصف": "fiche",
+          "الرابط": "https://www.najahni.tn/wp-content/uploads/2024/08/fiche.pdf"
+        },
+        {
+          "السنة": "4",
+          "المادة": "الفرنسية",
+          "الوصف": "module 01 j 01",
+          "الرابط": "https://www.najahni.tn/wp-content/uploads/2024/08/module-01-j-01.pdf"
+        },
+        {
+          "السنة": "4",
+          "المادة": "الفرنسية",
+          "الوصف": "module 01 j 04",
+          "الرابط": "https://www.najahni.tn/wp-content/uploads/2024/08/module-01-j-04.pdf"
+        },
+        {
+          "السنة": "4",
+          "المادة": "الفرنسية",
+          "الوصف": "module 01 j 06",
+          "الرابط": "https://www.najahni.tn/wp-content/uploads/2024/08/module-01-j-06.pdf"
+        },
+        {
+          "السنة": "4",
+          "المادة": "الفرنسية",
+          "الوصف": "module 03 j 01",
+          "الرابط": "https://www.najahni.tn/wp-content/uploads/2024/08/module-03-j-01.pdf"
+        },
+        {
+          "السنة": "4",
+          "المادة": "الفرنسية",
+          "الوصف": "module 03 journ 05",
+          "الرابط": "https://www.najahni.tn/wp-content/uploads/2024/08/module-03-journ-05.pdf"
+        },
+        {
+          "السنة": "4",
+          "المادة": "الفرنسية",
+          "الوصف": "module 03 journe 02",
+          "الرابط": "https://www.najahni.tn/wp-content/uploads/2024/08/module-03-journe-02.pdf"
+        },
+        {
+          "السنة": "4",
+          "المادة": "الفرنسية",
+          "الوصف": "module 03 journe 04",
+          "الرابط": "https://www.najahni.tn/wp-content/uploads/2024/08/module-03-journe-04.pdf"
+        },
+        {
+          "السنة": "4",
+          "المادة": "الفرنسية",
+          "الوصف": "module 03 journe 06",
+          "الرابط": "https://www.najahni.tn/wp-content/uploads/2024/08/module-03-journe-06.pdf"
+        },
+        {
+          "السنة": "4",
+          "المادة": "الفرنسية",
+          "الوصف": "module 03 journe 07",
+          "الرابط": "https://www.najahni.tn/wp-content/uploads/2024/08/module-03-journe-07.pdf"
+        },
+        {
+          "السنة": "4",
+          "المادة": "الفرنسية",
+          "الوصف": "module 03 journe 08",
+          "الرابط": "https://www.najahni.tn/wp-content/uploads/2024/08/module-03-journe-08.pdf"
+        },
+        {
+          "السنة": "4",
+          "المادة": "الفرنسية",
+          "الوصف": "module 04 journe 01",
+          "الرابط": "https://www.najahni.tn/wp-content/uploads/2024/08/module-04-journe-01.pdf"
+        },
+        {
+          "السنة": "4",
+          "المادة": "الفرنسية",
+          "الوصف": "module 04 journe 02",
+          "الرابط": "https://www.najahni.tn/wp-content/uploads/2024/08/module-04-journe-02.pdf"
+        },
+        {
+          "السنة": "4",
+          "المادة": "الفرنسية",
+          "الوصف": "module 04 journe 03",
+          "الرابط": "https://www.najahni.tn/wp-content/uploads/2024/08/module-04-journe-03-1.pdf"
+        },
+        {
+          "السنة": "4",
+          "المادة": "الفرنسية",
+          "الوصف": "module 04 journe 05",
+          "الرابط": "https://www.najahni.tn/wp-content/uploads/2024/08/module-04-journe-05.pdf"
+        },
+        {
+          "السنة": "4",
+          "المادة": "الفرنسية",
+          "الوصف": "module 04 journe 06",
+          "الرابط": "https://www.najahni.tn/wp-content/uploads/2024/08/module-04-journe-06.pdf"
+        },
+        {
+          "السنة": "4",
+          "المادة": "الفرنسية",
+          "الوصف": "module 04 journe 07",
+          "الرابط": "https://www.najahni.tn/wp-content/uploads/2024/08/module-04-journe-07.pdf"
+        },
+        {
+          "السنة": "4",
+          "المادة": "الفرنسية",
+          "الوصف": "module 04 journe 08",
+          "الرابط": "https://www.najahni.tn/wp-content/uploads/2024/08/module-04-journe-08.pdf"
+        },
+        {
+          "السنة": "4",
+          "المادة": "الفرنسية",
+          "الوصف": "module 05 joure 07",
+          "الرابط": "https://www.najahni.tn/wp-content/uploads/2024/08/module-05-joure-07.pdf"
+        },
+        {
+          "السنة": "4",
+          "المادة": "الفرنسية",
+          "الوصف": "module 05 joure 08",
+          "الرابط": "https://www.najahni.tn/wp-content/uploads/2024/08/module-05-joure-08.pdf"
+        },
+        {
+          "السنة": "4",
+          "المادة": "الفرنسية",
+          "الوصف": "module 05 journ 01",
+          "الرابط": "https://www.najahni.tn/wp-content/uploads/2024/08/module-05-journ-01.pdf"
+        },
+        {
+          "السنة": "4",
+          "المادة": "الفرنسية",
+          "الوصف": "module 05 journ 02",
+          "الرابط": "https://www.najahni.tn/wp-content/uploads/2024/08/module-05-journ-02.pdf"
+        },
+        {
+          "السنة": "4",
+          "المادة": "الفرنسية",
+          "الوصف": "module 05 journ 03",
+          "الرابط": "https://www.najahni.tn/wp-content/uploads/2024/08/module-05-journ-03.pdf"
+        },
+        {
+          "السنة": "4",
+          "المادة": "الفرنسية",
+          "الوصف": "module 05 journ 05",
+          "الرابط": "https://www.najahni.tn/wp-content/uploads/2024/08/module-05-journ-05.pdf"
+        },
+        {
+          "السنة": "4",
+          "المادة": "الفرنسية",
+          "الوصف": "module 05 journ 06",
+          "الرابط": "https://www.najahni.tn/wp-content/uploads/2024/08/module-05-journ-06.pdf"
+        },
+        {
+          "السنة": "4",
+          "المادة": "الفرنسية",
+          "الوصف": "module 05 journe 04",
+          "الرابط": "https://www.najahni.tn/wp-content/uploads/2024/08/module-05-journe-04.pdf"
+        },
+        {
+          "السنة": "4",
+          "المادة": "الفرنسية",
+          "الوصف": "module 06 jour 01",
+          "الرابط": "https://www.najahni.tn/wp-content/uploads/2024/08/module-06-jour-01.pdf"
+        },
+        {
+          "السنة": "4",
+          "المادة": "الفرنسية",
+          "الوصف": "module 06 jour 04",
+          "الرابط": "https://www.najahni.tn/wp-content/uploads/2024/08/module-06-jour-04.pdf"
+        },
+        {
+          "السنة": "4",
+          "المادة": "الفرنسية",
+          "الوصف": "module 06 joure 02",
+          "الرابط": "https://www.najahni.tn/wp-content/uploads/2024/08/module-06-joure-02.pdf"
+        },
+        {
+          "السنة": "4",
+          "المادة": "الفرنسية",
+          "الوصف": "module 06 joure 08",
+          "الرابط": "https://www.najahni.tn/wp-content/uploads/2024/08/module-06-joure-08.pdf"
+        },
+        {
+          "السنة": "4",
+          "المادة": "الفرنسية",
+          "الوصف": "module 06 journ 06",
+          "الرابط": "https://www.najahni.tn/wp-content/uploads/2024/08/module-06-journ-06.pdf"
+        },
+        {
+          "السنة": "4",
+          "المادة": "الفرنسية",
+          "الوصف": "module 06 journe 03",
+          "الرابط": "https://www.najahni.tn/wp-content/uploads/2024/08/module-06-journe-03.pdf"
+        },
+        {
+          "السنة": "4",
+          "المادة": "الفرنسية",
+          "الوصف": "module 06 journe 05",
+          "الرابط": "https://www.najahni.tn/wp-content/uploads/2024/08/module-06-journe-05.pdf"
+        },
+        {
+          "السنة": "4",
+          "المادة": "الفرنسية",
+          "الوصف": "module 06 journe 07",
+          "الرابط": "https://www.najahni.tn/wp-content/uploads/2024/08/module-06-journe-07.pdf"
+        },
+        {
+          "السنة": "4",
+          "المادة": "الفرنسية",
+          "الوصف": "palier 01 des m 1et 2 4e",
+          "الرابط": "https://www.najahni.tn/wp-content/uploads/2024/08/palier-01-des-m-1et-2-4e.pdf"
+        },
+        {
+          "السنة": "4",
+          "المادة": "الفرنسية",
+          "الوصف": "pour appliquer aisément lapproche par compétences en 4ème tome 1",
+          "الرابط": "https://www.najahni.tn/wp-content/uploads/2024/08/pour-appliquer-aisement-lapproche-par-competences-en-4eme-tome-1.pdf"
+        },
+        {
+          "السنة": "4",
+          "المادة": "الفرنسية",
+          "الوصف": "pour appliquer aisément lapproche par compétences en 4ème tome 2",
+          "الرابط": "https://www.najahni.tn/wp-content/uploads/2024/08/pour-appliquer-aisement-lapproche-par-competences-en-4eme-tome-2.pdf"
+        },
+        {
+          "السنة": "4",
+          "المادة": "الفرنسية",
+          "الوصف": "pour appliquer aisément lapproche par compétences en 4ème tome 3",
+          "الرابط": "https://www.najahni.tn/wp-content/uploads/2024/08/pour-appliquer-aisement-lapproche-par-competences-en-4eme-tome-3.pdf"
+        },
+        {
+          "السنة": "5",
+          "المادة": "الإيقاظ العلمي",
+          "الوصف": "تخطيط-الوحدات-ايقاظ-علمي-سنة-خامسة",
+          "الرابط": "https://www.najahni.tn/wp-content/uploads/2024/09/%D8%AA%D8%AE%D8%B7%D9%8A%D8%B7-%D8%A7%D9%84%D9%88%D8%AD%D8%AF%D8%A7%D8%AA-%D8%A7%D9%8A%D9%82%D8%A7%D8%B8-%D8%B9%D9%84%D9%85%D9%8A-%D8%B3%D9%86%D8%A9-%D8%AE%D8%A7%D9%85%D8%B3%D8%A9.pdf"
+        },
+        {
+          "السنة": "5",
+          "المادة": "الإيقاظ العلمي",
+          "الوصف": "مذكرات الايقاظ س5",
+          "الرابط": "https://www.najahni.tn/wp-content/uploads/2024/08/3703a4f53292e5cf343e89516044e368.pdf"
+        },
+        {
+          "السنة": "5",
+          "المادة": "الإيقاظ العلمي",
+          "الوصف": "مذكّرات-الإيقاظ-العلميّ-س-5",
+          "الرابط": "https://www.najahni.tn/wp-content/uploads/2024/08/%D9%85%D8%B0%D9%83%D9%91%D8%B1%D8%A7%D8%AA-%D8%A7%D9%84%D8%A5%D9%8A%D9%82%D8%A7%D8%B8-%D8%A7%D9%84%D8%B9%D9%84%D9%85%D9%8A%D9%91-%D8%B3-5.pdf"
+        },
+        {
+          "السنة": "5",
+          "المادة": "التاريخ",
+          "الوصف": "السنة الخامسة - تاريخ - مخطط سنوي حسب الفترات",
+          "الرابط": "https://www.najahni.tn/wp-content/uploads/2023/07/%D8%A7%D9%84%D8%B3%D9%86%D8%A9-%D8%A7%D9%84%D8%AE%D8%A7%D9%85%D8%B3%D8%A9-%D8%AA%D8%A7%D8%B1%D9%8A%D8%AE-%D9%85%D8%AE%D8%B7%D8%B7-%D8%B3%D9%86%D9%88%D9%8A-%D8%AD%D8%B3%D8%A8-%D8%A7%D9%84%D9%81%D8%AA%D8%B1%D8%A7%D8%AA.pdf"
+        },
+        {
+          "السنة": "5",
+          "المادة": "التربية الإسلامية",
+          "الوصف": "السنة الخامسة - التربية الإسلامية - مخطط سنوي حسب الفترات",
+          "الرابط": "https://www.najahni.tn/wp-content/uploads/2023/07/%D8%A7%D9%84%D8%B3%D9%86%D8%A9-%D8%A7%D9%84%D8%AE%D8%A7%D9%85%D8%B3%D8%A9-%D8%A7%D9%84%D8%AA%D8%B1%D8%A8%D9%8A%D8%A9-%D8%A7%D9%84%D8%A5%D8%B3%D9%84%D8%A7%D9%85%D9%8A%D8%A9-%D9%85%D8%AE%D8%B7%D8%B7-%D8%B3%D9%86%D9%88%D9%8A-%D8%AD%D8%B3%D8%A8-%D8%A7%D9%84%D9%81%D8%AA%D8%B1%D8%A7%D8%AA.pdf"
+        },
+        {
+          "السنة": "5",
+          "المادة": "التربية الإسلامية",
+          "الوصف": "السنة الخامسة - التربية الإسلامية - مخطط سنوي حسب الفترات",
+          "الرابط": "https://www.najahni.tn/wp-content/uploads/2023/07/%D8%A7%D9%84%D8%B3%D9%86%D8%A9-%D8%A7%D9%84%D8%AE%D8%A7%D9%85%D8%B3%D8%A9-%D8%A7%D9%84%D8%AA%D8%B1%D8%A8%D9%8A%D8%A9-%D8%A7%D9%84%D8%A5%D8%B3%D9%84%D8%A7%D9%85%D9%8A%D8%A9-%D9%85%D8%AE%D8%B7%D8%B7-%D8%B3%D9%86%D9%88%D9%8A-%D8%AD%D8%B3%D8%A8-%D8%A7%D9%84%D9%81%D8%AA%D8%B1%D8%A7%D8%AA-1.pdf"
+        },
+        {
+          "السنة": "5",
+          "المادة": "التربية الإسلامية",
+          "الوصف": "السنة-الخامسة-التربية-الإسلامية-مخطط-سنوي-حسب-الفترات-1",
+          "الرابط": "https://www.najahni.tn/wp-content/uploads/2024/06/%D8%A7%D9%84%D8%B3%D9%86%D8%A9-%D8%A7%D9%84%D8%AE%D8%A7%D9%85%D8%B3%D8%A9-%D8%A7%D9%84%D8%AA%D8%B1%D8%A8%D9%8A%D8%A9-%D8%A7%D9%84%D8%A5%D8%B3%D9%84%D8%A7%D9%85%D9%8A%D8%A9-%D9%85%D8%AE%D8%B7%D8%B7-%D8%B3%D9%86%D9%88%D9%8A-%D8%AD%D8%B3%D8%A8-%D8%A7%D9%84%D9%81%D8%AA%D8%B1%D8%A7%D8%AA-1.pdf"
+        },
+        {
+          "السنة": "5",
+          "المادة": "التربية البدنية",
+          "الوصف": "برنامج-التربية-البدنية-للسنة-الخامسة",
+          "الرابط": "https://www.najahni.tn/wp-content/uploads/2023/07/%D8%A8%D8%B1%D9%86%D8%A7%D9%85%D8%AC-%D8%A7%D9%84%D8%AA%D8%B1%D8%A8%D9%8A%D8%A9-%D8%A7%D9%84%D8%A8%D8%AF%D9%86%D9%8A%D8%A9-%D9%84%D9%84%D8%B3%D9%86%D8%A9-%D8%A7%D9%84%D8%AE%D8%A7%D9%85%D8%B3%D8%A9.pdf"
+        },
+        {
+          "السنة": "5",
+          "المادة": "التربية التكنولوجية",
+          "الوصف": "مخططات-ثلاثية-تربية-تكنولوجية-5",
+          "الرابط": "https://www.najahni.tn/wp-content/uploads/2023/07/%D9%85%D8%AE%D8%B7%D8%B7%D8%A7%D8%AA-%D8%AB%D9%84%D8%A7%D8%AB%D9%8A%D8%A9-%D8%AA%D8%B1%D8%A8%D9%8A%D8%A9-%D8%AA%D9%83%D9%86%D9%88%D9%84%D9%88%D8%AC%D9%8A%D8%A9-5.pdf"
+        },
+        {
+          "السنة": "5",
+          "المادة": "التربية التكنولوجية",
+          "الوصف": "مخططات-شهرية-تربية-تكنولوجية-5",
+          "الرابط": "https://www.najahni.tn/wp-content/uploads/2023/07/%D9%85%D8%AE%D8%B7%D8%B7%D8%A7%D8%AA-%D8%B4%D9%87%D8%B1%D9%8A%D8%A9-%D8%AA%D8%B1%D8%A8%D9%8A%D8%A9-%D8%AA%D9%83%D9%86%D9%88%D9%84%D9%88%D8%AC%D9%8A%D8%A9-5.pdf"
+        },
+        {
+          "السنة": "5",
+          "المادة": "التربية المدنية",
+          "الوصف": "السنة الخامسة - التربية المدنية - مخطط سنوي حسب الفترات",
+          "الرابط": "https://www.najahni.tn/wp-content/uploads/2023/07/%D8%A7%D9%84%D8%B3%D9%86%D8%A9-%D8%A7%D9%84%D8%AE%D8%A7%D9%85%D8%B3%D8%A9-%D8%A7%D9%84%D8%AA%D8%B1%D8%A8%D9%8A%D8%A9-%D8%A7%D9%84%D9%85%D8%AF%D9%86%D9%8A%D8%A9-%D9%85%D8%AE%D8%B7%D8%B7-%D8%B3%D9%86%D9%88%D9%8A-%D8%AD%D8%B3%D8%A8-%D8%A7%D9%84%D9%81%D8%AA%D8%B1%D8%A7%D8%AA.pdf"
+        },
+        {
+          "السنة": "5",
+          "المادة": "التربية المدنية",
+          "الوصف": "السنة الخامسة - التربية المدنية - مخطط سنوي حسب الفترات",
+          "الرابط": "https://www.najahni.tn/wp-content/uploads/2023/07/%D8%A7%D9%84%D8%B3%D9%86%D8%A9-%D8%A7%D9%84%D8%AE%D8%A7%D9%85%D8%B3%D8%A9-%D8%A7%D9%84%D8%AA%D8%B1%D8%A8%D9%8A%D8%A9-%D8%A7%D9%84%D9%85%D8%AF%D9%86%D9%8A%D8%A9-%D9%85%D8%AE%D8%B7%D8%B7-%D8%B3%D9%86%D9%88%D9%8A-%D8%AD%D8%B3%D8%A8-%D8%A7%D9%84%D9%81%D8%AA%D8%B1%D8%A7%D8%AA-1.pdf"
+        },
+        {
+          "السنة": "5",
+          "المادة": "التربية المدنية",
+          "الوصف": "السنة الخامسة - التربية المدنية - مخطط سنوي حسب الفترات",
+          "الرابط": "https://www.najahni.tn/wp-content/uploads/2021/08/%D8%A7%D9%84%D8%B3%D9%86%D8%A9-%D8%A7%D9%84%D8%AE%D8%A7%D9%85%D8%B3%D8%A9-%D8%A7%D9%84%D8%AA%D8%B1%D8%A8%D9%8A%D8%A9-%D8%A7%D9%84%D9%85%D8%AF%D9%86%D9%8A%D8%A9-%D9%85%D8%AE%D8%B7%D8%B7-%D8%B3%D9%86%D9%88%D9%8A-%D8%AD%D8%B3%D8%A8-%D8%A7%D9%84%D9%81%D8%AA%D8%B1%D8%A7%D8%AA.pdf"
+        },
+        {
+          "السنة": "5",
+          "المادة": "التربية المدنية",
+          "الوصف": "توزيع الأدوار وتبادلها داخل العائلة - التربية المدنية - السنة الخامسة",
+          "الرابط": "https://www.najahni.tn/wp-content/uploads/2023/07/%D8%AA%D9%88%D8%B2%D9%8A%D8%B9-%D8%A7%D9%84%D8%A3%D8%AF%D9%88%D8%A7%D8%B1-%D9%88%D8%AA%D8%A8%D8%A7%D8%AF%D9%84%D9%87%D8%A7-%D8%AF%D8%A7%D8%AE%D9%84-%D8%A7%D9%84%D8%B9%D8%A7%D8%A6%D9%84%D8%A9-%D8%A7%D9%84%D8%AA%D8%B1%D8%A8%D9%8A%D8%A9-%D8%A7%D9%84%D9%85%D8%AF%D9%86%D9%8A%D8%A9-%D8%A7%D9%84%D8%B3%D9%86%D8%A9-%D8%A7%D9%84%D8%AE%D8%A7%D9%85%D8%B3%D8%A9.pdf"
+        },
+        {
+          "السنة": "5",
+          "المادة": "التربية المدنية",
+          "الوصف": "مخطط-مدنية-5",
+          "الرابط": "https://www.najahni.tn/wp-content/uploads/2023/07/%D9%85%D8%AE%D8%B7%D8%B7-%D9%85%D8%AF%D9%86%D9%8A%D8%A9-5.pdf"
+        },
+        {
+          "السنة": "5",
+          "المادة": "التنشئة الاجتماعية",
+          "الوصف": "مخطّط-تنشئة-س-5",
+          "الرابط": "https://www.najahni.tn/wp-content/uploads/2023/07/%D9%85%D8%AE%D8%B7%D9%91%D8%B7-%D8%AA%D9%86%D8%B4%D8%A6%D8%A9-%D8%B3-5.pdf"
+        },
+        {
+          "السنة": "5",
+          "المادة": "الجغرافيا",
+          "الوصف": "السنة الخامسة - جغرافيا - مخطط سنوي حسب الفترات",
+          "الرابط": "https://www.najahni.tn/wp-content/uploads/2023/07/%D8%A7%D9%84%D8%B3%D9%86%D8%A9-%D8%A7%D9%84%D8%AE%D8%A7%D9%85%D8%B3%D8%A9-%D8%AC%D8%BA%D8%B1%D8%A7%D9%81%D9%8A%D8%A7-%D9%85%D8%AE%D8%B7%D8%B7-%D8%B3%D9%86%D9%88%D9%8A-%D8%AD%D8%B3%D8%A8-%D8%A7%D9%84%D9%81%D8%AA%D8%B1%D8%A7%D8%AA.pdf"
+        },
+        {
+          "السنة": "5",
+          "المادة": "الرياضيات",
+          "الوصف": "مخطط-رياضيات-5",
+          "الرابط": "https://www.najahni.tn/wp-content/uploads/2023/07/%D9%85%D8%AE%D8%B7%D8%B7-%D8%B1%D9%8A%D8%A7%D8%B6%D9%8A%D8%A7%D8%AA-5.pdf"
+        },
+        {
+          "السنة": "5",
+          "المادة": "العربية/اللغة العربية",
+          "الوصف": "السنة الخامسة - اللغة العربية - مخطط سنوي حسب الوحدات",
+          "الرابط": "https://www.najahni.tn/wp-content/uploads/2023/07/%D8%A7%D9%84%D8%B3%D9%86%D8%A9-%D8%A7%D9%84%D8%AE%D8%A7%D9%85%D8%B3%D8%A9-%D8%A7%D9%84%D9%84%D8%BA%D8%A9-%D8%A7%D9%84%D8%B9%D8%B1%D8%A8%D9%8A%D8%A9-%D9%85%D8%AE%D8%B7%D8%B7-%D8%B3%D9%86%D9%88%D9%8A-%D8%AD%D8%B3%D8%A8-%D8%A7%D9%84%D9%88%D8%AD%D8%AF%D8%A7%D8%AA.pdf"
+        },
+        {
+          "السنة": "5",
+          "المادة": "العربية/اللغة العربية",
+          "الوصف": "مخطط-لغة-عربية-5",
+          "الرابط": "https://www.najahni.tn/wp-content/uploads/2023/07/%D9%85%D8%AE%D8%B7%D8%B7-%D9%84%D8%BA%D8%A9-%D8%B9%D8%B1%D8%A8%D9%8A%D8%A9-5.pdf"
+        },
+        {
+          "السنة": "5",
+          "المادة": "العربية/اللغة العربية",
+          "الوصف": "مخطط-لغة-عربية-5-1",
+          "الرابط": "https://www.najahni.tn/wp-content/uploads/2023/07/%D9%85%D8%AE%D8%B7%D8%B7-%D9%84%D8%BA%D8%A9-%D8%B9%D8%B1%D8%A8%D9%8A%D8%A9-5-1.pdf"
+        },
+        {
+          "السنة": "5",
+          "المادة": "العربية/اللغة العربية",
+          "الوصف": "مذكرات الوحدة صفر",
+          "الرابط": "https://www.najahni.tn/wp-content/uploads/2021/09/%D9%85%D8%B0%D9%83%D8%B1%D8%A7%D8%AA-%D8%A7%D9%84%D9%88%D8%AD%D8%AF%D8%A9-%D8%B5%D9%81%D8%B1.pdf"
+        },
+        {
+          "السنة": "5",
+          "المادة": "الفرنسية",
+          "الوصف": "5 année - Français - Planification - module 1",
+          "الرابط": "https://www.najahni.tn/wp-content/uploads/2023/07/5-annee-Francais-Planification-module-1.pdf"
+        },
+        {
+          "السنة": "5",
+          "المادة": "الفرنسية",
+          "الوصف": "5 année - Français - Planification - module 2",
+          "الرابط": "https://www.najahni.tn/wp-content/uploads/2023/07/5-annee-Francais-Planification-module-2.pdf"
+        },
+        {
+          "السنة": "5",
+          "المادة": "الفرنسية",
+          "الوصف": "5 année - Français - Planification - module 3",
+          "الرابط": "https://www.najahni.tn/wp-content/uploads/2023/07/5-annee-Francais-Planification-module-3.pdf"
+        },
+        {
+          "السنة": "5",
+          "المادة": "الفرنسية",
+          "الوصف": "5 année - Français - Planification - module 5",
+          "الرابط": "https://www.najahni.tn/wp-content/uploads/2023/07/5-annee-Francais-Planification-module-5.pdf"
+        },
+        {
+          "السنة": "5",
+          "المادة": "الفرنسية",
+          "الوصف": "5 année - Français - Planification 1er trimestre",
+          "الرابط": "https://www.najahni.tn/wp-content/uploads/2023/07/5-annee-Francais-Planification-1er-trimestre.pdf"
+        },
+        {
+          "السنة": "5",
+          "المادة": "الفرنسية",
+          "الوصف": "5 année - Français - Planification 2ème trimestre",
+          "الرابط": "https://www.najahni.tn/wp-content/uploads/2023/07/5-annee-Francais-Planification-2eme-trimestre.pdf"
+        },
+        {
+          "السنة": "5",
+          "المادة": "الفرنسية",
+          "الوصف": "5 année - Français - Planification 3ème trimestre",
+          "الرابط": "https://www.najahni.tn/wp-content/uploads/2023/07/5-annee-Francais-Planification-3eme-trimestre.pdf"
+        },
+        {
+          "السنة": "5",
+          "المادة": "الفرنسية",
+          "الوصف": "مدكرات-فرنسية",
+          "الرابط": "https://www.najahni.tn/wp-content/uploads/2023/08/%D9%85%D8%AF%D9%83%D8%B1%D8%A7%D8%AA-%D9%81%D8%B1%D9%86%D8%B3%D9%8A%D8%A9.pdf"
+        },
+        {
+          "السنة": "6",
+          "المادة": "التربية البدنية",
+          "الوصف": "برنامج التربية البدنية للسنة السادسة",
+          "الرابط": "https://www.najahni.tn/wp-content/uploads/2023/04/%D8%A8%D8%B1%D9%86%D8%A7%D9%85%D8%AC-%D8%A7%D9%84%D8%AA%D8%B1%D8%A8%D9%8A%D8%A9-%D8%A7%D9%84%D8%A8%D8%AF%D9%86%D9%8A%D8%A9-%D9%84%D9%84%D8%B3%D9%86%D8%A9-%D8%A7%D9%84%D8%B3%D8%A7%D8%AF%D8%B3%D8%A9.pdf"
+        },
+        {
+          "السنة": "6",
+          "المادة": "الجغرافيا",
+          "الوصف": "مذكرات الجغرافيا س6",
+          "الرابط": "https://www.najahni.tn/wp-content/uploads/2023/09/%D9%85%D8%B0%D9%83%D8%B1%D8%A7%D8%AA-%D8%A7%D9%84%D8%AC%D8%BA%D8%B1%D8%A7%D9%81%D9%8A%D8%A7-%D8%B36.pdf"
+        },
+        {
+          "السنة": "6",
+          "المادة": "الرياضيات",
+          "الوصف": "السنة السادسة - الرياضيات - مخطط سنوي",
+          "الرابط": "https://www.najahni.tn/wp-content/uploads/2023/04/%D8%A7%D9%84%D8%B3%D9%86%D8%A9-%D8%A7%D9%84%D8%B3%D8%A7%D8%AF%D8%B3%D8%A9-%D8%A7%D9%84%D8%B1%D9%8A%D8%A7%D8%B6%D9%8A%D8%A7%D8%AA-%D9%85%D8%AE%D8%B7%D8%B7-%D8%B3%D9%86%D9%88%D9%8A.pdf"
+        },
+        {
+          "السنة": "6",
+          "المادة": "الرياضيات",
+          "الوصف": "مذكرات-الرياضيات-و-الايقاظ-العلمي",
+          "الرابط": "https://www.najahni.tn/wp-content/uploads/2023/04/%D9%85%D8%B0%D9%83%D8%B1%D8%A7%D8%AA-%D8%A7%D9%84%D8%B1%D9%8A%D8%A7%D8%B6%D9%8A%D8%A7%D8%AA-%D9%88-%D8%A7%D9%84%D8%A7%D9%8A%D9%82%D8%A7%D8%B8-%D8%A7%D9%84%D8%B9%D9%84%D9%85%D9%8A.pdf"
+        },
+        {
+          "السنة": "6",
+          "المادة": "العربية/اللغة العربية",
+          "الوصف": "مخططات السنة السادسة الثلاثي الثاني في اللغة العربية",
+          "الرابط": "https://www.najahni.tn/wp-content/uploads/2022/01/%D9%85%D8%AE%D8%B7%D8%B7%D8%A7%D8%AA-%D8%A7%D9%84%D8%B3%D9%86%D8%A9-%D8%A7%D9%84%D8%B3%D8%A7%D8%AF%D8%B3%D8%A9-%D8%A7%D9%84%D8%AB%D9%84%D8%A7%D8%AB%D9%8A-%D8%A7%D9%84%D8%AB%D8%A7%D9%86%D9%8A-%D9%81%D9%8A-%D8%A7%D9%84%D9%84%D8%BA%D8%A9-%D8%A7%D9%84%D8%B9%D8%B1%D8%A8%D9%8A%D8%A9.pdf"
+        },
+        {
+          "السنة": "6",
+          "المادة": "العربية/اللغة العربية",
+          "الوصف": "مخطّط اللغة العربيّة س 6",
+          "الرابط": "https://www.najahni.tn/wp-content/uploads/2023/08/%D9%85%D8%AE%D8%B7%D9%91%D8%B7-%D8%A7%D9%84%D9%84%D8%BA%D8%A9-%D8%A7%D9%84%D8%B9%D8%B1%D8%A8%D9%8A%D9%91%D8%A9-%D8%B3-6.pdf"
+        },
+        {
+          "السنة": "6",
+          "المادة": "العربية/اللغة العربية",
+          "الوصف": "مذكرة درس الدواء بيدك",
+          "الرابط": "https://www.najahni.tn/wp-content/uploads/2023/08/%D9%85%D8%B0%D9%83%D8%B1%D8%A9-%D8%AF%D8%B1%D8%B3-%D8%A7%D9%84%D8%AF%D9%88%D8%A7%D8%A1-%D8%A8%D9%8A%D8%AF%D9%83-1.pdf"
+        }
+      ]
+    },
+    "9raya_tn": {
+      "count": 5,
+      "items": [
+        {
+          "السنة": "3",
+          "المادة": "التربية الإسلامية",
+          "الوصف": "مخطط التربية الإسلامية كامل السنة",
+          "الرابط": "https://9raya.tn/wp-content/uploads/2022/09/%D9%85%D8%AE%D8%B7%D8%B7-%D8%A7%D9%84%D8%AA%D8%B1%D8%A8%D9%8A%D8%A9-%D8%A7%D9%84%D8%A5%D8%B3%D9%84%D8%A7%D9%85%D9%8A%D8%A9.pdf",
+          "المصدر": "9raya.tn"
+        },
+        {
+          "السنة": "4",
+          "المادة": "الرياضيات",
+          "الوصف": "المخطط السنوي لبرنامج الرياضيات",
+          "الرابط": "https://9raya.tn/wp-content/uploads/2020/09/%D8%A7%D9%84%D9%85%D8%AE%D8%B7%D8%B7-%D8%A7%D9%84%D8%B3%D9%86%D9%88%D9%8A-%D9%84%D8%A8%D8%B1%D9%86%D8%A7%D9%85%D8%AC-%D8%A7%D9%84%D8%B1%D9%8A%D8%A7%D8%B6%D9%8A%D8%A7%D8%AA-%D8%A7%D9%84%D8%B3%D9%86%D8%A9-%D8%A7%D9%84%D8%B1%D8%A7%D8%A8%D8%B9%D8%A9.pdf",
+          "المصدر": "9raya.tn"
+        },
+        {
+          "السنة": "4",
+          "المادة": "الرياضيات",
+          "الوصف": "مخطط الوحدة 3 و الوحدة 4",
+          "الرابط": "https://9raya.tn/wp-content/uploads/2020/01/%D9%85%D8%AE%D8%B7%D8%B7-%D8%A7%D9%84%D9%88%D8%AD%D8%AF%D8%A9-3-%D9%88-%D8%A7%D9%84%D9%88%D8%AD%D8%AF%D8%A9-4.pdf",
+          "المصدر": "9raya.tn"
+        },
+        {
+          "السنة": "6",
+          "المادة": "العربية/فرنسية",
+          "الوصف": "repartition unite 1",
+          "الرابط": "https://9raya.tn/wp-content/uploads/2020/09/repartition-de-lunite-1-6eme.pdf",
+          "المصدر": "9raya.tn"
+        },
+        {
+          "السنة": "6",
+          "المادة": "العربية/فرنسية",
+          "الوصف": "repartition unite 2",
+          "الرابط": "https://9raya.tn/wp-content/uploads/2020/09/repartition-de-lunite-2-6eme.pdf",
+          "المصدر": "9raya.tn"
+        }
+      ]
+    },
+    "devoir_tn": {
+      "count": 25,
+      "items": [
+        {
+          "السنة": "1",
+          "النوع": "مخطط",
+          "المادة": "التربية-الموسيقية",
+          "الوصف": "مخطط-الثلاثي-الأول-في-التربية-الموسيقية.docx",
+          "الرابط": "https://www.devoir.tn/primaire/Doc/السـ1ـنة/وثائق-المعلم/وثـائـق-مـتـنـوعـة-1/التـربية-الـموسـيـقـيـة/مخطط-الثلاثي-الأول-في-التربية-الموسيقية.docx",
+          "المصدر": "devoir.tn"
+        },
+        {
+          "السنة": "1",
+          "النوع": "مخطط",
+          "المادة": "التربية-الموسيقية",
+          "الوصف": "مخطط-الثلاثي-الأول-في-التربية-الموسيقية.pdf",
+          "الرابط": "https://www.devoir.tn/primaire/Doc/السـ1ـنة/وثائق-المعلم/وثـائـق-مـتـنـوعـة-1/التـربية-الـموسـيـقـيـة/مخطط-الثلاثي-الأول-في-التربية-الموسيقية.pdf",
+          "المصدر": "devoir.tn"
+        },
+        {
+          "السنة": "1",
+          "النوع": "مخطط",
+          "المادة": "الرياضيات",
+          "الوصف": "المخطط-السنوي.pdf",
+          "الرابط": "https://www.devoir.tn/primaire/Doc/السـ1ـنة/وثائق-المعلم/وثـائـق-مـتـنـوعـة-1/الـريـاضـيـات/المخطط-السنوي.pdf",
+          "المصدر": "devoir.tn"
+        },
+        {
+          "السنة": "2",
+          "النوع": "مخطط",
+          "المادة": "التربية-التشكيلية",
+          "الوصف": "مخطط-التربية-التشكيلية.docx",
+          "الرابط": "https://www.devoir.tn/primaire/Doc/السـ2ـنة/وثائق-المعلم/وثـائـق-مـتـنـوعـة-1/التـربية-الـتـشـكيلـية/مخطط-التـربية-التشكيلية.docx",
+          "المصدر": "devoir.tn"
+        },
+        {
+          "السنة": "2",
+          "النوع": "مخطط",
+          "المادة": "التربية-التشكيلية",
+          "الوصف": "مخطط-التربية-التشكيلية.pdf",
+          "الرابط": "https://www.devoir.tn/primaire/Doc/السـ2ـنة/وثائق-المعلم/وثـائـق-مـتـنـوعـة-1/التـربية-الـتـشـكيلـية/مخطط-التـربية-التشكيلية.pdf",
+          "المصدر": "devoir.tn"
+        },
+        {
+          "السنة": "2",
+          "النوع": "مخطط",
+          "المادة": "التربية-التكنولوجية",
+          "الوصف": "المخطط-السنوي.pdf",
+          "الرابط": "https://www.devoir.tn/primaire/Doc/السـ2ـنة/وثائق-المعلم/وثـائـق-مـتـنـوعـة-1/التـربية-الـتكـنـولـوجية/المخطط-السنوي.pdf",
+          "المصدر": "devoir.tn"
+        },
+        {
+          "السنة": "2",
+          "النوع": "مخطط",
+          "المادة": "التربية-التكنولوجية",
+          "الوصف": "مخطط-الثلاثي-الأول.doc",
+          "الرابط": "https://www.devoir.tn/primaire/Doc/السـ2ـنة/وثائق-المعلم/وثـائـق-مـتـنـوعـة-1/التـربية-الـتكـنـولـوجية/مخطط-الثلاثي-الأول.doc",
+          "المصدر": "devoir.tn"
+        },
+        {
+          "السنة": "2",
+          "النوع": "مخطط",
+          "المادة": "التربية-التكنولوجية",
+          "الوصف": "مخطط-الثلاثي-الأول.pdf",
+          "الرابط": "https://www.devoir.tn/primaire/Doc/السـ2ـنة/وثائق-المعلم/وثـائـق-مـتـنـوعـة-1/التـربية-الـتكـنـولـوجية/مخطط-الثلاثي-الأول.pdf",
+          "المصدر": "devoir.tn"
+        },
+        {
+          "السنة": "2",
+          "النوع": "مخطط",
+          "المادة": "التربية-التكنولوجية",
+          "الوصف": "مخطط-الثلاثي-الاول-تربية-تكنولوجية.doc",
+          "الرابط": "https://www.devoir.tn/primaire/Doc/السـ2ـنة/وثائق-المعلم/وثـائـق-مـتـنـوعـة-1/التـربية-الـتكـنـولـوجية/مخطط-الثلاثي-الاول-تربية-تكنولوجية.doc",
+          "المصدر": "devoir.tn"
+        },
+        {
+          "السنة": "2",
+          "النوع": "مخطط",
+          "المادة": "التربية-التكنولوجية",
+          "الوصف": "مخطط-الثلاثي-الاول-تربية-تكنولوجية.pdf",
+          "الرابط": "https://www.devoir.tn/primaire/Doc/السـ2ـنة/وثائق-المعلم/وثـائـق-مـتـنـوعـة-1/التـربية-الـتكـنـولـوجية/مخطط-الثلاثي-الاول-تربية-تكنولوجية.pdf",
+          "المصدر": "devoir.tn"
+        },
+        {
+          "السنة": "2",
+          "النوع": "مخطط",
+          "المادة": "التربية-الموسيقية",
+          "الوصف": "المخطط-السنوي.docx",
+          "الرابط": "https://www.devoir.tn/primaire/Doc/السـ2ـنة/وثائق-المعلم/وثـائـق-مـتـنـوعـة-1/التـربية-الـموسـيـقـيـة/المخطط-السنوي.docx",
+          "المصدر": "devoir.tn"
+        },
+        {
+          "السنة": "2",
+          "النوع": "مخطط",
+          "المادة": "التربية-الموسيقية",
+          "الوصف": "المخطط-السنوي.pdf",
+          "الرابط": "https://www.devoir.tn/primaire/Doc/السـ2ـنة/وثائق-المعلم/وثـائـق-مـتـنـوعـة-1/التـربية-الـموسـيـقـيـة/المخطط-السنوي.pdf",
+          "المصدر": "devoir.tn"
+        },
+        {
+          "السنة": "2",
+          "النوع": "مخطط",
+          "المادة": "الرياضيات",
+          "الوصف": "المخطط-السنوي-رياضيات.doc",
+          "الرابط": "https://www.devoir.tn/primaire/Doc/السـ2ـنة/وثائق-المعلم/وثـائـق-مـتـنـوعـة-1/الـريـاضـيـات/المخطط-السنوي-رياضيات.doc",
+          "المصدر": "devoir.tn"
+        },
+        {
+          "السنة": "2",
+          "النوع": "مخطط",
+          "المادة": "الرياضيات",
+          "الوصف": "المخطط-السنوي-رياضيات.pdf",
+          "الرابط": "https://www.devoir.tn/primaire/Doc/السـ2ـنة/وثائق-المعلم/وثـائـق-مـتـنـوعـة-1/الـريـاضـيـات/المخطط-السنوي-رياضيات.pdf",
+          "المصدر": "devoir.tn"
+        },
+        {
+          "السنة": "2",
+          "النوع": "مخطط",
+          "المادة": "الرياضيات",
+          "الوصف": "مخطط-الوحدة-صفر-للسنة-الثانية-من-التعليم-الأساسي.doc",
+          "الرابط": "https://www.devoir.tn/primaire/Doc/السـ2ـنة/وثائق-المعلم/وثـائـق-مـتـنـوعـة-1/الـريـاضـيـات/مخطط-الوحدة-صفر-للسنة-الثانية-من-التعليم-الأساسي.doc",
+          "المصدر": "devoir.tn"
+        },
+        {
+          "السنة": "2",
+          "النوع": "مخطط",
+          "المادة": "الرياضيات",
+          "الوصف": "مخطط-الوحدة-صفر-للسنة-الثانية-من-التعليم-الأساسي.pdf",
+          "الرابط": "https://www.devoir.tn/primaire/Doc/السـ2ـنة/وثائق-المعلم/وثـائـق-مـتـنـوعـة-1/الـريـاضـيـات/مخطط-الوحدة-صفر-للسنة-الثانية-من-التعليم-الأساسي.pdf",
+          "المصدر": "devoir.tn"
+        },
+        {
+          "السنة": "2",
+          "النوع": "مخطط",
+          "المادة": "القراءة",
+          "الوصف": "مثال-لمخطط-سنوي-في-مادة-الإيقاظ-العلمي-س2.doc",
+          "الرابط": "https://www.devoir.tn/primaire/Doc/السـ2ـنة/وثائق-المعلم/وثـائـق-مـتـنـوعـة-1/الـقـراءة/مثال-لمخطط-سنوي-في-مادة-الإيقاظ-العلمي-س2.doc",
+          "المصدر": "devoir.tn"
+        },
+        {
+          "السنة": "2",
+          "النوع": "مخطط",
+          "المادة": "القراءة",
+          "الوصف": "مثال-لمخطط-سنوي-في-مادة-الإيقاظ-العلمي-س2.pdf",
+          "الرابط": "https://www.devoir.tn/primaire/Doc/السـ2ـنة/وثائق-المعلم/وثـائـق-مـتـنـوعـة-1/الـقـراءة/مثال-لمخطط-سنوي-في-مادة-الإيقاظ-العلمي-س2.pdf",
+          "المصدر": "devoir.tn"
+        },
+        {
+          "السنة": "3",
+          "النوع": "مخطط",
+          "المادة": "الإيقاظ-العلمي",
+          "الوصف": "مخطط-الفترة-الأولى.doc",
+          "الرابط": "https://www.devoir.tn/primaire/Doc/السـ3ـنة/وثائق-المعلم/وثائق-متنوعة-1/الإيـقاظ-العلـمـي/مخطط-الفترة-الأولى.doc",
+          "المصدر": "devoir.tn"
+        },
+        {
+          "السنة": "3",
+          "النوع": "مخطط",
+          "المادة": "الإيقاظ-العلمي",
+          "الوصف": "مخطط-الفترة-الأولى.pdf",
+          "الرابط": "https://www.devoir.tn/primaire/Doc/السـ3ـنة/وثائق-المعلم/وثائق-متنوعة-1/الإيـقاظ-العلـمـي/مخطط-الفترة-الأولى.pdf",
+          "المصدر": "devoir.tn"
+        },
+        {
+          "السنة": "4",
+          "النوع": "مخطط",
+          "المادة": "الرياضيات",
+          "الوصف": "مخطط-الفترات-في-مادة-الرياضيات.pdf",
+          "الرابط": "https://www.devoir.tn/primaire/Doc/السـ4ـنة/وثائق-المعلم/وثائق-متنوعة-1/الـريـاضـيـات/مخطط-الفترات-في-مادة-الرياضيات.pdf",
+          "المصدر": "devoir.tn"
+        },
+        {
+          "السنة": "6",
+          "النوع": "مخطط",
+          "المادة": "القراءة",
+          "الوصف": "السنة-السادسة-التربية-المدنية-مخطط-الفترة-عدد-3.doc",
+          "الرابط": "https://www.devoir.tn/primaire/Doc/السـ6ـنة/وثائق-المعلم/وثائق-متنوعة-1/الـقـراءة/السنة-السادسة-التربية-المدنية-مخطط-الفترة-عدد-3.doc",
+          "المصدر": "devoir.tn"
+        },
+        {
+          "السنة": "6",
+          "النوع": "مخطط",
+          "المادة": "القراءة",
+          "الوصف": "السنة-السادسة-التربية-المدنية-مخطط-الفترة-عدد-3.pdf",
+          "الرابط": "https://www.devoir.tn/primaire/Doc/السـ6ـنة/وثائق-المعلم/وثائق-متنوعة-1/الـقـراءة/السنة-السادسة-التربية-المدنية-مخطط-الفترة-عدد-3.pdf",
+          "المصدر": "devoir.tn"
+        },
+        {
+          "السنة": "6",
+          "النوع": "مخطط",
+          "المادة": "القراءة",
+          "الوصف": "السنة-السادسة-اللغة-العربية-مخطط-سنوي-حسب-الوحدات.doc",
+          "الرابط": "https://www.devoir.tn/primaire/Doc/السـ6ـنة/وثائق-المعلم/وثائق-متنوعة-1/الـقـراءة/السنة-السادسة-اللغة-العربية-مخطط-سنوي-حسب-الوحدات.doc",
+          "المصدر": "devoir.tn"
+        },
+        {
+          "السنة": "6",
+          "النوع": "مخطط",
+          "المادة": "القراءة",
+          "الوصف": "السنة-السادسة-اللغة-العربية-مخطط-سنوي-حسب-الوحدات.pdf",
+          "الرابط": "https://www.devoir.tn/primaire/Doc/السـ6ـنة/وثائق-المعلم/وثائق-متنوعة-1/الـقـراءة/السنة-السادسة-اللغة-العربية-مخطط-سنوي-حسب-الوحدات.pdf",
+          "المصدر": "devoir.tn"
+        }
+      ]
+    }
+  },
+  "evaluations": {
+    "medrassatouna_com": {
+      "count": 375,
+      "note": "375 fichiers PDF directs dans wp-content/uploads/ - taille considerable",
+      "items": [
+        {
+          "السنة": "1",
+          "النوع": "تقييم",
+          "الوصف": "تقييم-مادة-الكتابة-السنة-الأولى-الثلاثي-الأول-medrassatouna-1.pdf",
+          "الرابط": "https://medrassatouna.com/wp-content/uploads/2019/11/تقييم-مادة-الكتابة-السنة-الأولى-الثلاثي-الأول-medrassatouna-1.pdf",
+          "المصدر": "medrassatouna.com"
+        },
+        {
+          "السنة": "1",
+          "النوع": "تقييم",
+          "الوصف": "تقييم-إنتاج-كتابي-الثلاثي-الاول-السنة-الأولى-medrassatouna-1.pdf",
+          "الرابط": "https://medrassatouna.com/wp-content/uploads/2019/11/تقييم-إنتاج-كتابي-الثلاثي-الاول-السنة-الأولى-medrassatouna-1.pdf",
+          "المصدر": "medrassatouna.com"
+        },
+        {
+          "السنة": "1",
+          "النوع": "تقييم",
+          "الوصف": "تقييم-في-مادة-الإيقاظ-العلمي-السنة-الأولى-الثلاثي-الاول-medrassatouna-1.pdf",
+          "الرابط": "https://medrassatouna.com/wp-content/uploads/2019/11/تقييم-في-مادة-الإيقاظ-العلمي-السنة-الأولى-الثلاثي-الاول-medrassatouna-1.pdf",
+          "المصدر": "medrassatouna.com"
+        },
+        {
+          "السنة": "1",
+          "النوع": "تقييم",
+          "الوصف": "تقييم-في-مادة-التربية-الإسلامية-السنة-الأولى-الثلاثي-الاول-1.pdf",
+          "الرابط": "https://medrassatouna.com/wp-content/uploads/2019/11/تقييم-في-مادة-التربية-الإسلامية-السنة-الأولى-الثلاثي-الاول-1.pdf",
+          "المصدر": "medrassatouna.com"
+        },
+        {
+          "السنة": "1",
+          "النوع": "تقييم",
+          "الوصف": "تقييم-في-مادة-الرياضيات-سنة-1-1.pdf",
+          "الرابط": "https://medrassatouna.com/wp-content/uploads/2019/11/تقييم-في-مادة-الرياضيات-سنة-1-1.pdf",
+          "المصدر": "medrassatouna.com"
+        },
+        {
+          "السنة": "1",
+          "النوع": "تقييم",
+          "الوصف": "تقييم-في-مادة-القراءة-السنة-الاولى-الثلاثي-الاول-medrassatouna-1.pdf",
+          "الرابط": "https://medrassatouna.com/wp-content/uploads/2019/11/تقييم-في-مادة-القراءة-السنة-الاولى-الثلاثي-الاول-medrassatouna-1.pdf",
+          "المصدر": "medrassatouna.com"
+        },
+        {
+          "السنة": "1",
+          "النوع": "تقييم",
+          "الوصف": "امتحان-في-مادة-الكتابة-الثلاثي-الثاني-السنة-الأولى-1.pdf",
+          "الرابط": "https://medrassatouna.com/wp-content/uploads/2020/02/امتحان-في-مادة-الكتابة-الثلاثي-الثاني-السنة-الأولى-1.pdf",
+          "المصدر": "medrassatouna.com"
+        },
+        {
+          "السنة": "1",
+          "النوع": "تقييم",
+          "الوصف": "امتحان-في-مادة-الكتابة-الثلاثي-الثاني-السنة-الأولى.pdf",
+          "الرابط": "https://medrassatouna.com/wp-content/uploads/2020/02/امتحان-في-مادة-الكتابة-الثلاثي-الثاني-السنة-الأولى.pdf",
+          "المصدر": "medrassatouna.com"
+        },
+        {
+          "السنة": "1",
+          "النوع": "تقييم",
+          "الوصف": "إنتاج-كتابي-السنة-الأولى-medrassatouna.pdf",
+          "الرابط": "https://medrassatouna.com/wp-content/uploads/2019/01/إنتاج-كتابي-السنة-الأولى-medrassatouna.pdf",
+          "المصدر": "medrassatouna.com"
+        },
+        {
+          "السنة": "1",
+          "النوع": "تقييم",
+          "الوصف": "إنتاج-كتابي-سنة-1-ثلاثي-ثاني-medrassatouna-2.pdf",
+          "الرابط": "https://medrassatouna.com/wp-content/uploads/2019/01/إنتاج-كتابي-سنة-1-ثلاثي-ثاني-medrassatouna-2.pdf",
+          "المصدر": "medrassatouna.com"
+        },
+        {
+          "السنة": "1",
+          "النوع": "تقييم",
+          "الوصف": "إنتاج-كتابي-سنة-1-ثلاثي-ثاني-medrassatouna.pdf",
+          "الرابط": "https://medrassatouna.com/wp-content/uploads/2019/01/إنتاج-كتابي-سنة-1-ثلاثي-ثاني-medrassatouna.pdf",
+          "المصدر": "medrassatouna.com"
+        },
+        {
+          "السنة": "1",
+          "النوع": "تقييم",
+          "الوصف": "إنتاج-كتابي-سنة-1-medrassatouna.pdf",
+          "الرابط": "https://medrassatouna.com/wp-content/uploads/2019/04/إنتاج-كتابي-سنة-1-medrassatouna.pdf",
+          "المصدر": "medrassatouna.com"
+        },
+        {
+          "السنة": "1",
+          "النوع": "تقييم",
+          "الوصف": "تقييم-إنتاج-كتابي-الثلاثي-الاول-السنة-الأولى-medrassatouna.pdf",
+          "الرابط": "https://medrassatouna.com/wp-content/uploads/2019/11/تقييم-إنتاج-كتابي-الثلاثي-الاول-السنة-الأولى-medrassatouna.pdf",
+          "المصدر": "medrassatouna.com"
+        },
+        {
+          "السنة": "1",
+          "النوع": "تقييم",
+          "الوصف": "تقييم-إنتاج-كتابي-السنة-الرابعة.pdf",
+          "الرابط": "https://medrassatouna.com/wp-content/uploads/2019/11/تقييم-إنتاج-كتابي-السنة-الرابعة.pdf",
+          "المصدر": "medrassatouna.com"
+        },
+        {
+          "السنة": "1",
+          "النوع": "تقييم",
+          "الوصف": "تقييم-في-مادة-الإنتاج-الكتابي-السنة-الثانية-الثلاثي-الأول.pdf",
+          "الرابط": "https://medrassatouna.com/wp-content/uploads/2019/11/تقييم-في-مادة-الإنتاج-الكتابي-السنة-الثانية-الثلاثي-الأول.pdf",
+          "المصدر": "medrassatouna.com"
+        },
+        {
+          "السنة": "1",
+          "النوع": "تقييم",
+          "الوصف": "تقييم-في-مادة-الإنتاج-الكتابي-السنة-الخامسة-الثلاثي-الأول.pdf",
+          "الرابط": "https://medrassatouna.com/wp-content/uploads/2019/11/تقييم-في-مادة-الإنتاج-الكتابي-السنة-الخامسة-الثلاثي-الأول.pdf",
+          "المصدر": "medrassatouna.com"
+        },
+        {
+          "السنة": "1",
+          "النوع": "تقييم",
+          "الوصف": "تقييم-في-مادة-الإنتاج-الكتابي-السنة-السادسة-الثلاثي-الأول.pdf",
+          "الرابط": "https://medrassatouna.com/wp-content/uploads/2019/11/تقييم-في-مادة-الإنتاج-الكتابي-السنة-السادسة-الثلاثي-الأول.pdf",
+          "المصدر": "medrassatouna.com"
+        },
+        {
+          "السنة": "1",
+          "النوع": "تقييم",
+          "الوصف": "امتحان-الإنتاج-الكتابي-السنة-الأولى-1.pdf",
+          "الرابط": "https://medrassatouna.com/wp-content/uploads/2020/02/امتحان-الإنتاج-الكتابي-السنة-الأولى-1.pdf",
+          "المصدر": "medrassatouna.com"
+        },
+        {
+          "السنة": "1",
+          "النوع": "تقييم",
+          "الوصف": "امتحان-الإنتاج-الكتابي-السنة-الأولى-إصلاح-1.pdf",
+          "الرابط": "https://medrassatouna.com/wp-content/uploads/2020/02/امتحان-الإنتاج-الكتابي-السنة-الأولى-إصلاح-1.pdf",
+          "المصدر": "medrassatouna.com"
+        },
+        {
+          "السنة": "1",
+          "النوع": "تقييم",
+          "الوصف": "امتحان-انتاج-كتابي.pdf",
+          "الرابط": "https://medrassatouna.com/wp-content/uploads/2020/11/امتحان-انتاج-كتابي.pdf",
+          "المصدر": "medrassatouna.com"
+        },
+        {
+          "السنة": "1",
+          "النوع": "تقييم",
+          "الوصف": "إيقاظ-سنة-1-ثلاثي-ثاني-medrassatouna-2.pdf",
+          "الرابط": "https://medrassatouna.com/wp-content/uploads/2019/01/إيقاظ-سنة-1-ثلاثي-ثاني-medrassatouna-2.pdf",
+          "المصدر": "medrassatouna.com"
+        },
+        {
+          "السنة": "1",
+          "النوع": "تقييم",
+          "الوصف": "إيقاظ-سنة-1-ثلاثي-ثاني-medrassatouna.pdf",
+          "الرابط": "https://medrassatouna.com/wp-content/uploads/2019/01/إيقاظ-سنة-1-ثلاثي-ثاني-medrassatouna.pdf",
+          "المصدر": "medrassatouna.com"
+        },
+        {
+          "السنة": "1",
+          "النوع": "تقييم",
+          "الوصف": "إيقاظ-سنة-1-medrassatouna.pdf",
+          "الرابط": "https://medrassatouna.com/wp-content/uploads/2019/04/إيقاظ-سنة-1-medrassatouna.pdf",
+          "المصدر": "medrassatouna.com"
+        },
+        {
+          "السنة": "1",
+          "النوع": "تقييم",
+          "الوصف": "تقييم-الفترة-4-ايقاظ-علميmedrassatouna.pdf",
+          "الرابط": "https://medrassatouna.com/wp-content/uploads/2019/04/تقييم-الفترة-4-ايقاظ-علميmedrassatouna.pdf",
+          "المصدر": "medrassatouna.com"
+        },
+        {
+          "السنة": "1",
+          "النوع": "تقييم",
+          "الوصف": "تقييم-الفترة-1-ايقاظ-علمي.pdf",
+          "الرابط": "https://medrassatouna.com/wp-content/uploads/2019/10/تقييم-الفترة-1-ايقاظ-علمي.pdf",
+          "المصدر": "medrassatouna.com"
+        },
+        {
+          "السنة": "1",
+          "النوع": "تقييم",
+          "الوصف": "امتحان-الإيقاظ-العلمي-السنة-الأولى-الثلاثي-الثاني-1.pdf",
+          "الرابط": "https://medrassatouna.com/wp-content/uploads/2020/02/امتحان-الإيقاظ-العلمي-السنة-الأولى-الثلاثي-الثاني-1.pdf",
+          "المصدر": "medrassatouna.com"
+        },
+        {
+          "السنة": "1",
+          "النوع": "تقييم",
+          "الوصف": "امتحان-الإيقاظ-العلمي-السنة-الأولى-الثلاثي-الثاني-إصلاح-1.pdf",
+          "الرابط": "https://medrassatouna.com/wp-content/uploads/2020/02/امتحان-الإيقاظ-العلمي-السنة-الأولى-الثلاثي-الثاني-إصلاح-1.pdf",
+          "المصدر": "medrassatouna.com"
+        },
+        {
+          "السنة": "1",
+          "النوع": "تقييم",
+          "الوصف": "امتحان-الإيقاظ-العلمي-السنة-الأولى-الثلاثي-الثاني-إصلاح.pdf",
+          "الرابط": "https://medrassatouna.com/wp-content/uploads/2020/02/امتحان-الإيقاظ-العلمي-السنة-الأولى-الثلاثي-الثاني-إصلاح.pdf",
+          "المصدر": "medrassatouna.com"
+        },
+        {
+          "السنة": "1",
+          "النوع": "تقييم",
+          "الوصف": "امتحان-الإيقاظ-العلمي-السنة-الأولى-الثلاثي-الثاني.pdf",
+          "الرابط": "https://medrassatouna.com/wp-content/uploads/2020/02/امتحان-الإيقاظ-العلمي-السنة-الأولى-الثلاثي-الثاني.pdf",
+          "المصدر": "medrassatouna.com"
+        },
+        {
+          "السنة": "1",
+          "النوع": "تقييم",
+          "الوصف": "امتحان-ايقاظ.pdf",
+          "الرابط": "https://medrassatouna.com/wp-content/uploads/2020/11/امتحان-ايقاظ.pdf",
+          "المصدر": "medrassatouna.com"
+        },
+        {
+          "السنة": "1",
+          "النوع": "تقييم",
+          "الوصف": "إسلامية-ثلاثي-ثاني-سنة-1-medrassatouna-2.pdf",
+          "الرابط": "https://medrassatouna.com/wp-content/uploads/2019/01/إسلامية-ثلاثي-ثاني-سنة-1-medrassatouna-2.pdf",
+          "المصدر": "medrassatouna.com"
+        },
+        {
+          "السنة": "1",
+          "النوع": "تقييم",
+          "الوصف": "تربية-اسلامية-سنة-1-medrassatouna.pdf",
+          "الرابط": "https://medrassatouna.com/wp-content/uploads/2019/04/تربية-اسلامية-سنة-1-medrassatouna.pdf",
+          "المصدر": "medrassatouna.com"
+        },
+        {
+          "السنة": "1",
+          "النوع": "تقييم",
+          "الوصف": "تربية-اسلامية-سنة-5-medrassatouna.pdf",
+          "الرابط": "https://medrassatouna.com/wp-content/uploads/2019/04/تربية-اسلامية-سنة-5-medrassatouna.pdf",
+          "المصدر": "medrassatouna.com"
+        },
+        {
+          "السنة": "1",
+          "النوع": "تقييم",
+          "الوصف": "تربية-اسلامية-سنة-6-medrassatouna-1.pdf",
+          "الرابط": "https://medrassatouna.com/wp-content/uploads/2019/04/تربية-اسلامية-سنة-6-medrassatouna-1.pdf",
+          "المصدر": "medrassatouna.com"
+        },
+        {
+          "السنة": "1",
+          "النوع": "تقييم",
+          "الوصف": "تقييم-تربية-إسلامية-السنة-الثانية-الثلاثي-الاول.pdf",
+          "الرابط": "https://medrassatouna.com/wp-content/uploads/2019/11/تقييم-تربية-إسلامية-السنة-الثانية-الثلاثي-الاول.pdf",
+          "المصدر": "medrassatouna.com"
+        },
+        {
+          "السنة": "1",
+          "النوع": "تقييم",
+          "الوصف": "تقييم-في-مادة-التربية-الإسلامية-السنة-الأولى-الثلاثي-الاول.pdf",
+          "الرابط": "https://medrassatouna.com/wp-content/uploads/2019/11/تقييم-في-مادة-التربية-الإسلامية-السنة-الأولى-الثلاثي-الاول.pdf",
+          "المصدر": "medrassatouna.com"
+        },
+        {
+          "السنة": "1",
+          "النوع": "تقييم",
+          "الوصف": "تقييم-في-مادة-التربية-الإسلامية-السنة-الثالثة-الثلاثي-الأول.pdf",
+          "الرابط": "https://medrassatouna.com/wp-content/uploads/2019/11/تقييم-في-مادة-التربية-الإسلامية-السنة-الثالثة-الثلاثي-الأول.pdf",
+          "المصدر": "medrassatouna.com"
+        },
+        {
+          "السنة": "1",
+          "النوع": "تقييم",
+          "الوصف": "تقييم-في-مادة-التربية-الإسلامية-السنة-الخامسة-الثلاثي-الأول.pdf",
+          "الرابط": "https://medrassatouna.com/wp-content/uploads/2019/11/تقييم-في-مادة-التربية-الإسلامية-السنة-الخامسة-الثلاثي-الأول.pdf",
+          "المصدر": "medrassatouna.com"
+        },
+        {
+          "السنة": "1",
+          "النوع": "تقييم",
+          "الوصف": "تقييم-في-مادة-التربية-الإسلامية-السنة-الرابعة.pdf",
+          "الرابط": "https://medrassatouna.com/wp-content/uploads/2019/11/تقييم-في-مادة-التربية-الإسلامية-السنة-الرابعة.pdf",
+          "المصدر": "medrassatouna.com"
+        },
+        {
+          "السنة": "1",
+          "النوع": "تقييم",
+          "الوصف": "تقييم-في-مادة-التربية-الإسلامية-السنة-السادسة-الثلاثي-الأول-1.pdf",
+          "الرابط": "https://medrassatouna.com/wp-content/uploads/2019/11/تقييم-في-مادة-التربية-الإسلامية-السنة-السادسة-الثلاثي-الأول-1.pdf",
+          "المصدر": "medrassatouna.com"
+        },
+        {
+          "السنة": "1",
+          "النوع": "تقييم",
+          "الوصف": "اصلاح-متحان-التربية-الإسلامية-السنة-الأولى-1.pdf",
+          "الرابط": "https://medrassatouna.com/wp-content/uploads/2020/02/اصلاح-متحان-التربية-الإسلامية-السنة-الأولى-1.pdf",
+          "المصدر": "medrassatouna.com"
+        },
+        {
+          "السنة": "1",
+          "النوع": "تقييم",
+          "الوصف": "امتحان-التربية-الإسلامية-السنة-الأولى-1.pdf",
+          "الرابط": "https://medrassatouna.com/wp-content/uploads/2020/02/امتحان-التربية-الإسلامية-السنة-الأولى-1.pdf",
+          "المصدر": "medrassatouna.com"
+        },
+        {
+          "السنة": "1",
+          "النوع": "تقييم",
+          "الوصف": "حساب-ذهني-سنة-1-ثلاثي-2-medrassatouna-1.pdf",
+          "الرابط": "https://medrassatouna.com/wp-content/uploads/2019/01/حساب-ذهني-سنة-1-ثلاثي-2-medrassatouna-1.pdf",
+          "المصدر": "medrassatouna.com"
+        },
+        {
+          "السنة": "1",
+          "النوع": "تقييم",
+          "الوصف": "امتحان-الحساب-الذهني-السنة-الأولى-الثلاثي-الثاني-1.pdf",
+          "الرابط": "https://medrassatouna.com/wp-content/uploads/2020/02/امتحان-الحساب-الذهني-السنة-الأولى-الثلاثي-الثاني-1.pdf",
+          "المصدر": "medrassatouna.com"
+        },
+        {
+          "السنة": "1",
+          "النوع": "تقييم",
+          "الوصف": "امتحان-الحساب-الذهني-السنة-الأولى-الثلاثي-الثاني.pdf",
+          "الرابط": "https://medrassatouna.com/wp-content/uploads/2020/02/امتحان-الحساب-الذهني-السنة-الأولى-الثلاثي-الثاني.pdf",
+          "المصدر": "medrassatouna.com"
+        },
+        {
+          "السنة": "1",
+          "النوع": "تقييم",
+          "الوصف": "خط-و-إملاء-سنة-ثلاثي-medrassatouna-1.pdf",
+          "الرابط": "https://medrassatouna.com/wp-content/uploads/2019/01/خط-و-إملاء-سنة-ثلاثي-medrassatouna-1.pdf",
+          "المصدر": "medrassatouna.com"
+        },
+        {
+          "السنة": "1",
+          "النوع": "تقييم",
+          "الوصف": "خط-و-نسخ.pdf",
+          "الرابط": "https://medrassatouna.com/wp-content/uploads/2020/11/خط-و-نسخ.pdf",
+          "المصدر": "medrassatouna.com"
+        },
+        {
+          "السنة": "1",
+          "النوع": "تقييم",
+          "الوصف": "تقييم-في-مادة-االرياضيات-الثلاثي-الثاني-لتلاميذ-السنة-الأولى-medrassatouna-1.pdf",
+          "الرابط": "https://medrassatouna.com/wp-content/uploads/2019/01/تقييم-في-مادة-االرياضيات-الثلاثي-الثاني-لتلاميذ-السنة-الأولى-medrassatouna-1.pdf",
+          "المصدر": "medrassatouna.com"
+        },
+        {
+          "السنة": "1",
+          "النوع": "تقييم",
+          "الوصف": "تقييم-في-مادة-االرياضيات-الثلاثي-الثاني-لتلاميذ-السنة-الأولى-medrassatouna-2.pdf",
+          "الرابط": "https://medrassatouna.com/wp-content/uploads/2019/01/تقييم-في-مادة-االرياضيات-الثلاثي-الثاني-لتلاميذ-السنة-الأولى-medrassatouna-2.pdf",
+          "المصدر": "medrassatouna.com"
+        },
+        {
+          "السنة": "1",
+          "النوع": "تقييم",
+          "الوصف": "رياضيات-سنة-1-ثلاثي-2-medrassatouna-1.pdf",
+          "الرابط": "https://medrassatouna.com/wp-content/uploads/2019/01/رياضيات-سنة-1-ثلاثي-2-medrassatouna-1.pdf",
+          "المصدر": "medrassatouna.com"
+        },
+        {
+          "السنة": "1",
+          "النوع": "تقييم",
+          "الوصف": "تقييم-رياضيات-السنة-الأولى-medrassatouna.pdf",
+          "الرابط": "https://medrassatouna.com/wp-content/uploads/2019/04/تقييم-رياضيات-السنة-الأولى-medrassatouna.pdf",
+          "المصدر": "medrassatouna.com"
+        },
+        {
+          "السنة": "1",
+          "النوع": "تقييم",
+          "الوصف": "رياضيات-سنة-1-medrassatouna.pdf",
+          "الرابط": "https://medrassatouna.com/wp-content/uploads/2019/05/رياضيات-سنة-1-medrassatouna.pdf",
+          "المصدر": "medrassatouna.com"
+        },
+        {
+          "السنة": "1",
+          "النوع": "تقييم",
+          "الوصف": "تقييم-الفترة-1-رياضيات-مدرستنا.pdf",
+          "الرابط": "https://medrassatouna.com/wp-content/uploads/2019/10/تقييم-الفترة-1-رياضيات-مدرستنا.pdf",
+          "المصدر": "medrassatouna.com"
+        },
+        {
+          "السنة": "1",
+          "النوع": "تقييم",
+          "الوصف": "أستعد-لامتحان-مادة-الرياضيات.pdf",
+          "الرابط": "https://medrassatouna.com/wp-content/uploads/2019/11/أستعد-لامتحان-مادة-الرياضيات.pdf",
+          "المصدر": "medrassatouna.com"
+        },
+        {
+          "السنة": "1",
+          "النوع": "تقييم",
+          "الوصف": "تقييم-في-مادة-الرياضيات-سنة-1.pdf",
+          "الرابط": "https://medrassatouna.com/wp-content/uploads/2019/11/تقييم-في-مادة-الرياضيات-سنة-1.pdf",
+          "المصدر": "medrassatouna.com"
+        },
+        {
+          "السنة": "1",
+          "النوع": "تقييم",
+          "الوصف": "امتحان-الرياضيات-الثلاثي-الثاني-السنة-الأولى-1.pdf",
+          "الرابط": "https://medrassatouna.com/wp-content/uploads/2020/02/امتحان-الرياضيات-الثلاثي-الثاني-السنة-الأولى-1.pdf",
+          "المصدر": "medrassatouna.com"
+        },
+        {
+          "السنة": "1",
+          "النوع": "تقييم",
+          "الوصف": "امتحان-الرياضيات-الثلاثي-الثاني-السنة-الأولى-إصلاح-1.pdf",
+          "الرابط": "https://medrassatouna.com/wp-content/uploads/2020/02/امتحان-الرياضيات-الثلاثي-الثاني-السنة-الأولى-إصلاح-1.pdf",
+          "المصدر": "medrassatouna.com"
+        },
+        {
+          "السنة": "1",
+          "النوع": "تقييم",
+          "الوصف": "امتحان-الرياضيات-الثلاثي-الثاني-السنة-الأولى-إصلاح.pdf",
+          "الرابط": "https://medrassatouna.com/wp-content/uploads/2020/02/امتحان-الرياضيات-الثلاثي-الثاني-السنة-الأولى-إصلاح.pdf",
+          "المصدر": "medrassatouna.com"
+        },
+        {
+          "السنة": "1",
+          "النوع": "تقييم",
+          "الوصف": "امتحان-الرياضيات-الثلاثي-الثاني-السنة-الأولى.pdf",
+          "الرابط": "https://medrassatouna.com/wp-content/uploads/2020/02/امتحان-الرياضيات-الثلاثي-الثاني-السنة-الأولى.pdf",
+          "المصدر": "medrassatouna.com"
+        },
+        {
+          "السنة": "1",
+          "النوع": "تقييم",
+          "الوصف": "تقييم-الفترة-4-رياضيات-السنة-الأولى.pdf",
+          "الرابط": "https://medrassatouna.com/wp-content/uploads/2020/02/تقييم-الفترة-4-رياضيات-السنة-الأولى.pdf",
+          "المصدر": "medrassatouna.com"
+        },
+        {
+          "السنة": "1",
+          "النوع": "تقييم",
+          "الوصف": "امتحان-رياضيات-1.pdf",
+          "الرابط": "https://medrassatouna.com/wp-content/uploads/2020/11/امتحان-رياضيات-1.pdf",
+          "المصدر": "medrassatouna.com"
+        },
+        {
+          "السنة": "1",
+          "النوع": "تقييم",
+          "الوصف": "قراءة-سنة-1-ثلاثي-2-medrassatouna-1.pdf",
+          "الرابط": "https://medrassatouna.com/wp-content/uploads/2019/01/قراءة-سنة-1-ثلاثي-2-medrassatouna-1.pdf",
+          "المصدر": "medrassatouna.com"
+        },
+        {
+          "السنة": "1",
+          "النوع": "تقييم",
+          "الوصف": "قراءة-سنة-1-ثلاثي-2-medrassatouna.pdf",
+          "الرابط": "https://medrassatouna.com/wp-content/uploads/2019/01/قراءة-سنة-1-ثلاثي-2-medrassatouna.pdf",
+          "المصدر": "medrassatouna.com"
+        },
+        {
+          "السنة": "1",
+          "النوع": "تقييم",
+          "الوصف": "قراءة-سنة-1.pdf",
+          "الرابط": "https://medrassatouna.com/wp-content/uploads/2019/04/قراءة-سنة-1.pdf",
+          "المصدر": "medrassatouna.com"
+        },
+        {
+          "السنة": "1",
+          "النوع": "تقييم",
+          "الوصف": "قراءة-سنة-1-medrassatouna.pdf",
+          "الرابط": "https://medrassatouna.com/wp-content/uploads/2019/05/قراءة-سنة-1-medrassatouna.pdf",
+          "المصدر": "medrassatouna.com"
+        },
+        {
+          "السنة": "1",
+          "النوع": "تقييم",
+          "الوصف": "أستعد-لامتحان-مادة-القراءة-السنة-الأولى.pdf",
+          "الرابط": "https://medrassatouna.com/wp-content/uploads/2019/11/أستعد-لامتحان-مادة-القراءة-السنة-الأولى.pdf",
+          "المصدر": "medrassatouna.com"
+        },
+        {
+          "السنة": "1",
+          "النوع": "تقييم",
+          "الوصف": "تقييم-في-مادة-القراءة-السنة-الاولى-الثلاثي-الاول-medrassatouna.pdf",
+          "الرابط": "https://medrassatouna.com/wp-content/uploads/2019/11/تقييم-في-مادة-القراءة-السنة-الاولى-الثلاثي-الاول-medrassatouna.pdf",
+          "المصدر": "medrassatouna.com"
+        },
+        {
+          "السنة": "1",
+          "النوع": "تقييم",
+          "الوصف": "قراءة-تقييم-الوحدة-3.pdf",
+          "الرابط": "https://medrassatouna.com/wp-content/uploads/2020/01/قراءة-تقييم-الوحدة-3.pdf",
+          "المصدر": "medrassatouna.com"
+        },
+        {
+          "السنة": "1",
+          "النوع": "تقييم",
+          "الوصف": "امتحان-في-مادة-القراءة-السنة-الأولى-1.pdf",
+          "الرابط": "https://medrassatouna.com/wp-content/uploads/2020/02/امتحان-في-مادة-القراءة-السنة-الأولى-1.pdf",
+          "المصدر": "medrassatouna.com"
+        },
+        {
+          "السنة": "1",
+          "النوع": "تقييم",
+          "الوصف": "امتحان-في-مادة-القراءة-السنة-الأولى-إصلاح-1.pdf",
+          "الرابط": "https://medrassatouna.com/wp-content/uploads/2020/02/امتحان-في-مادة-القراءة-السنة-الأولى-إصلاح-1.pdf",
+          "المصدر": "medrassatouna.com"
+        },
+        {
+          "السنة": "1",
+          "النوع": "تقييم",
+          "الوصف": "امتحان-في-مادة-القراءة-السنة-الأولى-إصلاح.pdf",
+          "الرابط": "https://medrassatouna.com/wp-content/uploads/2020/02/امتحان-في-مادة-القراءة-السنة-الأولى-إصلاح.pdf",
+          "المصدر": "medrassatouna.com"
+        },
+        {
+          "السنة": "1",
+          "النوع": "تقييم",
+          "الوصف": "امتحان-في-مادة-القراءة-السنة-الأولى.pdf",
+          "الرابط": "https://medrassatouna.com/wp-content/uploads/2020/02/امتحان-في-مادة-القراءة-السنة-الأولى.pdf",
+          "المصدر": "medrassatouna.com"
+        },
+        {
+          "السنة": "1",
+          "النوع": "تقييم",
+          "الوصف": "امتحان-قراءة.pdf",
+          "الرابط": "https://medrassatouna.com/wp-content/uploads/2020/11/امتحان-قراءة.pdf",
+          "المصدر": "medrassatouna.com"
+        },
+        {
+          "السنة": "1",
+          "النوع": "تقييم",
+          "الوصف": "تقييم-الوحدة-عدد-1-لغة-عربية-س2-.pdf",
+          "الرابط": "https://medrassatouna.com/wp-content/uploads/2019/10/تقييم-الوحدة-عدد-1-لغة-عربية-س2-.pdf",
+          "المصدر": "medrassatouna.com"
+        },
+        {
+          "السنة": "2",
+          "النوع": "تقييم",
+          "الوصف": "تقاييم-سنة-2.pdf",
+          "الرابط": "https://medrassatouna.com/wp-content/uploads/2018/11/تقاييم-سنة-2.pdf",
+          "المصدر": "medrassatouna.com"
+        },
+        {
+          "السنة": "2",
+          "النوع": "تقييم",
+          "الوصف": "اامتحان-الثلاثي-الأول-ايقاظ-علمي.pdf",
+          "الرابط": "https://medrassatouna.com/wp-content/uploads/2018/11/اامتحان-الثلاثي-الأول-ايقاظ-علمي.pdf",
+          "المصدر": "medrassatouna.com"
+        },
+        {
+          "السنة": "2",
+          "النوع": "تقييم",
+          "الوصف": "امتحان-الثلاثي-الأول-تربية-إسلامية.pdf",
+          "الرابط": "https://medrassatouna.com/wp-content/uploads/2018/11/امتحان-الثلاثي-الأول-تربية-إسلامية.pdf",
+          "المصدر": "medrassatouna.com"
+        },
+        {
+          "السنة": "2",
+          "النوع": "تقييم",
+          "الوصف": "تقييم-إملاء-السنة-الثانية-الثلاثي-الاول.pdf",
+          "الرابط": "https://medrassatouna.com/wp-content/uploads/2019/11/تقييم-إملاء-السنة-الثانية-الثلاثي-الاول.pdf",
+          "المصدر": "medrassatouna.com"
+        },
+        {
+          "السنة": "2",
+          "النوع": "تقييم",
+          "الوصف": "امتحان-الثلاثي-الأول-رياضيات.pdf",
+          "الرابط": "https://medrassatouna.com/wp-content/uploads/2018/11/امتحان-الثلاثي-الأول-رياضيات.pdf",
+          "المصدر": "medrassatouna.com"
+        },
+        {
+          "السنة": "2",
+          "النوع": "تقييم",
+          "الوصف": "امتحان-الثلاثي-الأول-قراءة.pdf",
+          "الرابط": "https://medrassatouna.com/wp-content/uploads/2018/11/امتحان-الثلاثي-الأول-قراءة.pdf",
+          "المصدر": "medrassatouna.com"
+        },
+        {
+          "السنة": "2",
+          "النوع": "تقييم",
+          "الوصف": "إمتحان-انتاج-كتابي-السنة-2-كلّه-بسبب-الحاسوب-1.pdf",
+          "الرابط": "https://medrassatouna.com/wp-content/uploads/2020/02/إمتحان-انتاج-كتابي-السنة-2-كلّه-بسبب-الحاسوب-1.pdf",
+          "المصدر": "medrassatouna.com"
+        },
+        {
+          "السنة": "2",
+          "النوع": "تقييم",
+          "الوصف": "اصلاح-امتحان-الإيقاظ-العلمي-السنة-الثانية-الثلاثي-الثاني-1.pdf",
+          "الرابط": "https://medrassatouna.com/wp-content/uploads/2020/02/اصلاح-امتحان-الإيقاظ-العلمي-السنة-الثانية-الثلاثي-الثاني-1.pdf",
+          "المصدر": "medrassatouna.com"
+        },
+        {
+          "السنة": "2",
+          "النوع": "تقييم",
+          "الوصف": "امتحان-الإيقاظ-العلمي-السنة-الثانية-الثلاثي-الثاني-1.pdf",
+          "الرابط": "https://medrassatouna.com/wp-content/uploads/2020/02/امتحان-الإيقاظ-العلمي-السنة-الثانية-الثلاثي-الثاني-1.pdf",
+          "المصدر": "medrassatouna.com"
+        },
+        {
+          "السنة": "2",
+          "النوع": "تقييم",
+          "الوصف": "اصلاح-متحان-التربية-الإسلامية-السنة-الثانية-2.pdf",
+          "الرابط": "https://medrassatouna.com/wp-content/uploads/2020/02/اصلاح-متحان-التربية-الإسلامية-السنة-الثانية-2.pdf",
+          "المصدر": "medrassatouna.com"
+        },
+        {
+          "السنة": "2",
+          "النوع": "تقييم",
+          "الوصف": "امتحان-التربية-الإسلامية-السنة-الثانية-2.pdf",
+          "الرابط": "https://medrassatouna.com/wp-content/uploads/2020/02/امتحان-التربية-الإسلامية-السنة-الثانية-2.pdf",
+          "المصدر": "medrassatouna.com"
+        },
+        {
+          "السنة": "2",
+          "النوع": "تقييم",
+          "الوصف": "امتحان-إملاء-السنة-الثانية-الثلاثي-الثاني-1.pdf",
+          "الرابط": "https://medrassatouna.com/wp-content/uploads/2020/02/امتحان-إملاء-السنة-الثانية-الثلاثي-الثاني-1.pdf",
+          "المصدر": "medrassatouna.com"
+        },
+        {
+          "السنة": "2",
+          "النوع": "تقييم",
+          "الوصف": "امتحان-الرياضيات-الثلاثي-الثاني-السنة-الثانية-إصلاح-3.pdf",
+          "الرابط": "https://medrassatouna.com/wp-content/uploads/2020/02/امتحان-الرياضيات-الثلاثي-الثاني-السنة-الثانية-إصلاح-3.pdf",
+          "المصدر": "medrassatouna.com"
+        },
+        {
+          "السنة": "2",
+          "النوع": "تقييم",
+          "الوصف": "امتحان-في-مادة-الرياضيات-الثلاثي-الثاني-السنة-الثانية-1.pdf",
+          "الرابط": "https://medrassatouna.com/wp-content/uploads/2020/02/امتحان-في-مادة-الرياضيات-الثلاثي-الثاني-السنة-الثانية-1.pdf",
+          "المصدر": "medrassatouna.com"
+        },
+        {
+          "السنة": "2",
+          "النوع": "تقييم",
+          "الوصف": "اصلاح-قراءة-السنة-الثانية-medrassatouna.pdf",
+          "الرابط": "https://medrassatouna.com/wp-content/uploads/2020/02/اصلاح-قراءة-السنة-الثانية-medrassatouna.pdf",
+          "المصدر": "medrassatouna.com"
+        },
+        {
+          "السنة": "2",
+          "النوع": "تقييم",
+          "الوصف": "تقييم-قراءة-السنة-الثانية-medrassatouna.pdf",
+          "الرابط": "https://medrassatouna.com/wp-content/uploads/2020/02/تقييم-قراءة-السنة-الثانية-medrassatouna.pdf",
+          "المصدر": "medrassatouna.com"
+        },
+        {
+          "السنة": "2",
+          "النوع": "تقييم",
+          "الوصف": "امتحان-الثلاثي-الثاني-في-مادة-القراءة-السنة-الثانية-حول-الحاسوب.pdf",
+          "الرابط": "https://medrassatouna.com/wp-content/uploads/2020/03/امتحان-الثلاثي-الثاني-في-مادة-القراءة-السنة-الثانية-حول-الحاسوب.pdf",
+          "المصدر": "medrassatouna.com"
+        },
+        {
+          "السنة": "2",
+          "النوع": "تقييم",
+          "الوصف": "تقييم-في-مادة-الكتابة-السنة-الثانية-الثلاثي-الاول.pdf",
+          "الرابط": "https://medrassatouna.com/wp-content/uploads/2019/11/تقييم-في-مادة-الكتابة-السنة-الثانية-الثلاثي-الاول.pdf",
+          "المصدر": "medrassatouna.com"
+        },
+        {
+          "السنة": "2",
+          "النوع": "تقييم",
+          "الوصف": "امتحان-الثلاثي-الأول.pdf",
+          "الرابط": "https://medrassatouna.com/wp-content/uploads/2020/12/امــــتـــحــان-الــثلاثـــــــي-الأول.pdf",
+          "المصدر": "medrassatouna.com"
+        },
+        {
+          "السنة": "2",
+          "النوع": "تقييم",
+          "الوصف": "ta9yimmmmmmmmmmm.pdf",
+          "الرابط": "https://medrassatouna.com/wp-content/uploads/2021/05/ta9yimmmmmmmmmmm.pdf",
+          "المصدر": "medrassatouna.com"
+        },
+        {
+          "السنة": "2",
+          "النوع": "تقييم",
+          "الوصف": "إنتاج-كتابي-سنة-3-medrassatouna.pdf",
+          "الرابط": "https://medrassatouna.com/wp-content/uploads/2019/01/إنتاج-كتابي-سنة-3-medrassatouna.pdf",
+          "المصدر": "medrassatouna.com"
+        },
+        {
+          "السنة": "2",
+          "النوع": "تقييم",
+          "الوصف": "انتاج-كتابي-سنة-2medrassatouna-1.pdf",
+          "الرابط": "https://medrassatouna.com/wp-content/uploads/2019/04/انتاج-كتابي-سنة-2medrassatouna-1.pdf",
+          "المصدر": "medrassatouna.com"
+        },
+        {
+          "السنة": "2",
+          "النوع": "تقييم",
+          "الوصف": "تقييم-الوحدة-2-انتاج-كتابي.pdf",
+          "الرابط": "https://medrassatouna.com/wp-content/uploads/2020/01/تقييم-الوحدة-2-انتاج-كتابي.pdf",
+          "المصدر": "medrassatouna.com"
+        },
+        {
+          "السنة": "2",
+          "النوع": "تقييم",
+          "الوصف": "أستعد-لامتحان-الإنتاج-الكتابي-السنة-الأولى-الثلاثي-الثاني.pdf",
+          "الرابط": "https://medrassatouna.com/wp-content/uploads/2020/02/أستعد-لامتحان-الإنتاج-الكتابي-السنة-الأولى-الثلاثي-الثاني.pdf",
+          "المصدر": "medrassatouna.com"
+        },
+        {
+          "السنة": "2",
+          "النوع": "تقييم",
+          "الوصف": "إمتحان-انتاج-كتابي-السنة-2-كلّه-بسبب-الحاسوب.pdf",
+          "الرابط": "https://medrassatouna.com/wp-content/uploads/2020/02/إمتحان-انتاج-كتابي-السنة-2-كلّه-بسبب-الحاسوب.pdf",
+          "المصدر": "medrassatouna.com"
+        },
+        {
+          "السنة": "2",
+          "النوع": "تقييم",
+          "الوصف": "امتحان-الإنتاج-الكتابي-السنة-الثالثة-الثلاثي-الثاني-إصلاح-1.pdf",
+          "الرابط": "https://medrassatouna.com/wp-content/uploads/2020/02/امتحان-الإنتاج-الكتابي-السنة-الثالثة-الثلاثي-الثاني-إصلاح-1.pdf",
+          "المصدر": "medrassatouna.com"
+        },
+        {
+          "السنة": "2",
+          "النوع": "تقييم",
+          "الوصف": "امتحان-الإنتاج-الكتابي-السنة-الثالثة-الثلاثي-الثاني.pdf",
+          "الرابط": "https://medrassatouna.com/wp-content/uploads/2020/02/امتحان-الإنتاج-الكتابي-السنة-الثالثة-الثلاثي-الثاني.pdf",
+          "المصدر": "medrassatouna.com"
+        },
+        {
+          "السنة": "2",
+          "النوع": "تقييم",
+          "الوصف": "امتحان-الثلاثي-انتاج-كتابي.pdf",
+          "الرابط": "https://medrassatouna.com/wp-content/uploads/2020/12/امــــتـــحــان-الــثلاثـــــــي-انتاج-كتابي.pdf",
+          "المصدر": "medrassatouna.com"
+        },
+        {
+          "السنة": "2",
+          "النوع": "تقييم",
+          "الوصف": "تقييم-إيقاظ-ثلاثي-ثاني-السنة-3-medrassatouna.pdf",
+          "الرابط": "https://medrassatouna.com/wp-content/uploads/2019/01/تقييم-إيقاظ-ثلاثي-ثاني-السنة-3-medrassatouna.pdf",
+          "المصدر": "medrassatouna.com"
+        },
+        {
+          "السنة": "2",
+          "النوع": "تقييم",
+          "الوصف": "إيقاظ-سنة-5-medrassatouna.pdf",
+          "الرابط": "https://medrassatouna.com/wp-content/uploads/2019/04/إيقاظ-سنة-5-medrassatouna.pdf",
+          "المصدر": "medrassatouna.com"
+        },
+        {
+          "السنة": "2",
+          "النوع": "تقييم",
+          "الوصف": "تقييم-إيقاظ-السنة-2-ثلاثي-3-medrassatouna-1.pdf",
+          "الرابط": "https://medrassatouna.com/wp-content/uploads/2019/04/تقييم-إيقاظ-السنة-2-ثلاثي-3-medrassatouna-1.pdf",
+          "المصدر": "medrassatouna.com"
+        },
+        {
+          "السنة": "2",
+          "النوع": "تقييم",
+          "الوصف": "تقييم-إيقاظ-سنة-رابعةmedrassatouna.pdf",
+          "الرابط": "https://medrassatouna.com/wp-content/uploads/2019/04/تقييم-إيقاظ-سنة-رابعةmedrassatouna.pdf",
+          "المصدر": "medrassatouna.com"
+        },
+        {
+          "السنة": "2",
+          "النوع": "تقييم",
+          "الوصف": "امتحان-ايقاظ-علمي-medrassatouna.pdf",
+          "الرابط": "https://medrassatouna.com/wp-content/uploads/2019/05/امتحان-ايقاظ-علمي-medrassatouna.pdf",
+          "المصدر": "medrassatouna.com"
+        },
+        {
+          "السنة": "2",
+          "النوع": "تقييم",
+          "الوصف": "تقييم-في-مادة-الإيقاظ-العلمي-السنة-السادسة-الثلاثي-الاول.pdf",
+          "الرابط": "https://medrassatouna.com/wp-content/uploads/2019/11/تقييم-في-مادة-الإيقاظ-العلمي-السنة-السادسة-الثلاثي-الاول.pdf",
+          "المصدر": "medrassatouna.com"
+        },
+        {
+          "السنة": "2",
+          "النوع": "تقييم",
+          "الوصف": "اصلاح-امتحان-الإيقاظ-العلمي-السنة-الثانية-الثلاثي-الثاني.pdf",
+          "الرابط": "https://medrassatouna.com/wp-content/uploads/2020/02/اصلاح-امتحان-الإيقاظ-العلمي-السنة-الثانية-الثلاثي-الثاني.pdf",
+          "المصدر": "medrassatouna.com"
+        },
+        {
+          "السنة": "2",
+          "النوع": "تقييم",
+          "الوصف": "امتحان-الإيقاظ-العلمي-السنة-الثانية-الثلاثي-الثاني.pdf",
+          "الرابط": "https://medrassatouna.com/wp-content/uploads/2020/02/امتحان-الإيقاظ-العلمي-السنة-الثانية-الثلاثي-الثاني.pdf",
+          "المصدر": "medrassatouna.com"
+        },
+        {
+          "السنة": "2",
+          "النوع": "تقييم",
+          "الوصف": "امتحان-الثلاثي-اايقاظ-علمي.pdf",
+          "الرابط": "https://medrassatouna.com/wp-content/uploads/2020/12/امــــتـــحــان-الــثلاثـــــــي-اايقاظ-علمي.pdf",
+          "المصدر": "medrassatouna.com"
+        },
+        {
+          "السنة": "2",
+          "النوع": "تقييم",
+          "الوصف": "إسلامية-سنة-3-medrassatouna.pdf",
+          "الرابط": "https://medrassatouna.com/wp-content/uploads/2019/01/إسلامية-سنة-3-medrassatouna.pdf",
+          "المصدر": "medrassatouna.com"
+        },
+        {
+          "السنة": "2",
+          "النوع": "تقييم",
+          "الوصف": "سنة-ثانية-الثلاثي-الثالث-تربية-اسلاميةmedrassatouna-1.pdf",
+          "الرابط": "https://medrassatouna.com/wp-content/uploads/2019/04/سنة-ثانية-الثلاثي-الثالث-تربية-اسلاميةmedrassatouna-1.pdf",
+          "المصدر": "medrassatouna.com"
+        },
+        {
+          "السنة": "2",
+          "النوع": "تقييم",
+          "الوصف": "تر.اسلا-امتحان-الثلاثي-الأول.pdf",
+          "الرابط": "https://medrassatouna.com/wp-content/uploads/2020/12/تر.اسلا-امــــتـــحــان-الــثلاثـــــــي-الأول.pdf",
+          "المصدر": "medrassatouna.com"
+        },
+        {
+          "السنة": "2",
+          "النوع": "تقييم",
+          "الوصف": "تقييم-في-مادة-التربية-المدنية-السنة-الخامسة-الثلاثي-الأول.pdf",
+          "الرابط": "https://medrassatouna.com/wp-content/uploads/2019/11/تقييم-في-مادة-التربية-المدنية-السنة-الخامسة-الثلاثي-الأول.pdf",
+          "المصدر": "medrassatouna.com"
+        },
+        {
+          "السنة": "2",
+          "النوع": "تقييم",
+          "الوصف": "حساب-ذهني-سنة-2-medrassatouna-1.pdf",
+          "الرابط": "https://medrassatouna.com/wp-content/uploads/2019/04/حساب-ذهني-سنة-2-medrassatouna-1.pdf",
+          "المصدر": "medrassatouna.com"
+        },
+        {
+          "السنة": "2",
+          "النوع": "تقييم",
+          "الوصف": "امتحان-إملاء-السنة-الثانية-الثلاثي-الثاني.pdf",
+          "الرابط": "https://medrassatouna.com/wp-content/uploads/2020/02/امتحان-إملاء-السنة-الثانية-الثلاثي-الثاني.pdf",
+          "المصدر": "medrassatouna.com"
+        },
+        {
+          "السنة": "2",
+          "النوع": "تقييم",
+          "الوصف": "تمارين-رياضيات-سنة-2-medrassatouna.pdf",
+          "الرابط": "https://medrassatouna.com/wp-content/uploads/2019/01/تمارين-رياضيات-سنة-2-medrassatouna.pdf",
+          "المصدر": "medrassatouna.com"
+        },
+        {
+          "السنة": "2",
+          "النوع": "تقييم",
+          "الوصف": "رياضيات-سنة-2-medrassatouna.pdf",
+          "الرابط": "https://medrassatouna.com/wp-content/uploads/2019/01/رياضيات-سنة-2-medrassatouna.pdf",
+          "المصدر": "medrassatouna.com"
+        },
+        {
+          "السنة": "2",
+          "النوع": "تقييم",
+          "الوصف": "امتحان-الثلاثي-الثالث-في-الرياضيات-.pdf",
+          "الرابط": "https://medrassatouna.com/wp-content/uploads/2019/04/امتحان-الثلاثي-الثالث-في-الرياضيات-.pdf",
+          "المصدر": "medrassatouna.com"
+        },
+        {
+          "السنة": "2",
+          "النوع": "تقييم",
+          "الوصف": "امتحان-الثلاثي-الثالث-في-الرياضيات-1-1.pdf",
+          "الرابط": "https://medrassatouna.com/wp-content/uploads/2019/04/امتحان-الثلاثي-الثالث-في-الرياضيات-1-1.pdf",
+          "المصدر": "medrassatouna.com"
+        },
+        {
+          "السنة": "2",
+          "النوع": "تقييم",
+          "الوصف": "تقييم-في-مادة-الرياضيات-السنة-الثانية-الثلاثي-الأول-1.pdf",
+          "الرابط": "https://medrassatouna.com/wp-content/uploads/2019/11/تقييم-في-مادة-الرياضيات-السنة-الثانية-الثلاثي-الأول-1.pdf",
+          "المصدر": "medrassatouna.com"
+        },
+        {
+          "السنة": "2",
+          "النوع": "تقييم",
+          "الوصف": "اصلاح-امتحان-الرياضيات-الثلاثي-الثاني-السنة-الخامسة-2.pdf",
+          "الرابط": "https://medrassatouna.com/wp-content/uploads/2020/02/اصلاح-امتحان-الرياضيات-الثلاثي-الثاني-السنة-الخامسة-2.pdf",
+          "المصدر": "medrassatouna.com"
+        },
+        {
+          "السنة": "2",
+          "النوع": "تقييم",
+          "الوصف": "امتحان-الرياضيات-الثلاثي-الثاني-السنة-الخامسة-1.pdf",
+          "الرابط": "https://medrassatouna.com/wp-content/uploads/2020/02/امتحان-الرياضيات-الثلاثي-الثاني-السنة-الخامسة-1.pdf",
+          "المصدر": "medrassatouna.com"
+        },
+        {
+          "السنة": "2",
+          "النوع": "تقييم",
+          "الوصف": "رياضيات-امتحان-الثلاثي-الأول.pdf",
+          "الرابط": "https://medrassatouna.com/wp-content/uploads/2020/12/رياضيات-امــــتـــحــان-الــثلاثـــــــي-الأول.pdf",
+          "المصدر": "medrassatouna.com"
+        },
+        {
+          "السنة": "2",
+          "النوع": "تقييم",
+          "الوصف": "تقييم-مكتسبات-التلاميذ-في-نهاية-الثلاثي-الثاني-قراءة-السنة-الثانية-medrassatouna-.pdf",
+          "الرابط": "https://medrassatouna.com/wp-content/uploads/2019/01/تقييم-مكتسبات-التلاميذ-في-نهاية-الثلاثي-الثاني-قراءة-السنة-الثانية-medrassatouna-.pdf",
+          "المصدر": "medrassatouna.com"
+        },
+        {
+          "السنة": "2",
+          "النوع": "تقييم",
+          "الوصف": "قراءة-سنة-2medrassatouna-1.pdf",
+          "الرابط": "https://medrassatouna.com/wp-content/uploads/2019/04/قراءة-سنة-2medrassatouna-1.pdf",
+          "المصدر": "medrassatouna.com"
+        },
+        {
+          "السنة": "2",
+          "النوع": "تقييم",
+          "الوصف": "قراءة-سنة-2medrassatouna.pdf",
+          "الرابط": "https://medrassatouna.com/wp-content/uploads/2019/04/قراءة-سنة-2medrassatouna.pdf",
+          "المصدر": "medrassatouna.com"
+        },
+        {
+          "السنة": "2",
+          "النوع": "تقييم",
+          "الوصف": "تقييم-في-مادة-القراءة-السنة-الثانية-الثلاثي-الأول.pdf",
+          "الرابط": "https://medrassatouna.com/wp-content/uploads/2019/11/تقييم-في-مادة-القراءة-السنة-الثانية-الثلاثي-الأول.pdf",
+          "المصدر": "medrassatouna.com"
+        },
+        {
+          "السنة": "2",
+          "النوع": "تقييم",
+          "الوصف": "تقييم-الوحدة-2-قراءة-medrassatouna.pdf",
+          "الرابط": "https://medrassatouna.com/wp-content/uploads/2020/01/تقييم-الوحدة-2-قراءة-medrassatouna.pdf",
+          "المصدر": "medrassatouna.com"
+        },
+        {
+          "السنة": "2",
+          "النوع": "تقييم",
+          "الوصف": "جميع-الامتحانات-سنة-ثانية-عربية-converted.pdf",
+          "الرابط": "https://medrassatouna.com/wp-content/uploads/2018/11/جميع-الامتحانات-سنة-ثانية-عربيـة-converted.pdf",
+          "المصدر": "medrassatouna.com"
+        },
+        {
+          "السنة": "2",
+          "النوع": "تقييم",
+          "الوصف": "عربية-سنة-6-medrassatouna.pdf",
+          "الرابط": "https://medrassatouna.com/wp-content/uploads/2019/04/عربية-سنة-6-medrassatouna.pdf",
+          "المصدر": "medrassatouna.com"
+        },
+        {
+          "السنة": "3",
+          "النوع": "تقييم",
+          "الوصف": "اختبار-انتاج-كتابي-س3-ثلاثي-1.pdf",
+          "الرابط": "https://medrassatouna.com/wp-content/uploads/2018/11/اختبار-انتاج-كتابي-س3-ثلاثي-1.pdf",
+          "المصدر": "medrassatouna.com"
+        },
+        {
+          "السنة": "3",
+          "النوع": "تقييم",
+          "الوصف": "انتاج-كتابي2.pdf",
+          "الرابط": "https://medrassatouna.com/wp-content/uploads/2018/11/انتاج-كتابي2.pdf",
+          "المصدر": "medrassatouna.com"
+        },
+        {
+          "السنة": "3",
+          "النوع": "تقييم",
+          "الوصف": "تقييم-إنتاج-كتابي-السنة-الثالثة-ال.pdf",
+          "الرابط": "https://medrassatouna.com/wp-content/uploads/2018/11/تقييم-إنتاج-كتابي-السنة-الثالثة-ال.pdf",
+          "المصدر": "medrassatouna.com"
+        },
+        {
+          "السنة": "3",
+          "النوع": "تقييم",
+          "الوصف": "الإيقاظ-العلمي.pdf",
+          "الرابط": "https://medrassatouna.com/wp-content/uploads/2018/11/الإيقاظ-العلمي.pdf",
+          "المصدر": "medrassatouna.com"
+        },
+        {
+          "السنة": "3",
+          "النوع": "تقييم",
+          "الوصف": "تقييم-إيقاظ-السنة-الثالثة-2.pdf",
+          "الرابط": "https://medrassatouna.com/wp-content/uploads/2018/11/تقييم-إيقاظ-السنة-الثالثة-2.pdf",
+          "المصدر": "medrassatouna.com"
+        },
+        {
+          "السنة": "3",
+          "النوع": "تقييم",
+          "الوصف": "تقييم-إيقاظ-السنة-الثالثة-3.pdf",
+          "الرابط": "https://medrassatouna.com/wp-content/uploads/2018/11/تقييم-إيقاظ-السنة-الثالثة-3.pdf",
+          "المصدر": "medrassatouna.com"
+        },
+        {
+          "السنة": "3",
+          "النوع": "تقييم",
+          "الوصف": "تقييم-إيقاظ-السنة-الثالثة1.pdf",
+          "الرابط": "https://medrassatouna.com/wp-content/uploads/2018/11/تقييم-إيقاظ-السنة-الثالثة1.pdf",
+          "المصدر": "medrassatouna.com"
+        },
+        {
+          "السنة": "3",
+          "النوع": "تقييم",
+          "الوصف": "1رياضيات-.pdf",
+          "الرابط": "https://medrassatouna.com/wp-content/uploads/2018/11/1رياضيات-.pdf",
+          "المصدر": "medrassatouna.com"
+        },
+        {
+          "السنة": "3",
+          "النوع": "تقييم",
+          "الوصف": "تقييم-المرحلة-الأولى-رياضيات-س3.pdf",
+          "الرابط": "https://medrassatouna.com/wp-content/uploads/2018/11/تقييم-المرحلة-الأولى-رياضيات-س3.pdf",
+          "المصدر": "medrassatouna.com"
+        },
+        {
+          "السنة": "3",
+          "النوع": "تقييم",
+          "الوصف": "تقييم-رياضيات-الثلاثية-الأولى-الس.pdf",
+          "الرابط": "https://medrassatouna.com/wp-content/uploads/2018/11/تقييم-رياضيات-الثلاثية-الأولى-الس.pdf",
+          "المصدر": "medrassatouna.com"
+        },
+        {
+          "السنة": "3",
+          "النوع": "تقييم",
+          "الوصف": "رياضيات.pdf",
+          "الرابط": "https://medrassatouna.com/wp-content/uploads/2018/11/رياضيات.pdf",
+          "المصدر": "medrassatouna.com"
+        },
+        {
+          "السنة": "3",
+          "النوع": "تقييم",
+          "الوصف": "قراءة-ثلاثي-1.pdf",
+          "الرابط": "https://medrassatouna.com/wp-content/uploads/2018/11/قراءة-ثلاثي-1.pdf",
+          "المصدر": "medrassatouna.com"
+        },
+        {
+          "السنة": "3",
+          "النوع": "تقييم",
+          "الوصف": "قواعد-لغة-الثلاثي-الاول-.pdf",
+          "الرابط": "https://medrassatouna.com/wp-content/uploads/2018/11/قواعد-لغة-الثلاثي-الاول-.pdf",
+          "المصدر": "medrassatouna.com"
+        },
+        {
+          "السنة": "3",
+          "النوع": "تقييم",
+          "الوصف": "تقييم-سنة-2.pdf",
+          "الرابط": "https://medrassatouna.com/wp-content/uploads/2018/11/تقييم-سنة-2.pdf",
+          "المصدر": "medrassatouna.com"
+        },
+        {
+          "السنة": "3",
+          "النوع": "تقييم",
+          "الوصف": "Lecture-compréhension-3ème-1.pdf",
+          "الرابط": "https://medrassatouna.com/wp-content/uploads/2019/04/Lecture-compréhension-3ème-1.pdf",
+          "المصدر": "medrassatouna.com"
+        },
+        {
+          "السنة": "3",
+          "النوع": "تقييم",
+          "الوصف": "lescture-comp-nouv-1er-trimestre-1.pdf",
+          "الرابط": "https://medrassatouna.com/wp-content/uploads/2020/12/lescture-comp-nouv-1er-trimestre-1.pdf",
+          "المصدر": "medrassatouna.com"
+        },
+        {
+          "السنة": "3",
+          "النوع": "تقييم",
+          "الوصف": "8888888888888888888888.pdf",
+          "الرابط": "https://medrassatouna.com/wp-content/uploads/2022/08/8888888888888888888888.pdf",
+          "المصدر": "medrassatouna.com"
+        },
+        {
+          "السنة": "3",
+          "النوع": "تقييم",
+          "الوصف": "تقييم-مكتسبات-التلاميذ-سنة-ثالثة-حساب-الإصلاح.docx",
+          "الرابط": "https://medrassatouna.com/wp-content/uploads/2022/08/تقييم-مكتسبات-التلاميذ-سنة-ثالثة-حساب-الإصلاح.docx",
+          "المصدر": "medrassatouna.com"
+        },
+        {
+          "السنة": "3",
+          "النوع": "تقييم",
+          "الوصف": "تقييم-مكتسبات-التلاميذ-سنة-ثالثة-حساب-الإصلاح.pdf",
+          "الرابط": "https://medrassatouna.com/wp-content/uploads/2022/08/تقييم-مكتسبات-التلاميذ-سنة-ثالثة-حساب-الإصلاح.pdf",
+          "المصدر": "medrassatouna.com"
+        },
+        {
+          "السنة": "3",
+          "النوع": "تقييم",
+          "الوصف": "إنتاج-سنة4-medrassatouna.pdf",
+          "الرابط": "https://medrassatouna.com/wp-content/uploads/2019/01/إنتاج-سنة4-medrassatouna.pdf",
+          "المصدر": "medrassatouna.com"
+        },
+        {
+          "السنة": "3",
+          "النوع": "تقييم",
+          "الوصف": "production-écrite-3ème-medrassatouna-1.pdf",
+          "الرابط": "https://medrassatouna.com/wp-content/uploads/2019/04/production-écrite-3ème-medrassatouna-1.pdf",
+          "المصدر": "medrassatouna.com"
+        },
+        {
+          "السنة": "3",
+          "النوع": "تقييم",
+          "الوصف": "إنتاج-كتابي-سنة-3-medrassatouna-1.pdf",
+          "الرابط": "https://medrassatouna.com/wp-content/uploads/2019/04/إنتاج-كتابي-سنة-3-medrassatouna-1.pdf",
+          "المصدر": "medrassatouna.com"
+        },
+        {
+          "السنة": "3",
+          "النوع": "تقييم",
+          "الوصف": "تقييم-في-مادة-الإنتاج-الكتابي-السنة-3-الثلاثي-الأول.pdf",
+          "الرابط": "https://medrassatouna.com/wp-content/uploads/2019/11/تقييم-في-مادة-الإنتاج-الكتابي-السنة-3-الثلاثي-الأول.pdf",
+          "المصدر": "medrassatouna.com"
+        },
+        {
+          "السنة": "3",
+          "النوع": "تقييم",
+          "الوصف": "examen-production-écrite-3ème-année-trimestre2-correction-1.pdf",
+          "الرابط": "https://medrassatouna.com/wp-content/uploads/2020/02/examen-production-écrite-3ème-année-trimestre2-correction-1.pdf",
+          "المصدر": "medrassatouna.com"
+        },
+        {
+          "السنة": "3",
+          "النوع": "تقييم",
+          "الوصف": "examenproduction-écrite-3ème-année-trimestre2-1.pdf",
+          "الرابط": "https://medrassatouna.com/wp-content/uploads/2020/02/examenproduction-écrite-3ème-année-trimestre2-1.pdf",
+          "المصدر": "medrassatouna.com"
+        },
+        {
+          "السنة": "3",
+          "النوع": "تقييم",
+          "الوصف": "امتحان-الإنتاج-الكتابي-السنة-الثالثة-الثلاثي-الثاني-1.pdf",
+          "الرابط": "https://medrassatouna.com/wp-content/uploads/2020/02/امتحان-الإنتاج-الكتابي-السنة-الثالثة-الثلاثي-الثاني-1.pdf",
+          "المصدر": "medrassatouna.com"
+        },
+        {
+          "السنة": "3",
+          "النوع": "تقييم",
+          "الوصف": "امتحان-الإنتاج-الكتابي-السنة-الثالثة-الثلاثي-الثاني-إصلاح-2.pdf",
+          "الرابط": "https://medrassatouna.com/wp-content/uploads/2020/02/امتحان-الإنتاج-الكتابي-السنة-الثالثة-الثلاثي-الثاني-إصلاح-2.pdf",
+          "المصدر": "medrassatouna.com"
+        },
+        {
+          "السنة": "3",
+          "النوع": "تقييم",
+          "الوصف": "امتحان-الإنتاج-الكتابي-السنة-الرابعة-الثلاثي-الثاني.pdf",
+          "الرابط": "https://medrassatouna.com/wp-content/uploads/2020/02/امتحان-الإنتاج-الكتابي-السنة-الرابعة-الثلاثي-الثاني.pdf",
+          "المصدر": "medrassatouna.com"
+        },
+        {
+          "السنة": "3",
+          "النوع": "تقييم",
+          "الوصف": "production-ecrite-nouv-1er-trimestre-1.pdf",
+          "الرابط": "https://medrassatouna.com/wp-content/uploads/2020/12/production-ecrite-nouv-1er-trimestre-1.pdf",
+          "المصدر": "medrassatouna.com"
+        },
+        {
+          "السنة": "3",
+          "النوع": "تقييم",
+          "الوصف": "اختبار-انتاج-كتابي-ثلاثي1-س3.pdf",
+          "الرابط": "https://medrassatouna.com/wp-content/uploads/2020/12/اختبار-انتاج-كتابي-ثلاثي1-س3.pdf",
+          "المصدر": "medrassatouna.com"
+        },
+        {
+          "السنة": "3",
+          "النوع": "تقييم",
+          "الوصف": "anglais-6èma-medrassatouna.pdf",
+          "الرابط": "https://medrassatouna.com/wp-content/uploads/2019/04/anglais-6èma-medrassatouna.pdf",
+          "المصدر": "medrassatouna.com"
+        },
+        {
+          "السنة": "3",
+          "النوع": "تقييم",
+          "الوصف": "إيقاظ-السنة-الثالثة-medrassatouna-2.pdf",
+          "الرابط": "https://medrassatouna.com/wp-content/uploads/2019/04/إيقاظ-السنة-الثالثة-medrassatouna-2.pdf",
+          "المصدر": "medrassatouna.com"
+        },
+        {
+          "السنة": "3",
+          "النوع": "تقييم",
+          "الوصف": "تقييم-إيقاظ-السنة-2-ثلاثي-3-medrassatouna.pdf",
+          "الرابط": "https://medrassatouna.com/wp-content/uploads/2019/04/تقييم-إيقاظ-السنة-2-ثلاثي-3-medrassatouna.pdf",
+          "المصدر": "medrassatouna.com"
+        },
+        {
+          "السنة": "3",
+          "النوع": "تقييم",
+          "الوصف": "تقييم-في-مادة-الإيقاظ-العلمي-السنة-الأولى-الثلاثي-الاول-medrassatouna.pdf",
+          "الرابط": "https://medrassatouna.com/wp-content/uploads/2019/11/تقييم-في-مادة-الإيقاظ-العلمي-السنة-الأولى-الثلاثي-الاول-medrassatouna.pdf",
+          "المصدر": "medrassatouna.com"
+        },
+        {
+          "السنة": "3",
+          "النوع": "تقييم",
+          "الوصف": "تقييم-في-مادة-الإيقاظ-العلمي-السنة-لخامسة-الثلاثي-الأول.pdf",
+          "الرابط": "https://medrassatouna.com/wp-content/uploads/2019/11/تقييم-في-مادة-الإيقاظ-العلمي-السنة-لخامسة-الثلاثي-الأول.pdf",
+          "المصدر": "medrassatouna.com"
+        },
+        {
+          "السنة": "3",
+          "النوع": "تقييم",
+          "الوصف": "اصلاح-متحان-مادة-الإيقاظ-العلمي-السنة-الثالثة-الثلاثي-الثاني-1.pdf",
+          "الرابط": "https://medrassatouna.com/wp-content/uploads/2020/02/اصلاح-متحان-مادة-الإيقاظ-العلمي-السنة-الثالثة-الثلاثي-الثاني-1.pdf",
+          "المصدر": "medrassatouna.com"
+        },
+        {
+          "السنة": "3",
+          "النوع": "تقييم",
+          "الوصف": "اصلاح-متحان-مادة-الإيقاظ-العلمي-السنة-الثالثة-الثلاثي-الثاني.pdf",
+          "الرابط": "https://medrassatouna.com/wp-content/uploads/2020/02/اصلاح-متحان-مادة-الإيقاظ-العلمي-السنة-الثالثة-الثلاثي-الثاني.pdf",
+          "المصدر": "medrassatouna.com"
+        },
+        {
+          "السنة": "3",
+          "النوع": "تقييم",
+          "الوصف": "امتحان-مادة-الإيقاظ-العلمي-السنة-الثالثة-الثلاثي-الثاني-1.pdf",
+          "الرابط": "https://medrassatouna.com/wp-content/uploads/2020/02/امتحان-مادة-الإيقاظ-العلمي-السنة-الثالثة-الثلاثي-الثاني-1.pdf",
+          "المصدر": "medrassatouna.com"
+        },
+        {
+          "السنة": "3",
+          "النوع": "تقييم",
+          "الوصف": "امتحان-مادة-الإيقاظ-العلمي-السنة-الثالثة-الثلاثي-الثاني.pdf",
+          "الرابط": "https://medrassatouna.com/wp-content/uploads/2020/02/امتحان-مادة-الإيقاظ-العلمي-السنة-الثالثة-الثلاثي-الثاني.pdf",
+          "المصدر": "medrassatouna.com"
+        },
+        {
+          "السنة": "3",
+          "النوع": "تقييم",
+          "الوصف": "تربية-إسلامية-السنة-الثالثة-medrassatouna-1.pdf",
+          "الرابط": "https://medrassatouna.com/wp-content/uploads/2019/04/تربية-إسلامية-السنة-الثالثة-medrassatouna-1.pdf",
+          "المصدر": "medrassatouna.com"
+        },
+        {
+          "السنة": "3",
+          "النوع": "تقييم",
+          "الوصف": "اصلاح-متحان-التربية-الإسلامية-السنة-الثالثة-الثلاثي-الثاني-1.pdf",
+          "الرابط": "https://medrassatouna.com/wp-content/uploads/2020/02/اصلاح-متحان-التربية-الإسلامية-السنة-الثالثة-الثلاثي-الثاني-1.pdf",
+          "المصدر": "medrassatouna.com"
+        },
+        {
+          "السنة": "3",
+          "النوع": "تقييم",
+          "الوصف": "امتحان-التربية-الإسلامية-السنة-الثالثة-الثلاثي-الثاني-1.pdf",
+          "الرابط": "https://medrassatouna.com/wp-content/uploads/2020/02/امتحان-التربية-الإسلامية-السنة-الثالثة-الثلاثي-الثاني-1.pdf",
+          "المصدر": "medrassatouna.com"
+        },
+        {
+          "السنة": "3",
+          "النوع": "تقييم",
+          "الوصف": "تقييم-في-مادة-التربية-المدنية-السنة-السادسة-الثلاثي-الأول.pdf",
+          "الرابط": "https://medrassatouna.com/wp-content/uploads/2019/11/تقييم-في-مادة-التربية-المدنية-السنة-السادسة-الثلاثي-الأول.pdf",
+          "المصدر": "medrassatouna.com"
+        },
+        {
+          "السنة": "3",
+          "النوع": "تقييم",
+          "الوصف": "حساب-ذهني-1-1.pdf",
+          "الرابط": "https://medrassatouna.com/wp-content/uploads/2022/08/حساب-ذهني-1-1.pdf",
+          "المصدر": "medrassatouna.com"
+        },
+        {
+          "السنة": "3",
+          "النوع": "تقييم",
+          "الوصف": "حساب-ذهني-1.docx",
+          "الرابط": "https://medrassatouna.com/wp-content/uploads/2022/08/حساب-ذهني-1.docx",
+          "المصدر": "medrassatouna.com"
+        },
+        {
+          "السنة": "3",
+          "النوع": "تقييم",
+          "الوصف": "رياضيات-سنة-3-medrassatouna-1.pdf",
+          "الرابط": "https://medrassatouna.com/wp-content/uploads/2019/04/رياضيات-سنة-3-medrassatouna-1.pdf",
+          "المصدر": "medrassatouna.com"
+        },
+        {
+          "السنة": "3",
+          "النوع": "تقييم",
+          "الوصف": "رياضيات-سنة-3-medrassatouna.pdf",
+          "الرابط": "https://medrassatouna.com/wp-content/uploads/2019/04/رياضيات-سنة-3-medrassatouna.pdf",
+          "المصدر": "medrassatouna.com"
+        },
+        {
+          "السنة": "3",
+          "النوع": "تقييم",
+          "الوصف": "تقييم-رياضيات-السنة-الثالثة-الثلاثي-الاول.pdf",
+          "الرابط": "https://medrassatouna.com/wp-content/uploads/2019/11/تقييم-رياضيات-السنة-الثالثة-الثلاثي-الاول.pdf",
+          "المصدر": "medrassatouna.com"
+        },
+        {
+          "السنة": "3",
+          "النوع": "تقييم",
+          "الوصف": "تقييم-الفترة3-رياضيات-medrassatouna.pdf",
+          "الرابط": "https://medrassatouna.com/wp-content/uploads/2020/01/تقييم-الفترة3-رياضيات-medrassatouna.pdf",
+          "المصدر": "medrassatouna.com"
+        },
+        {
+          "السنة": "3",
+          "النوع": "تقييم",
+          "الوصف": "امتحان-الرياضيات-الثلاثي-الثاني-السنة-الثالثة-1.pdf",
+          "الرابط": "https://medrassatouna.com/wp-content/uploads/2020/02/امتحان-الرياضيات-الثلاثي-الثاني-السنة-الثالثة-1.pdf",
+          "المصدر": "medrassatouna.com"
+        },
+        {
+          "السنة": "3",
+          "النوع": "تقييم",
+          "الوصف": "امتحان-الرياضيات-الثلاثي-الثاني-السنة-الثالثة-مع-إصلاح-1.pdf",
+          "الرابط": "https://medrassatouna.com/wp-content/uploads/2020/02/امتحان-الرياضيات-الثلاثي-الثاني-السنة-الثالثة-مع-إصلاح-1.pdf",
+          "المصدر": "medrassatouna.com"
+        },
+        {
+          "السنة": "3",
+          "النوع": "تقييم",
+          "الوصف": "رياضيات-س3-1-1.pdf",
+          "الرابط": "https://medrassatouna.com/wp-content/uploads/2020/12/رياضيات-س3-1-1.pdf",
+          "المصدر": "medrassatouna.com"
+        },
+        {
+          "السنة": "3",
+          "النوع": "تقييم",
+          "الوصف": "تقييم-قراءة-سنة-ثالثة-medrassatouna.pdf",
+          "الرابط": "https://medrassatouna.com/wp-content/uploads/2019/01/تقييم-قراءة-سنة-ثالثة-medrassatouna.pdf",
+          "المصدر": "medrassatouna.com"
+        },
+        {
+          "السنة": "3",
+          "النوع": "تقييم",
+          "الوصف": "قراءة-السنة-الثالثة-medrassatouna-1.pdf",
+          "الرابط": "https://medrassatouna.com/wp-content/uploads/2019/04/قراءة-السنة-الثالثة-medrassatouna-1.pdf",
+          "المصدر": "medrassatouna.com"
+        },
+        {
+          "السنة": "3",
+          "النوع": "تقييم",
+          "الوصف": "قراءة-السنة-الثالثة-medrassatouna-2.pdf",
+          "الرابط": "https://medrassatouna.com/wp-content/uploads/2019/04/قراءة-السنة-الثالثة-medrassatouna-2.pdf",
+          "المصدر": "medrassatouna.com"
+        },
+        {
+          "السنة": "3",
+          "النوع": "تقييم",
+          "الوصف": "قراءة-السنة-الثالثة-medrassatouna-3.pdf",
+          "الرابط": "https://medrassatouna.com/wp-content/uploads/2019/04/قراءة-السنة-الثالثة-medrassatouna-3.pdf",
+          "المصدر": "medrassatouna.com"
+        },
+        {
+          "السنة": "3",
+          "النوع": "تقييم",
+          "الوصف": "تقييم-في-مادة-القراءة-السنة-الثالثة-الثلاثي-الاول.pdf",
+          "الرابط": "https://medrassatouna.com/wp-content/uploads/2019/11/تقييم-في-مادة-القراءة-السنة-الثالثة-الثلاثي-الاول.pdf",
+          "المصدر": "medrassatouna.com"
+        },
+        {
+          "السنة": "3",
+          "النوع": "تقييم",
+          "الوصف": "correction-examen-lecture-3ème-année-trimestre2-1.pdf",
+          "الرابط": "https://medrassatouna.com/wp-content/uploads/2020/02/correction-examen-lecture-3ème-année-trimestre2-1.pdf",
+          "المصدر": "medrassatouna.com"
+        },
+        {
+          "السنة": "3",
+          "النوع": "تقييم",
+          "الوصف": "examen-lecture-3ème-année-trimestre2-1.pdf",
+          "الرابط": "https://medrassatouna.com/wp-content/uploads/2020/02/examen-lecture-3ème-année-trimestre2-1.pdf",
+          "المصدر": "medrassatouna.com"
+        },
+        {
+          "السنة": "3",
+          "النوع": "تقييم",
+          "الوصف": "تقييم-في-مادة-القراءة-السنة-3-1.pdf",
+          "الرابط": "https://medrassatouna.com/wp-content/uploads/2020/02/تقييم-في-مادة-القراءة-السنة-3-1.pdf",
+          "المصدر": "medrassatouna.com"
+        },
+        {
+          "السنة": "3",
+          "النوع": "تقييم",
+          "الوصف": "تقييم-في-مادة-القراءة-السنة-3.pdf",
+          "الرابط": "https://medrassatouna.com/wp-content/uploads/2020/02/تقييم-في-مادة-القراءة-السنة-3.pdf",
+          "المصدر": "medrassatouna.com"
+        },
+        {
+          "السنة": "3",
+          "النوع": "تقييم",
+          "الوصف": "تقييم-قراءة-سنة-3-إصلاح-1.pdf",
+          "الرابط": "https://medrassatouna.com/wp-content/uploads/2020/02/تقييم-قراءة-سنة-3-إصلاح-1.pdf",
+          "المصدر": "medrassatouna.com"
+        },
+        {
+          "السنة": "3",
+          "النوع": "تقييم",
+          "الوصف": "تقييم-قراءة-سنة-3-إصلاح.pdf",
+          "الرابط": "https://medrassatouna.com/wp-content/uploads/2020/02/تقييم-قراءة-سنة-3-إصلاح.pdf",
+          "المصدر": "medrassatouna.com"
+        },
+        {
+          "السنة": "3",
+          "النوع": "تقييم",
+          "الوصف": "تقييم-القراءة-س3-.pdf",
+          "الرابط": "https://medrassatouna.com/wp-content/uploads/2020/12/تقييم-القــــــــــــــــراءة-س3-.pdf",
+          "المصدر": "medrassatouna.com"
+        },
+        {
+          "السنة": "3",
+          "النوع": "تقييم",
+          "الوصف": "قواعد-اللغة-السنة-الثالثة-medrassatouna.pdf",
+          "الرابط": "https://medrassatouna.com/wp-content/uploads/2019/04/قواعد-اللغة-السنة-الثالثة-medrassatouna.pdf",
+          "المصدر": "medrassatouna.com"
+        },
+        {
+          "السنة": "3",
+          "النوع": "تقييم",
+          "الوصف": "تقييم-قواعد-اللغة-السنة-الثالثة-الثلاثي-الاول.pdf",
+          "الرابط": "https://medrassatouna.com/wp-content/uploads/2019/11/تقييم-قواعد-اللغة-السنة-الثالثة-الثلاثي-الاول.pdf",
+          "المصدر": "medrassatouna.com"
+        },
+        {
+          "السنة": "3",
+          "النوع": "تقييم",
+          "الوصف": "اصلاح-متحان-قواعد-اللغة-السنة-الثالثة-1.pdf",
+          "الرابط": "https://medrassatouna.com/wp-content/uploads/2020/02/اصلاح-متحان-قواعد-اللغة-السنة-الثالثة-1.pdf",
+          "المصدر": "medrassatouna.com"
+        },
+        {
+          "السنة": "3",
+          "النوع": "تقييم",
+          "الوصف": "امتحان-قواعد-اللغة-السنة-الثالثة-1.pdf",
+          "الرابط": "https://medrassatouna.com/wp-content/uploads/2020/02/امتحان-قواعد-اللغة-السنة-الثالثة-1.pdf",
+          "المصدر": "medrassatouna.com"
+        },
+        {
+          "السنة": "3",
+          "النوع": "تقييم",
+          "الوصف": "اختبار-قواعد-اللغة-س3.pdf",
+          "الرابط": "https://medrassatouna.com/wp-content/uploads/2020/12/اختبار-قواعد-اللغة-س3.pdf",
+          "المصدر": "medrassatouna.com"
+        },
+        {
+          "السنة": "4",
+          "النوع": "تقييم",
+          "الوصف": "Epreuve-dexamen-du-2éme-trimestre-4ème-1.pdf",
+          "الرابط": "https://medrassatouna.com/wp-content/uploads/2020/02/Epreuve-dexamen-du-2éme-trimestre-4ème-1.pdf",
+          "المصدر": "medrassatouna.com"
+        },
+        {
+          "السنة": "4",
+          "النوع": "تقييم",
+          "الوصف": "Dictee-4em-annee.pdf",
+          "الرابط": "https://medrassatouna.com/wp-content/uploads/2020/12/Dictee-4em-annee.pdf",
+          "المصدر": "medrassatouna.com"
+        },
+        {
+          "السنة": "4",
+          "النوع": "تقييم",
+          "الوصف": "Phy14.pdf",
+          "الرابط": "https://medrassatouna.com/wp-content/uploads/2020/12/Phy14.pdf",
+          "المصدر": "medrassatouna.com"
+        },
+        {
+          "السنة": "4",
+          "النوع": "تقييم",
+          "الوصف": "examenLec2.pdf",
+          "الرابط": "https://medrassatouna.com/wp-content/uploads/2020/12/examenLec2.pdf",
+          "المصدر": "medrassatouna.com"
+        },
+        {
+          "السنة": "4",
+          "النوع": "تقييم",
+          "الوصف": "examenProdEcrite2.pdf",
+          "الرابط": "https://medrassatouna.com/wp-content/uploads/2020/12/examenProdEcrite2.pdf",
+          "المصدر": "medrassatouna.com"
+        },
+        {
+          "السنة": "4",
+          "النوع": "تقييم",
+          "الوصف": "إنتاج-كتابي-سنة-5-medrassatouna.pdf",
+          "الرابط": "https://medrassatouna.com/wp-content/uploads/2019/01/إنتاج-كتابي-سنة-5-medrassatouna.pdf",
+          "المصدر": "medrassatouna.com"
+        },
+        {
+          "السنة": "4",
+          "النوع": "تقييم",
+          "الوصف": "production-4ème-medrassatouna.pdf",
+          "الرابط": "https://medrassatouna.com/wp-content/uploads/2019/04/production-4ème-medrassatouna.pdf",
+          "المصدر": "medrassatouna.com"
+        },
+        {
+          "السنة": "4",
+          "النوع": "تقييم",
+          "الوصف": "تقييم-في-مادة-الانتاج-الكتابي-السنة-الرابعة-medrassatouna.pdf",
+          "الرابط": "https://medrassatouna.com/wp-content/uploads/2019/04/تقييم-في-مادة-الانتاج-الكتابي-السنة-الرابعة-medrassatouna.pdf",
+          "المصدر": "medrassatouna.com"
+        },
+        {
+          "السنة": "4",
+          "النوع": "تقييم",
+          "الوصف": "امتحان-الإنتاج-الكتابي-السنة-الرابعة-الثلاثي-الثاني-1.pdf",
+          "الرابط": "https://medrassatouna.com/wp-content/uploads/2020/02/امتحان-الإنتاج-الكتابي-السنة-الرابعة-الثلاثي-الثاني-1.pdf",
+          "المصدر": "medrassatouna.com"
+        },
+        {
+          "السنة": "4",
+          "النوع": "تقييم",
+          "الوصف": "امتحان-الإنتاج-الكتابي-السنة-الرابعة-الثلاثي-الثاني.pdf",
+          "الرابط": "https://medrassatouna.com/wp-content/uploads/2020/02/امتحان-الإنتاج-الكتابي-السنة-الرابعة-الثلاثي-الثاني.pdf",
+          "المصدر": "medrassatouna.com"
+        },
+        {
+          "السنة": "4",
+          "النوع": "تقييم",
+          "الوصف": "إنتاج-كتابي-سنة-رابعة.pdf",
+          "الرابط": "https://medrassatouna.com/wp-content/uploads/2020/11/إنتاج-كتابي-سنة-رابعة.pdf",
+          "المصدر": "medrassatouna.com"
+        },
+        {
+          "السنة": "4",
+          "النوع": "تقييم",
+          "الوصف": "production-écrite-4em-anné-1er-trimestre.pdf",
+          "الرابط": "https://medrassatouna.com/wp-content/uploads/2020/12/production-écrite-4em-anné-1er-trimestre.pdf",
+          "المصدر": "medrassatouna.com"
+        },
+        {
+          "السنة": "4",
+          "النوع": "تقييم",
+          "الوصف": "إنتاج-كتابي-سنة-رابعة.pdf",
+          "الرابط": "https://medrassatouna.com/wp-content/uploads/2020/12/إنتاج-كتابي-سنة-رابعة.pdf",
+          "المصدر": "medrassatouna.com"
+        },
+        {
+          "السنة": "4",
+          "النوع": "تقييم",
+          "الوصف": "إيقاظ-السنة-الثالثة-medrassatouna-1.pdf",
+          "الرابط": "https://medrassatouna.com/wp-content/uploads/2019/04/إيقاظ-السنة-الثالثة-medrassatouna-1.pdf",
+          "المصدر": "medrassatouna.com"
+        },
+        {
+          "السنة": "4",
+          "النوع": "تقييم",
+          "الوصف": "تقييم-إيقاظ-سنة-رابعةmedrassatouna.pdf",
+          "الرابط": "https://medrassatouna.com/wp-content/uploads/2019/04/تقييم-إيقاظ-سنة-رابعةmedrassatouna.pdf",
+          "المصدر": "medrassatouna.com"
+        },
+        {
+          "السنة": "4",
+          "النوع": "تقييم",
+          "الوصف": "امتحان-الإيقاظ-العلمي-السنة-الرابعة-الثلاثي-الثاني-1.pdf",
+          "الرابط": "https://medrassatouna.com/wp-content/uploads/2020/02/امتحان-الإيقاظ-العلمي-السنة-الرابعة-الثلاثي-الثاني-1.pdf",
+          "المصدر": "medrassatouna.com"
+        },
+        {
+          "السنة": "4",
+          "النوع": "تقييم",
+          "الوصف": "امتحان-الإيقاظ-العلمي-السنة-الرابعة-الثلاثي-الثاني-إصلاح-1.pdf",
+          "الرابط": "https://medrassatouna.com/wp-content/uploads/2020/02/امتحان-الإيقاظ-العلمي-السنة-الرابعة-الثلاثي-الثاني-إصلاح-1.pdf",
+          "المصدر": "medrassatouna.com"
+        },
+        {
+          "السنة": "4",
+          "النوع": "تقييم",
+          "الوصف": "educph24.pdf",
+          "الرابط": "https://medrassatouna.com/wp-content/uploads/2020/12/educph24.pdf",
+          "المصدر": "medrassatouna.com"
+        },
+        {
+          "السنة": "4",
+          "النوع": "تقييم",
+          "الوصف": "تقييم-مكتسبات-التلاميذ-في-الايقاظ-العلمي-سنة-رابعة-2.docx",
+          "الرابط": "https://medrassatouna.com/wp-content/uploads/2022/08/تقييم-مكتسبات-التلاميذ-في-الايقاظ-العلمي-سنة-رابعة-2.docx",
+          "المصدر": "medrassatouna.com"
+        },
+        {
+          "السنة": "4",
+          "النوع": "تقييم",
+          "الوصف": "تقييم-مكتسبات-التلاميذ-في-الايقاظ-العلمي-سنة-رابعة-3-1.pdf",
+          "الرابط": "https://medrassatouna.com/wp-content/uploads/2022/08/تقييم-مكتسبات-التلاميذ-في-الايقاظ-العلمي-سنة-رابعة-3-1.pdf",
+          "المصدر": "medrassatouna.com"
+        },
+        {
+          "السنة": "4",
+          "النوع": "تقييم",
+          "الوصف": "تربية-إسلامية-سنة-5-medrassatouna.pdf",
+          "الرابط": "https://medrassatouna.com/wp-content/uploads/2019/01/تربية-إسلامية-سنة-5-medrassatouna.pdf",
+          "المصدر": "medrassatouna.com"
+        },
+        {
+          "السنة": "4",
+          "النوع": "تقييم",
+          "الوصف": "تربية-إسلامية-سنة-4-medrassatouna.pdf",
+          "الرابط": "https://medrassatouna.com/wp-content/uploads/2019/04/تربية-إسلامية-سنة-4-medrassatouna.pdf",
+          "المصدر": "medrassatouna.com"
+        },
+        {
+          "السنة": "4",
+          "النوع": "تقييم",
+          "الوصف": "اصلاح-متحان-تربية-إسلامية-السنة-الرابعة-الثلاثي-الثاني-1.pdf",
+          "الرابط": "https://medrassatouna.com/wp-content/uploads/2020/02/اصلاح-متحان-تربية-إسلامية-السنة-الرابعة-الثلاثي-الثاني-1.pdf",
+          "المصدر": "medrassatouna.com"
+        },
+        {
+          "السنة": "4",
+          "النوع": "تقييم",
+          "الوصف": "امتحان-مادة-التربية-الإسلامية-السنة-الرابعة-الثلاثي-الثاني-1.pdf",
+          "الرابط": "https://medrassatouna.com/wp-content/uploads/2020/02/امتحان-مادة-التربية-الإسلامية-السنة-الرابعة-الثلاثي-الثاني-1.pdf",
+          "المصدر": "medrassatouna.com"
+        },
+        {
+          "السنة": "4",
+          "النوع": "تقييم",
+          "الوصف": "إملاء-سنة-4-ثلاثي-2-medrassatouna-.pdf",
+          "الرابط": "https://medrassatouna.com/wp-content/uploads/2019/03/إملاء-سنة-4-ثلاثي-2-medrassatouna-.pdf",
+          "المصدر": "medrassatouna.com"
+        },
+        {
+          "السنة": "4",
+          "النوع": "تقييم",
+          "الوصف": "رياضيات-4-medrassatouna-3.pdf",
+          "الرابط": "https://medrassatouna.com/wp-content/uploads/2019/01/رياضيات-4-medrassatouna-3.pdf",
+          "المصدر": "medrassatouna.com"
+        },
+        {
+          "السنة": "4",
+          "النوع": "تقييم",
+          "الوصف": "تقييم-رياضيات-سنة-رابعةmedrassatouna.pdf",
+          "الرابط": "https://medrassatouna.com/wp-content/uploads/2019/04/تقييم-رياضيات-سنة-رابعةmedrassatouna.pdf",
+          "المصدر": "medrassatouna.com"
+        },
+        {
+          "السنة": "4",
+          "النوع": "تقييم",
+          "الوصف": "رياضيات-سنة6-medrassatouna.pdf",
+          "الرابط": "https://medrassatouna.com/wp-content/uploads/2019/04/رياضيات-سنة6-medrassatouna.pdf",
+          "المصدر": "medrassatouna.com"
+        },
+        {
+          "السنة": "4",
+          "النوع": "تقييم",
+          "الوصف": "تقييم-رياضيات-السنة-الرابعة-الثلاثي-الأول.pdf",
+          "الرابط": "https://medrassatouna.com/wp-content/uploads/2019/11/تقييم-رياضيات-السنة-الرابعة-الثلاثي-الأول.pdf",
+          "المصدر": "medrassatouna.com"
+        },
+        {
+          "السنة": "4",
+          "النوع": "تقييم",
+          "الوصف": "امتحان-الرياضيات-الثلاثي-الثاني-السنة-الرابعة-2-1.pdf",
+          "الرابط": "https://medrassatouna.com/wp-content/uploads/2020/02/امتحان-الرياضيات-الثلاثي-الثاني-السنة-الرابعة-2-1.pdf",
+          "المصدر": "medrassatouna.com"
+        },
+        {
+          "السنة": "4",
+          "النوع": "تقييم",
+          "الوصف": "math14.pdf",
+          "الرابط": "https://medrassatouna.com/wp-content/uploads/2020/12/math14.pdf",
+          "المصدر": "medrassatouna.com"
+        },
+        {
+          "السنة": "4",
+          "النوع": "تقييم",
+          "الوصف": "math24-2-1.pdf",
+          "الرابط": "https://medrassatouna.com/wp-content/uploads/2020/12/math24-2-1.pdf",
+          "المصدر": "medrassatouna.com"
+        },
+        {
+          "السنة": "4",
+          "النوع": "تقييم",
+          "الوصف": "رياضيات-س4.pdf",
+          "الرابط": "https://medrassatouna.com/wp-content/uploads/2020/12/رياضيات-س4.pdf",
+          "المصدر": "medrassatouna.com"
+        },
+        {
+          "السنة": "4",
+          "النوع": "تقييم",
+          "الوصف": "قراءة-سنة-4-medrassatouna.pdf",
+          "الرابط": "https://medrassatouna.com/wp-content/uploads/2019/01/قراءة-سنة-4-medrassatouna.pdf",
+          "المصدر": "medrassatouna.com"
+        },
+        {
+          "السنة": "4",
+          "النوع": "تقييم",
+          "الوصف": "epreuve-lecture-4ème-medrassatouna.pdf",
+          "الرابط": "https://medrassatouna.com/wp-content/uploads/2019/04/epreuve-lecture-4ème-medrassatouna.pdf",
+          "المصدر": "medrassatouna.com"
+        },
+        {
+          "السنة": "4",
+          "النوع": "تقييم",
+          "الوصف": "تقييم-في-مادة-القراءة-السنة-الرابعة-medrassatouna.pdf",
+          "الرابط": "https://medrassatouna.com/wp-content/uploads/2019/04/تقييم-في-مادة-القراءة-السنة-الرابعة-medrassatouna.pdf",
+          "المصدر": "medrassatouna.com"
+        },
+        {
+          "السنة": "4",
+          "النوع": "تقييم",
+          "الوصف": "تقييم-في-مادة-القراءة-السنة-الرابعة.pdf",
+          "الرابط": "https://medrassatouna.com/wp-content/uploads/2019/11/تقييم-في-مادة-القراءة-السنة-الرابعة.pdf",
+          "المصدر": "medrassatouna.com"
+        },
+        {
+          "السنة": "4",
+          "النوع": "تقييم",
+          "الوصف": "correction-examen-lecture-4ème-année-trimestre2-1.pdf",
+          "الرابط": "https://medrassatouna.com/wp-content/uploads/2020/02/correction-examen-lecture-4ème-année-trimestre2-1.pdf",
+          "المصدر": "medrassatouna.com"
+        },
+        {
+          "السنة": "4",
+          "النوع": "تقييم",
+          "الوصف": "examen-lecture-4ème-année-trimestre2-1.pdf",
+          "الرابط": "https://medrassatouna.com/wp-content/uploads/2020/02/examen-lecture-4ème-année-trimestre2-1.pdf",
+          "المصدر": "medrassatouna.com"
+        },
+        {
+          "السنة": "4",
+          "النوع": "تقييم",
+          "الوصف": "تقييم-قراءة-سنة-4-1.pdf",
+          "الرابط": "https://medrassatouna.com/wp-content/uploads/2020/02/تقييم-قراءة-سنة-4-1.pdf",
+          "المصدر": "medrassatouna.com"
+        },
+        {
+          "السنة": "4",
+          "النوع": "تقييم",
+          "الوصف": "تقييم-قراءة-سنة-4-إصلاح-1.pdf",
+          "الرابط": "https://medrassatouna.com/wp-content/uploads/2020/02/تقييم-قراءة-سنة-4-إصلاح-1.pdf",
+          "المصدر": "medrassatouna.com"
+        },
+        {
+          "السنة": "4",
+          "النوع": "تقييم",
+          "الوصف": "lecture-comprehensif-4em-annee.pdf",
+          "الرابط": "https://medrassatouna.com/wp-content/uploads/2020/12/lecture-comprehensif-4em-annee.pdf",
+          "المصدر": "medrassatouna.com"
+        },
+        {
+          "السنة": "4",
+          "النوع": "تقييم",
+          "الوصف": "قراءة-س4-1.pdf",
+          "الرابط": "https://medrassatouna.com/wp-content/uploads/2020/12/قراءة-س4-1.pdf",
+          "المصدر": "medrassatouna.com"
+        },
+        {
+          "السنة": "4",
+          "النوع": "تقييم",
+          "الوصف": "قواعد-اللغة-السنة-الرابعة-medrassatouna.pdf",
+          "الرابط": "https://medrassatouna.com/wp-content/uploads/2019/04/قواعد-اللغة-السنة-الرابعة-medrassatouna.pdf",
+          "المصدر": "medrassatouna.com"
+        },
+        {
+          "السنة": "4",
+          "النوع": "تقييم",
+          "الوصف": "اصلاح-متحان-قواعد-اللغة-السنة-الرابعة-2.pdf",
+          "الرابط": "https://medrassatouna.com/wp-content/uploads/2020/02/اصلاح-متحان-قواعد-اللغة-السنة-الرابعة-2.pdf",
+          "المصدر": "medrassatouna.com"
+        },
+        {
+          "السنة": "4",
+          "النوع": "تقييم",
+          "الوصف": "امتحان-قواعد-اللغة-السنة-الرابعة-1.pdf",
+          "الرابط": "https://medrassatouna.com/wp-content/uploads/2020/02/امتحان-قواعد-اللغة-السنة-الرابعة-1.pdf",
+          "المصدر": "medrassatouna.com"
+        },
+        {
+          "السنة": "4",
+          "النوع": "تقييم",
+          "الوصف": "امتحان-قواعد-اللغة-السنة-الرابعة-2.pdf",
+          "الرابط": "https://medrassatouna.com/wp-content/uploads/2020/02/امتحان-قواعد-اللغة-السنة-الرابعة-2.pdf",
+          "المصدر": "medrassatouna.com"
+        },
+        {
+          "السنة": "4",
+          "النوع": "تقييم",
+          "الوصف": "اختبار-قواعد-اللغة-السنة-الرابعة-2.pdf",
+          "الرابط": "https://medrassatouna.com/wp-content/uploads/2020/12/اختبار-قواعد-اللغة-السنة-الرابعة-2.pdf",
+          "المصدر": "medrassatouna.com"
+        },
+        {
+          "السنة": "4",
+          "النوع": "تقييم",
+          "الوصف": "قواعد-لغة-سنة-4-ثلاثي-2-medrassatouna-converti.pdf",
+          "الرابط": "https://medrassatouna.com/wp-content/uploads/2019/03/قواعد-لغة-سنة-4-ثلاثي-2-medrassatouna-converti.pdf",
+          "المصدر": "medrassatouna.com"
+        },
+        {
+          "السنة": "4",
+          "النوع": "تقييم",
+          "الوصف": "قواعد-لغة-السنة-الرابعة.pdf",
+          "الرابط": "https://medrassatouna.com/wp-content/uploads/2019/11/قواعد-لغة-السنة-الرابعة.pdf",
+          "المصدر": "medrassatouna.com"
+        },
+        {
+          "السنة": "5",
+          "النوع": "تقييم",
+          "الوصف": "Epreuve-dexamen-production-écrite-5ème-trimestre-2-1.pdf",
+          "الرابط": "https://medrassatouna.com/wp-content/uploads/2020/02/Epreuve-dexamen-production-écrite-5ème-trimestre-2-1.pdf",
+          "المصدر": "medrassatouna.com"
+        },
+        {
+          "السنة": "5",
+          "النوع": "تقييم",
+          "الوصف": "امتحان-الإنتاج-الكتابي-السنة-الخامسة-الثلاثي-الثاني-1.pdf",
+          "الرابط": "https://medrassatouna.com/wp-content/uploads/2020/02/امتحان-الإنتاج-الكتابي-السنة-الخامسة-الثلاثي-الثاني-1.pdf",
+          "المصدر": "medrassatouna.com"
+        },
+        {
+          "السنة": "5",
+          "النوع": "تقييم",
+          "الوصف": "اصلاح-امتحان-الإيقاظ-العلمي-السنة-5-الثلاثي-الثاني-1.pdf",
+          "الرابط": "https://medrassatouna.com/wp-content/uploads/2020/02/اصلاح-امتحان-الإيقاظ-العلمي-السنة-5-الثلاثي-الثاني-1.pdf",
+          "المصدر": "medrassatouna.com"
+        },
+        {
+          "السنة": "5",
+          "النوع": "تقييم",
+          "الوصف": "امتحان-الإيقاظ-العلمي-السنة-5-الثلاثي-الثاني-1.pdf",
+          "الرابط": "https://medrassatouna.com/wp-content/uploads/2020/02/امتحان-الإيقاظ-العلمي-السنة-5-الثلاثي-الثاني-1.pdf",
+          "المصدر": "medrassatouna.com"
+        },
+        {
+          "السنة": "5",
+          "النوع": "تقييم",
+          "الوصف": "إصلاح-تقييم-تاريخ-سنة-5-1.pdf",
+          "الرابط": "https://medrassatouna.com/wp-content/uploads/2020/02/إصلاح-تقييم-تاريخ-سنة-5-1.pdf",
+          "المصدر": "medrassatouna.com"
+        },
+        {
+          "السنة": "5",
+          "النوع": "تقييم",
+          "الوصف": "تقييم-تاريخ-سنة-5-1.pdf",
+          "الرابط": "https://medrassatouna.com/wp-content/uploads/2020/02/تقييم-تاريخ-سنة-5-1.pdf",
+          "المصدر": "medrassatouna.com"
+        },
+        {
+          "السنة": "5",
+          "النوع": "تقييم",
+          "الوصف": "اصلاح-متحان-مادة-التربية-الإسلامية-السنة-الخامسة-الثلاثي-الثاني-1.pdf",
+          "الرابط": "https://medrassatouna.com/wp-content/uploads/2020/02/اصلاح-متحان-مادة-التربية-الإسلامية-السنة-الخامسة-الثلاثي-الثاني-1.pdf",
+          "المصدر": "medrassatouna.com"
+        },
+        {
+          "السنة": "5",
+          "النوع": "تقييم",
+          "الوصف": "امتحان-مادة-التربية-الإسلامية-السنة-الخامسة-الثلاثي-الثاني-1.pdf",
+          "الرابط": "https://medrassatouna.com/wp-content/uploads/2020/02/امتحان-مادة-التربية-الإسلامية-السنة-الخامسة-الثلاثي-الثاني-1.pdf",
+          "المصدر": "medrassatouna.com"
+        },
+        {
+          "السنة": "5",
+          "النوع": "تقييم",
+          "الوصف": "اصلاح-تقييم-تربية-مدنية-سنة-5-1.pdf",
+          "الرابط": "https://medrassatouna.com/wp-content/uploads/2020/02/اصلاح-تقييم-تربية-مدنية-سنة-5-1.pdf",
+          "المصدر": "medrassatouna.com"
+        },
+        {
+          "السنة": "5",
+          "النوع": "تقييم",
+          "الوصف": "تقييم-تربية-مدنية-سنة-5-1.pdf",
+          "الرابط": "https://medrassatouna.com/wp-content/uploads/2020/02/تقييم-تربية-مدنية-سنة-5-1.pdf",
+          "المصدر": "medrassatouna.com"
+        },
+        {
+          "السنة": "5",
+          "النوع": "تقييم",
+          "الوصف": "إصلاح-تقييم-جغرافيا-سنة-5-1.pdf",
+          "الرابط": "https://medrassatouna.com/wp-content/uploads/2020/02/إصلاح-تقييم-جغرافيا-سنة-5-1.pdf",
+          "المصدر": "medrassatouna.com"
+        },
+        {
+          "السنة": "5",
+          "النوع": "تقييم",
+          "الوصف": "تقييم-جغرافيا-سنة-5-1.pdf",
+          "الرابط": "https://medrassatouna.com/wp-content/uploads/2020/02/تقييم-جغرافيا-سنة-5-1.pdf",
+          "المصدر": "medrassatouna.com"
+        },
+        {
+          "السنة": "5",
+          "النوع": "تقييم",
+          "الوصف": "اصلاح-امتحان-الرياضيات-الثلاثي-الثاني-السنة-الخامسة-2.pdf",
+          "الرابط": "https://medrassatouna.com/wp-content/uploads/2020/02/اصلاح-امتحان-الرياضيات-الثلاثي-الثاني-السنة-الخامسة-2.pdf",
+          "المصدر": "medrassatouna.com"
+        },
+        {
+          "السنة": "5",
+          "النوع": "تقييم",
+          "الوصف": "Epreuve-dexamen-lecture-5ème-trimestre-2-1.pdf",
+          "الرابط": "https://medrassatouna.com/wp-content/uploads/2020/02/Epreuve-dexamen-lecture-5ème-trimestre-2-1.pdf",
+          "المصدر": "medrassatouna.com"
+        },
+        {
+          "السنة": "5",
+          "النوع": "تقييم",
+          "الوصف": "correction-Epreuve-dexamen-lecture-5ème-trimestre-2-1.pdf",
+          "الرابط": "https://medrassatouna.com/wp-content/uploads/2020/02/correction-Epreuve-dexamen-lecture-5ème-trimestre-2-1.pdf",
+          "المصدر": "medrassatouna.com"
+        },
+        {
+          "السنة": "5",
+          "النوع": "تقييم",
+          "الوصف": "إمتحان-قراءة-سنة-5إصلاح-1.pdf",
+          "الرابط": "https://medrassatouna.com/wp-content/uploads/2020/02/إمتحان-قراءة-سنة-5إصلاح-1.pdf",
+          "المصدر": "medrassatouna.com"
+        },
+        {
+          "السنة": "5",
+          "النوع": "تقييم",
+          "الوصف": "تقييم-قراءة-سنة-5-2.pdf",
+          "الرابط": "https://medrassatouna.com/wp-content/uploads/2020/02/تقييم-قراءة-سنة-5-2.pdf",
+          "المصدر": "medrassatouna.com"
+        },
+        {
+          "السنة": "5",
+          "النوع": "تقييم",
+          "الوصف": "correction-examen-langue-5ème-trimestre-2-1.pdf",
+          "الرابط": "https://medrassatouna.com/wp-content/uploads/2020/02/correction-examen-langue-5ème-trimestre-2-1.pdf",
+          "المصدر": "medrassatouna.com"
+        },
+        {
+          "السنة": "5",
+          "النوع": "تقييم",
+          "الوصف": "examen-langue-5ème-trimestre-2-1.pdf",
+          "الرابط": "https://medrassatouna.com/wp-content/uploads/2020/02/examen-langue-5ème-trimestre-2-1.pdf",
+          "المصدر": "medrassatouna.com"
+        },
+        {
+          "السنة": "5",
+          "النوع": "تقييم",
+          "الوصف": "اصلاح-متحان-قواعد-اللغة-السنة-الخامسة-1.pdf",
+          "الرابط": "https://medrassatouna.com/wp-content/uploads/2020/02/اصلاح-متحان-قواعد-اللغة-السنة-الخامسة-1.pdf",
+          "المصدر": "medrassatouna.com"
+        },
+        {
+          "السنة": "5",
+          "النوع": "تقييم",
+          "الوصف": "امتحان-قواعد-اللغة-السنة-الخامسة-1.pdf",
+          "الرابط": "https://medrassatouna.com/wp-content/uploads/2020/02/امتحان-قواعد-اللغة-السنة-الخامسة-1.pdf",
+          "المصدر": "medrassatouna.com"
+        },
+        {
+          "السنة": "5",
+          "النوع": "تقييم",
+          "الوصف": "لغة-سنة-خامسة-medrassatouna.pdf",
+          "الرابط": "https://medrassatouna.com/wp-content/uploads/2019/01/لغة-سنة-خامسة-medrassatouna.pdf",
+          "المصدر": "medrassatouna.com"
+        },
+        {
+          "السنة": "5",
+          "النوع": "تقييم",
+          "الوصف": "Epreuve-d’examen-du-1er-trimestre.pdf",
+          "الرابط": "https://medrassatouna.com/wp-content/uploads/2020/12/Epreuve-d’examen-du-1er-trimestre.pdf",
+          "المصدر": "medrassatouna.com"
+        },
+        {
+          "السنة": "5",
+          "النوع": "تقييم",
+          "الوصف": "dictee-5em-annee.pdf",
+          "الرابط": "https://medrassatouna.com/wp-content/uploads/2020/12/dictee-5em-annee.pdf",
+          "المصدر": "medrassatouna.com"
+        },
+        {
+          "السنة": "5",
+          "النوع": "تقييم",
+          "الوصف": "production-5ème-medrassatouna.pdf",
+          "الرابط": "https://medrassatouna.com/wp-content/uploads/2019/04/production-5ème-medrassatouna.pdf",
+          "المصدر": "medrassatouna.com"
+        },
+        {
+          "السنة": "5",
+          "النوع": "تقييم",
+          "الوصف": "إنتاج-كتابي-السنة-الخامسة-medrassatouna.pdf",
+          "الرابط": "https://medrassatouna.com/wp-content/uploads/2019/04/إنتاج-كتابي-السنة-الخامسة-medrassatouna.pdf",
+          "المصدر": "medrassatouna.com"
+        },
+        {
+          "السنة": "5",
+          "النوع": "تقييم",
+          "الوصف": "إنتاج-كتابي-سنة-1-medrassatouna.pdf",
+          "الرابط": "https://medrassatouna.com/wp-content/uploads/2019/04/إنتاج-كتابي-سنة-1-medrassatouna.pdf",
+          "المصدر": "medrassatouna.com"
+        },
+        {
+          "السنة": "5",
+          "النوع": "تقييم",
+          "الوصف": "examen-production-5ème-trimestre1.pdf",
+          "الرابط": "https://medrassatouna.com/wp-content/uploads/2019/11/examen-production-5ème-trimestre1.pdf",
+          "المصدر": "medrassatouna.com"
+        },
+        {
+          "السنة": "5",
+          "النوع": "تقييم",
+          "الوصف": "تقييم-في-مادة-الإنتاج-الكتابي-السنة-الخامسة-الثلاثي-الأول.pdf",
+          "الرابط": "https://medrassatouna.com/wp-content/uploads/2019/11/تقييم-في-مادة-الإنتاج-الكتابي-السنة-الخامسة-الثلاثي-الأول.pdf",
+          "المصدر": "medrassatouna.com"
+        },
+        {
+          "السنة": "5",
+          "النوع": "تقييم",
+          "الوصف": "امتحان-الإنتاج-الكتابي-السنة-الخامسة-الثلاثي-الثاني.pdf",
+          "الرابط": "https://medrassatouna.com/wp-content/uploads/2020/02/امتحان-الإنتاج-الكتابي-السنة-الخامسة-الثلاثي-الثاني.pdf",
+          "المصدر": "medrassatouna.com"
+        },
+        {
+          "السنة": "5",
+          "النوع": "تقييم",
+          "الوصف": "evaluation-1er-trimestre-production-ecrite.pdf",
+          "الرابط": "https://medrassatouna.com/wp-content/uploads/2020/12/evaluation-1er-trimestre-production-ecrite.pdf",
+          "المصدر": "medrassatouna.com"
+        },
+        {
+          "السنة": "5",
+          "النوع": "تقييم",
+          "الوصف": "production-ecrite-5em-annee-2.pdf",
+          "الرابط": "https://medrassatouna.com/wp-content/uploads/2020/12/production-ecrite-5em-annee-2.pdf",
+          "المصدر": "medrassatouna.com"
+        },
+        {
+          "السنة": "5",
+          "النوع": "تقييم",
+          "الوصف": "إيقاظ-علمي-سنة-5-ثلاثي-2-medrassatouna.pdf",
+          "الرابط": "https://medrassatouna.com/wp-content/uploads/2019/03/إيقاظ-علمي-سنة-5-ثلاثي-2-medrassatouna.pdf",
+          "المصدر": "medrassatouna.com"
+        },
+        {
+          "السنة": "5",
+          "النوع": "تقييم",
+          "الوصف": "إيقاظ-سنة-5-medrassatouna.pdf",
+          "الرابط": "https://medrassatouna.com/wp-content/uploads/2019/04/إيقاظ-سنة-5-medrassatouna.pdf",
+          "المصدر": "medrassatouna.com"
+        },
+        {
+          "السنة": "5",
+          "النوع": "تقييم",
+          "الوصف": "إيقاظ-سنة-6-medrassatouna.pdf",
+          "الرابط": "https://medrassatouna.com/wp-content/uploads/2019/04/إيقاظ-سنة-6-medrassatouna.pdf",
+          "المصدر": "medrassatouna.com"
+        },
+        {
+          "السنة": "5",
+          "النوع": "تقييم",
+          "الوصف": "تقييم-ايقاظ-السنة-الثانية-الثلاثي-الاول.pdf",
+          "الرابط": "https://medrassatouna.com/wp-content/uploads/2019/11/تقييم-ايقاظ-السنة-الثانية-الثلاثي-الاول.pdf",
+          "المصدر": "medrassatouna.com"
+        },
+        {
+          "السنة": "5",
+          "النوع": "تقييم",
+          "الوصف": "تقييم-في-مادة-الإيقاظ-العلمي-السنة-لخامسة-الثلاثي-الأول.pdf",
+          "الرابط": "https://medrassatouna.com/wp-content/uploads/2019/11/تقييم-في-مادة-الإيقاظ-العلمي-السنة-لخامسة-الثلاثي-الأول.pdf",
+          "المصدر": "medrassatouna.com"
+        },
+        {
+          "السنة": "5",
+          "النوع": "تقييم",
+          "الوصف": "اصلاح-امتحان-الإيقاظ-العلمي-السنة-5-الثلاثي-الثاني.pdf",
+          "الرابط": "https://medrassatouna.com/wp-content/uploads/2020/02/اصلاح-امتحان-الإيقاظ-العلمي-السنة-5-الثلاثي-الثاني.pdf",
+          "المصدر": "medrassatouna.com"
+        },
+        {
+          "السنة": "5",
+          "النوع": "تقييم",
+          "الوصف": "امتحان-الإيقاظ-العلمي-السنة-5-الثلاثي-الثاني.pdf",
+          "الرابط": "https://medrassatouna.com/wp-content/uploads/2020/02/امتحان-الإيقاظ-العلمي-السنة-5-الثلاثي-الثاني.pdf",
+          "المصدر": "medrassatouna.com"
+        },
+        {
+          "السنة": "5",
+          "النوع": "تقييم",
+          "الوصف": "educ-ph25.pdf",
+          "الرابط": "https://medrassatouna.com/wp-content/uploads/2020/12/educ-ph25.pdf",
+          "المصدر": "medrassatouna.com"
+        },
+        {
+          "السنة": "5",
+          "النوع": "تقييم",
+          "الوصف": "educph15.pdf",
+          "الرابط": "https://medrassatouna.com/wp-content/uploads/2020/12/educph15.pdf",
+          "المصدر": "medrassatouna.com"
+        },
+        {
+          "السنة": "5",
+          "النوع": "تقييم",
+          "الوصف": "تاريخ-سنة-5-ثلاثي-2-medrassatouna2.pdf",
+          "الرابط": "https://medrassatouna.com/wp-content/uploads/2019/03/تاريخ-سنة-5-ثلاثي-2-medrassatouna2.pdf",
+          "المصدر": "medrassatouna.com"
+        },
+        {
+          "السنة": "5",
+          "النوع": "تقييم",
+          "الوصف": "تاريخ-سنة-5-medrassatouna.pdf",
+          "الرابط": "https://medrassatouna.com/wp-content/uploads/2019/04/تاريخ-سنة-5-medrassatouna.pdf",
+          "المصدر": "medrassatouna.com"
+        },
+        {
+          "السنة": "5",
+          "النوع": "تقييم",
+          "الوصف": "تقييم-في-مائدة-التاريخ-السنة-الخامسة-الثلاثي-الأول.pdf",
+          "الرابط": "https://medrassatouna.com/wp-content/uploads/2019/11/تقييم-في-مائدة-التاريخ-السنة-الخامسة-الثلاثي-الأول.pdf",
+          "المصدر": "medrassatouna.com"
+        },
+        {
+          "السنة": "5",
+          "النوع": "تقييم",
+          "الوصف": "إصلاح-تقييم-تاريخ-سنة-5.pdf",
+          "الرابط": "https://medrassatouna.com/wp-content/uploads/2020/02/إصلاح-تقييم-تاريخ-سنة-5.pdf",
+          "المصدر": "medrassatouna.com"
+        },
+        {
+          "السنة": "5",
+          "النوع": "تقييم",
+          "الوصف": "تقييم-تاريخ-سنة-5.pdf",
+          "الرابط": "https://medrassatouna.com/wp-content/uploads/2020/02/تقييم-تاريخ-سنة-5.pdf",
+          "المصدر": "medrassatouna.com"
+        },
+        {
+          "السنة": "5",
+          "النوع": "تقييم",
+          "الوصف": "تربية-اسلامية-سنة-5-medrassatouna.pdf",
+          "الرابط": "https://medrassatouna.com/wp-content/uploads/2019/04/تربية-اسلامية-سنة-5-medrassatouna.pdf",
+          "المصدر": "medrassatouna.com"
+        },
+        {
+          "السنة": "5",
+          "النوع": "تقييم",
+          "الوصف": "تقييم-في-مادة-التربية-الإسلامية-السنة-الخامسة-الثلاثي-الأول.pdf",
+          "الرابط": "https://medrassatouna.com/wp-content/uploads/2019/11/تقييم-في-مادة-التربية-الإسلامية-السنة-الخامسة-الثلاثي-الأول.pdf",
+          "المصدر": "medrassatouna.com"
+        },
+        {
+          "السنة": "5",
+          "النوع": "تقييم",
+          "الوصف": "تربية-مدنية-سنة-5-medrassatouna.pdf",
+          "الرابط": "https://medrassatouna.com/wp-content/uploads/2019/04/تربية-مدنية-سنة-5-medrassatouna.pdf",
+          "المصدر": "medrassatouna.com"
+        },
+        {
+          "السنة": "5",
+          "النوع": "تقييم",
+          "الوصف": "تقييم-في-مادة-التربية-المدنية-السنة-الخامسة-الثلاثي-الأول.pdf",
+          "الرابط": "https://medrassatouna.com/wp-content/uploads/2019/11/تقييم-في-مادة-التربية-المدنية-السنة-الخامسة-الثلاثي-الأول.pdf",
+          "المصدر": "medrassatouna.com"
+        },
+        {
+          "السنة": "5",
+          "النوع": "تقييم",
+          "الوصف": "اصلاح-تقييم-تربية-مدنية-سنة-5.pdf",
+          "الرابط": "https://medrassatouna.com/wp-content/uploads/2020/02/اصلاح-تقييم-تربية-مدنية-سنة-5.pdf",
+          "المصدر": "medrassatouna.com"
+        },
+        {
+          "السنة": "5",
+          "النوع": "تقييم",
+          "الوصف": "تقييم-تربية-مدنية-سنة-5.pdf",
+          "الرابط": "https://medrassatouna.com/wp-content/uploads/2020/02/تقييم-تربية-مدنية-سنة-5.pdf",
+          "المصدر": "medrassatouna.com"
+        },
+        {
+          "السنة": "5",
+          "النوع": "تقييم",
+          "الوصف": "جغرافيا-سنة-5-ثلاثي-2-medrassatouna.pdf",
+          "الرابط": "https://medrassatouna.com/wp-content/uploads/2019/03/جغرافيا-سنة-5-ثلاثي-2-medrassatouna.pdf",
+          "المصدر": "medrassatouna.com"
+        },
+        {
+          "السنة": "5",
+          "النوع": "تقييم",
+          "الوصف": "تقييم-جغرافيا-سنة-5-medrassatouna.pdf",
+          "الرابط": "https://medrassatouna.com/wp-content/uploads/2019/04/تقييم-جغرافيا-سنة-5-medrassatouna.pdf",
+          "المصدر": "medrassatouna.com"
+        },
+        {
+          "السنة": "5",
+          "النوع": "تقييم",
+          "الوصف": "تقييم-في-مادة-الجغرافيا-السنة-الخامسة-الثلاثي-الأول.pdf",
+          "الرابط": "https://medrassatouna.com/wp-content/uploads/2019/11/تقييم-في-مادة-الجغرافيا-السنة-الخامسة-الثلاثي-الأول.pdf",
+          "المصدر": "medrassatouna.com"
+        },
+        {
+          "السنة": "5",
+          "النوع": "تقييم",
+          "الوصف": "إصلاح-تقييم-جغرافيا-سنة-5.pdf",
+          "الرابط": "https://medrassatouna.com/wp-content/uploads/2020/02/إصلاح-تقييم-جغرافيا-سنة-5.pdf",
+          "المصدر": "medrassatouna.com"
+        },
+        {
+          "السنة": "5",
+          "النوع": "تقييم",
+          "الوصف": "تقييم-جغرافيا-سنة-5.pdf",
+          "الرابط": "https://medrassatouna.com/wp-content/uploads/2020/02/تقييم-جغرافيا-سنة-5.pdf",
+          "المصدر": "medrassatouna.com"
+        },
+        {
+          "السنة": "5",
+          "النوع": "تقييم",
+          "الوصف": "رياضيات-سنة-5-medrassatouna.pdf",
+          "الرابط": "https://medrassatouna.com/wp-content/uploads/2019/01/رياضيات-سنة-5-medrassatouna.pdf",
+          "المصدر": "medrassatouna.com"
+        },
+        {
+          "السنة": "5",
+          "النوع": "تقييم",
+          "الوصف": "رياضيات-سنة-5-ثلاثي-2-medrassatouna-.pdf",
+          "الرابط": "https://medrassatouna.com/wp-content/uploads/2019/03/رياضيات-سنة-5-ثلاثي-2-medrassatouna-.pdf",
+          "المصدر": "medrassatouna.com"
+        },
+        {
+          "السنة": "5",
+          "النوع": "تقييم",
+          "الوصف": "تقييم-رياضيات-سنة-5-medrassatouna.pdf",
+          "الرابط": "https://medrassatouna.com/wp-content/uploads/2019/04/تقييم-رياضيات-سنة-5-medrassatouna.pdf",
+          "المصدر": "medrassatouna.com"
+        },
+        {
+          "السنة": "5",
+          "النوع": "تقييم",
+          "الوصف": "تقييم-في-مادة-الرياضيات-السنة-الخامسة-الثلاثي-الأول.pdf",
+          "الرابط": "https://medrassatouna.com/wp-content/uploads/2019/11/تقييم-في-مادة-الرياضيات-السنة-الخامسة-الثلاثي-الأول.pdf",
+          "المصدر": "medrassatouna.com"
+        },
+        {
+          "السنة": "5",
+          "النوع": "تقييم",
+          "الوصف": "math25-1.pdf",
+          "الرابط": "https://medrassatouna.com/wp-content/uploads/2020/12/math25-1.pdf",
+          "المصدر": "medrassatouna.com"
+        },
+        {
+          "السنة": "5",
+          "النوع": "تقييم",
+          "الوصف": "تقييم-قراءة-سنة-5-medrassatouna.pdf",
+          "الرابط": "https://medrassatouna.com/wp-content/uploads/2019/01/تقييم-قراءة-سنة-5-medrassatouna.pdf",
+          "المصدر": "medrassatouna.com"
+        },
+        {
+          "السنة": "5",
+          "النوع": "تقييم",
+          "الوصف": "epreuve-lecture-5ème-medrassatouna.pdf",
+          "الرابط": "https://medrassatouna.com/wp-content/uploads/2019/04/epreuve-lecture-5ème-medrassatouna.pdf",
+          "المصدر": "medrassatouna.com"
+        },
+        {
+          "السنة": "5",
+          "النوع": "تقييم",
+          "الوصف": "تقييم-في-مادة-القراءة-السنة-الخامسة-medrassatouna.pdf",
+          "الرابط": "https://medrassatouna.com/wp-content/uploads/2019/04/تقييم-في-مادة-القراءة-السنة-الخامسة-medrassatouna.pdf",
+          "المصدر": "medrassatouna.com"
+        },
+        {
+          "السنة": "5",
+          "النوع": "تقييم",
+          "الوصف": "examen-lecture-5ème.pdf",
+          "الرابط": "https://medrassatouna.com/wp-content/uploads/2019/11/examen-lecture-5ème.pdf",
+          "المصدر": "medrassatouna.com"
+        },
+        {
+          "السنة": "5",
+          "النوع": "تقييم",
+          "الوصف": "تقييم-في-مادة-القراءة-السنة-الخامسة-الثلاثي-الأول.pdf",
+          "الرابط": "https://medrassatouna.com/wp-content/uploads/2019/11/تقييم-في-مادة-القراءة-السنة-الخامسة-الثلاثي-الأول.pdf",
+          "المصدر": "medrassatouna.com"
+        },
+        {
+          "السنة": "5",
+          "النوع": "تقييم",
+          "الوصف": "إمتحان-قراءة-سنة-5إصلاح.pdf",
+          "الرابط": "https://medrassatouna.com/wp-content/uploads/2020/02/إمتحان-قراءة-سنة-5إصلاح.pdf",
+          "المصدر": "medrassatouna.com"
+        },
+        {
+          "السنة": "5",
+          "النوع": "تقييم",
+          "الوصف": "تقييم-قراءة-سنة-5.pdf",
+          "الرابط": "https://medrassatouna.com/wp-content/uploads/2020/02/تقييم-قراءة-سنة-5.pdf",
+          "المصدر": "medrassatouna.com"
+        },
+        {
+          "السنة": "5",
+          "النوع": "تقييم",
+          "الوصف": "lecture-comprehensif-5ém-annee.pdf",
+          "الرابط": "https://medrassatouna.com/wp-content/uploads/2020/12/lecture-comprehensif-5ém-annee.pdf",
+          "المصدر": "medrassatouna.com"
+        },
+        {
+          "السنة": "5",
+          "النوع": "تقييم",
+          "الوصف": "épreuve-langue-5ème-medrassatouna.pdf",
+          "الرابط": "https://medrassatouna.com/wp-content/uploads/2019/04/épreuve-langue-5ème-medrassatouna.pdf",
+          "المصدر": "medrassatouna.com"
+        },
+        {
+          "السنة": "5",
+          "النوع": "تقييم",
+          "الوصف": "قواعد-اللغة-السنة-الخامسة-medrassatouna.pdf",
+          "الرابط": "https://medrassatouna.com/wp-content/uploads/2019/04/قواعد-اللغة-السنة-الخامسة-medrassatouna.pdf",
+          "المصدر": "medrassatouna.com"
+        },
+        {
+          "السنة": "5",
+          "النوع": "تقييم",
+          "الوصف": "examen-langue-5ème.pdf",
+          "الرابط": "https://medrassatouna.com/wp-content/uploads/2019/11/examen-langue-5ème.pdf",
+          "المصدر": "medrassatouna.com"
+        },
+        {
+          "السنة": "5",
+          "النوع": "تقييم",
+          "الوصف": "تقييم-قواعد-اللغة-السنة-الخامسة.pdf",
+          "الرابط": "https://medrassatouna.com/wp-content/uploads/2019/11/تقييم-قواعد-اللغة-السنة-الخامسة.pdf",
+          "المصدر": "medrassatouna.com"
+        },
+        {
+          "السنة": "5",
+          "النوع": "تقييم",
+          "الوصف": "اصلاح-متحان-قواعد-اللغة-السنة-الخامسة.pdf",
+          "الرابط": "https://medrassatouna.com/wp-content/uploads/2020/02/اصلاح-متحان-قواعد-اللغة-السنة-الخامسة.pdf",
+          "المصدر": "medrassatouna.com"
+        },
+        {
+          "السنة": "5",
+          "النوع": "تقييم",
+          "الوصف": "امتحان-قواعد-اللغة-السنة-الخامسة.pdf",
+          "الرابط": "https://medrassatouna.com/wp-content/uploads/2020/02/امتحان-قواعد-اللغة-السنة-الخامسة.pdf",
+          "المصدر": "medrassatouna.com"
+        },
+        {
+          "السنة": "5",
+          "النوع": "تقييم",
+          "الوصف": "langue-5ém-annee.pdf",
+          "الرابط": "https://medrassatouna.com/wp-content/uploads/2020/12/langue-5ém-annee.pdf",
+          "المصدر": "medrassatouna.com"
+        },
+        {
+          "السنة": "5",
+          "النوع": "تقييم",
+          "الوصف": "pratique-ecrite-de-la-langue.pdf",
+          "الرابط": "https://medrassatouna.com/wp-content/uploads/2020/12/pratique-ecrite-de-la-langue.pdf",
+          "المصدر": "medrassatouna.com"
+        },
+        {
+          "السنة": "6",
+          "النوع": "تقييم",
+          "الوصف": "اصلاح-الإيقاظ-العلمي-السنة-السادسة-1.pdf",
+          "الرابط": "https://medrassatouna.com/wp-content/uploads/2020/02/اصلاح-الإيقاظ-العلمي-السنة-السادسة-1.pdf",
+          "المصدر": "medrassatouna.com"
+        },
+        {
+          "السنة": "6",
+          "النوع": "تقييم",
+          "الوصف": "امتحان-الإيقاظ-العلمي-السنة-السادسة-الثلاثي-الثاني-1.pdf",
+          "الرابط": "https://medrassatouna.com/wp-content/uploads/2020/02/امتحان-الإيقاظ-العلمي-السنة-السادسة-الثلاثي-الثاني-1.pdf",
+          "المصدر": "medrassatouna.com"
+        },
+        {
+          "السنة": "6",
+          "النوع": "تقييم",
+          "الوصف": "إصلاح-تقييم-تاريخ-سنة-6-2.pdf",
+          "الرابط": "https://medrassatouna.com/wp-content/uploads/2020/02/إصلاح-تقييم-تاريخ-سنة-6-2.pdf",
+          "المصدر": "medrassatouna.com"
+        },
+        {
+          "السنة": "6",
+          "النوع": "تقييم",
+          "الوصف": "تقييم-تاريخ-سنة-6-1.pdf",
+          "الرابط": "https://medrassatouna.com/wp-content/uploads/2020/02/تقييم-تاريخ-سنة-6-1.pdf",
+          "المصدر": "medrassatouna.com"
+        },
+        {
+          "السنة": "6",
+          "النوع": "تقييم",
+          "الوصف": "إصلاح-امتحان-الرياضيات-السنة-السادسة-1.pdf",
+          "الرابط": "https://medrassatouna.com/wp-content/uploads/2020/02/إصلاح-امتحان-الرياضيات-السنة-السادسة-1.pdf",
+          "المصدر": "medrassatouna.com"
+        },
+        {
+          "السنة": "6",
+          "النوع": "تقييم",
+          "الوصف": "امتحان-الرياضيات-السنة-السادسة-1.pdf",
+          "الرابط": "https://medrassatouna.com/wp-content/uploads/2020/02/امتحان-الرياضيات-السنة-السادسة-1.pdf",
+          "المصدر": "medrassatouna.com"
+        },
+        {
+          "السنة": "6",
+          "النوع": "تقييم",
+          "الوصف": "examen-lecture-6ème-1.pdf",
+          "الرابط": "https://medrassatouna.com/wp-content/uploads/2020/02/examen-lecture-6ème-1.pdf",
+          "المصدر": "medrassatouna.com"
+        },
+        {
+          "السنة": "6",
+          "النوع": "تقييم",
+          "الوصف": "امتحان-قواعد-اللغة-السنة-السادسة-1.pdf",
+          "الرابط": "https://medrassatouna.com/wp-content/uploads/2020/02/امتحان-قواعد-اللغة-السنة-السادسة-1.pdf",
+          "المصدر": "medrassatouna.com"
+        },
+        {
+          "السنة": "6",
+          "النوع": "تقييم",
+          "الوصف": "لغة-سنة-6-medrassatouna.pdf",
+          "الرابط": "https://medrassatouna.com/wp-content/uploads/2019/01/لغة-سنة-6-medrassatouna.pdf",
+          "المصدر": "medrassatouna.com"
+        },
+        {
+          "السنة": "6",
+          "النوع": "تقييم",
+          "الوصف": "تقييم-انقليزية-السنة-السادسة-الثلاثي-الاول-مدرستنا.pdf",
+          "الرابط": "https://medrassatouna.com/wp-content/uploads/2020/11/تقييم-انقليزية-السنة-السادسة-الثلاثي-الاول-مدرستنا.pdf",
+          "المصدر": "medrassatouna.com"
+        },
+        {
+          "السنة": "6",
+          "النوع": "تقييم",
+          "الوصف": "Production-ramzi-mym-1-1.pdf",
+          "الرابط": "https://medrassatouna.com/wp-content/uploads/2020/12/Production-ramzi-mym-1-1.pdf",
+          "المصدر": "medrassatouna.com"
+        },
+        {
+          "السنة": "6",
+          "النوع": "تقييم",
+          "الوصف": "تقييم-انقليزية-السنة-السادسة-الثلاثي-الاول-مدرستنا-3-1.pdf",
+          "الرابط": "https://medrassatouna.com/wp-content/uploads/2020/12/تقييم-انقليزية-السنة-السادسة-الثلاثي-الاول-مدرستنا-3-1.pdf",
+          "المصدر": "medrassatouna.com"
+        },
+        {
+          "السنة": "6",
+          "النوع": "تقييم",
+          "الوصف": "تقييم-انقليزية-السنة-السادسة-الثلاثي-الاول-مدرستنا-3.pdf",
+          "الرابط": "https://medrassatouna.com/wp-content/uploads/2020/12/تقييم-انقليزية-السنة-السادسة-الثلاثي-الاول-مدرستنا-3.pdf",
+          "المصدر": "medrassatouna.com"
+        },
+        {
+          "السنة": "6",
+          "النوع": "تقييم",
+          "الوصف": "تقييم-انقليزية-السنة-السادسة-الثلاثي-الاول-مدرستنا.pdf",
+          "الرابط": "https://medrassatouna.com/wp-content/uploads/2020/12/تقييم-انقليزية-السنة-السادسة-الثلاثي-الاول-مدرستنا.pdf",
+          "المصدر": "medrassatouna.com"
+        },
+        {
+          "السنة": "6",
+          "النوع": "تقييم",
+          "الوصف": "انتاج-كتابي-سنة-2medrassatouna.pdf",
+          "الرابط": "https://medrassatouna.com/wp-content/uploads/2019/04/انتاج-كتابي-سنة-2medrassatouna.pdf",
+          "المصدر": "medrassatouna.com"
+        },
+        {
+          "السنة": "6",
+          "النوع": "تقييم",
+          "الوصف": "امتحان-الإنتاج-الكتابي-السنة-السادسة-الثلاثي-الثاني.pdf",
+          "الرابط": "https://medrassatouna.com/wp-content/uploads/2020/02/امتحان-الإنتاج-الكتابي-السنة-السادسة-الثلاثي-الثاني.pdf",
+          "المصدر": "medrassatouna.com"
+        },
+        {
+          "السنة": "6",
+          "النوع": "تقييم",
+          "الوصف": "anglais-6èma-medrassatouna.pdf",
+          "الرابط": "https://medrassatouna.com/wp-content/uploads/2019/04/anglais-6èma-medrassatouna.pdf",
+          "المصدر": "medrassatouna.com"
+        },
+        {
+          "السنة": "6",
+          "النوع": "تقييم",
+          "الوصف": "إيقاظ-سنة-6-medrassatouna.pdf",
+          "الرابط": "https://medrassatouna.com/wp-content/uploads/2019/04/إيقاظ-سنة-6-medrassatouna.pdf",
+          "المصدر": "medrassatouna.com"
+        },
+        {
+          "السنة": "6",
+          "النوع": "تقييم",
+          "الوصف": "تقييم-في-مادة-الإيقاظ-العلمي-السنة-الثالثة-الثلاثي-الاول.pdf",
+          "الرابط": "https://medrassatouna.com/wp-content/uploads/2019/11/تقييم-في-مادة-الإيقاظ-العلمي-السنة-الثالثة-الثلاثي-الاول.pdf",
+          "المصدر": "medrassatouna.com"
+        },
+        {
+          "السنة": "6",
+          "النوع": "تقييم",
+          "الوصف": "اصلاح-الإيقاظ-العلمي-السنة-السادسة.pdf",
+          "الرابط": "https://medrassatouna.com/wp-content/uploads/2020/02/اصلاح-الإيقاظ-العلمي-السنة-السادسة.pdf",
+          "المصدر": "medrassatouna.com"
+        },
+        {
+          "السنة": "6",
+          "النوع": "تقييم",
+          "الوصف": "تاريخ-سنة-6-medrassatouna.pdf",
+          "الرابط": "https://medrassatouna.com/wp-content/uploads/2019/04/تاريخ-سنة-6-medrassatouna.pdf",
+          "المصدر": "medrassatouna.com"
+        },
+        {
+          "السنة": "6",
+          "النوع": "تقييم",
+          "الوصف": "تقييم-في-مادة-التاريخ-السنة-السادسة-الثلاثي-الأول.pdf",
+          "الرابط": "https://medrassatouna.com/wp-content/uploads/2019/11/تقييم-في-مادة-التاريخ-السنة-السادسة-الثلاثي-الأول.pdf",
+          "المصدر": "medrassatouna.com"
+        },
+        {
+          "السنة": "6",
+          "النوع": "تقييم",
+          "الوصف": "إصلاح-تقييم-تاريخ-سنة-6-1.pdf",
+          "الرابط": "https://medrassatouna.com/wp-content/uploads/2020/02/إصلاح-تقييم-تاريخ-سنة-6-1.pdf",
+          "المصدر": "medrassatouna.com"
+        },
+        {
+          "السنة": "6",
+          "النوع": "تقييم",
+          "الوصف": "تقييم-تاريخ-سنة-6.pdf",
+          "الرابط": "https://medrassatouna.com/wp-content/uploads/2020/02/تقييم-تاريخ-سنة-6.pdf",
+          "المصدر": "medrassatouna.com"
+        },
+        {
+          "السنة": "6",
+          "النوع": "تقييم",
+          "الوصف": "تربية-إسلامية-سنة-5-ثلاثي-2-medrassatouna.pdf",
+          "الرابط": "https://medrassatouna.com/wp-content/uploads/2019/03/تربية-إسلامية-سنة-5-ثلاثي-2-medrassatouna.pdf",
+          "المصدر": "medrassatouna.com"
+        },
+        {
+          "السنة": "6",
+          "النوع": "تقييم",
+          "الوصف": "تربية-اسلامية-سنة-6-medrassatouna-1.pdf",
+          "الرابط": "https://medrassatouna.com/wp-content/uploads/2019/04/تربية-اسلامية-سنة-6-medrassatouna-1.pdf",
+          "المصدر": "medrassatouna.com"
+        },
+        {
+          "السنة": "6",
+          "النوع": "تقييم",
+          "الوصف": "تربية-مدنية-سنة-6-medrassatouna.pdf",
+          "الرابط": "https://medrassatouna.com/wp-content/uploads/2019/04/تربية-مدنية-سنة-6-medrassatouna.pdf",
+          "المصدر": "medrassatouna.com"
+        },
+        {
+          "السنة": "6",
+          "النوع": "تقييم",
+          "الوصف": "اصلاح-تقييم-تربية-مدنية-سنة-6.pdf",
+          "الرابط": "https://medrassatouna.com/wp-content/uploads/2020/02/اصلاح-تقييم-تربية-مدنية-سنة-6.pdf",
+          "المصدر": "medrassatouna.com"
+        },
+        {
+          "السنة": "6",
+          "النوع": "تقييم",
+          "الوصف": "تقييم-تربية-مدنية-سنة-6.pdf",
+          "الرابط": "https://medrassatouna.com/wp-content/uploads/2020/02/تقييم-تربية-مدنية-سنة-6.pdf",
+          "المصدر": "medrassatouna.com"
+        },
+        {
+          "السنة": "6",
+          "النوع": "تقييم",
+          "الوصف": "جغرافيا-سنة-6-medrassatouna-1.pdf",
+          "الرابط": "https://medrassatouna.com/wp-content/uploads/2019/04/جغرافيا-سنة-6-medrassatouna-1.pdf",
+          "المصدر": "medrassatouna.com"
+        },
+        {
+          "السنة": "6",
+          "النوع": "تقييم",
+          "الوصف": "تقييم-في-مادة-الجغرافيا-السنة-السادسة-الثلاثي-الأول.pdf",
+          "الرابط": "https://medrassatouna.com/wp-content/uploads/2019/11/تقييم-في-مادة-الجغرافيا-السنة-السادسة-الثلاثي-الأول.pdf",
+          "المصدر": "medrassatouna.com"
+        },
+        {
+          "السنة": "6",
+          "النوع": "تقييم",
+          "الوصف": "اصلاح-تقييم-جغرافيا-سنة-6.pdf",
+          "الرابط": "https://medrassatouna.com/wp-content/uploads/2020/02/اصلاح-تقييم-جغرافيا-سنة-6.pdf",
+          "المصدر": "medrassatouna.com"
+        },
+        {
+          "السنة": "6",
+          "النوع": "تقييم",
+          "الوصف": "تقييم-جغرافيا-سنة-6.pdf",
+          "الرابط": "https://medrassatouna.com/wp-content/uploads/2020/02/تقييم-جغرافيا-سنة-6.pdf",
+          "المصدر": "medrassatouna.com"
+        },
+        {
+          "السنة": "6",
+          "النوع": "تقييم",
+          "الوصف": "تقييم-في-مادة-الرياضيات-السنة-السادسة-الثلاثي-الأول.pdf",
+          "الرابط": "https://medrassatouna.com/wp-content/uploads/2019/11/تقييم-في-مادة-الرياضيات-السنة-السادسة-الثلاثي-الأول.pdf",
+          "المصدر": "medrassatouna.com"
+        },
+        {
+          "السنة": "6",
+          "النوع": "تقييم",
+          "الوصف": "امتحان-الرياضيات-السنة-السادسة.pdf",
+          "الرابط": "https://medrassatouna.com/wp-content/uploads/2020/02/امتحان-الرياضيات-السنة-السادسة.pdf",
+          "المصدر": "medrassatouna.com"
+        },
+        {
+          "السنة": "6",
+          "النوع": "تقييم",
+          "الوصف": "français-6ème-medrassatouna-1.pdf",
+          "الرابط": "https://medrassatouna.com/wp-content/uploads/2019/04/français-6ème-medrassatouna-1.pdf",
+          "المصدر": "medrassatouna.com"
+        },
+        {
+          "السنة": "6",
+          "النوع": "تقييم",
+          "الوصف": "français-6ème-medrassatouna.pdf",
+          "الرابط": "https://medrassatouna.com/wp-content/uploads/2019/04/français-6ème-medrassatouna.pdf",
+          "المصدر": "medrassatouna.com"
+        },
+        {
+          "السنة": "6",
+          "النوع": "تقييم",
+          "الوصف": "قراءة-سن-6-medrassatouna.pdf",
+          "الرابط": "https://medrassatouna.com/wp-content/uploads/2019/01/قراءة-سن-6-medrassatouna.pdf",
+          "المصدر": "medrassatouna.com"
+        },
+        {
+          "السنة": "6",
+          "النوع": "تقييم",
+          "الوصف": "تقييم-في-مادة-القراءة-السنة-السادسة-الثلاثي-الاول-1.pdf",
+          "الرابط": "https://medrassatouna.com/wp-content/uploads/2019/11/تقييم-في-مادة-القراءة-السنة-السادسة-الثلاثي-الاول-1.pdf",
+          "المصدر": "medrassatouna.com"
+        },
+        {
+          "السنة": "6",
+          "النوع": "تقييم",
+          "الوصف": "تقييم-قراءة-سنة-6.pdf",
+          "الرابط": "https://medrassatouna.com/wp-content/uploads/2020/02/تقييم-قراءة-سنة-6.pdf",
+          "المصدر": "medrassatouna.com"
+        },
+        {
+          "السنة": "6",
+          "النوع": "تقييم",
+          "الوصف": "lecture-compréhension-ramzi-mym-1.pdf",
+          "الرابط": "https://medrassatouna.com/wp-content/uploads/2020/12/lecture-compréhension-ramzi-mym-1.pdf",
+          "المصدر": "medrassatouna.com"
+        },
+        {
+          "السنة": "6",
+          "النوع": "تقييم",
+          "الوصف": "عربية-سنة-6-medrassatouna.pdf",
+          "الرابط": "https://medrassatouna.com/wp-content/uploads/2019/04/عربية-سنة-6-medrassatouna.pdf",
+          "المصدر": "medrassatouna.com"
+        },
+        {
+          "السنة": "6",
+          "النوع": "تقييم",
+          "الوصف": "اصلاح-امتحان-قواعد-اللغة-السنة-السادسة.pdf",
+          "الرابط": "https://medrassatouna.com/wp-content/uploads/2020/02/اصلاح-امتحان-قواعد-اللغة-السنة-السادسة.pdf",
+          "المصدر": "medrassatouna.com"
+        },
+        {
+          "السنة": "6",
+          "النوع": "تقييم",
+          "الوصف": "امتحان-قواعد-اللغة-السنة-السادسة.pdf",
+          "الرابط": "https://medrassatouna.com/wp-content/uploads/2020/02/امتحان-قواعد-اللغة-السنة-السادسة.pdf",
+          "المصدر": "medrassatouna.com"
+        },
+        {
+          "السنة": "6",
+          "النوع": "تقييم",
+          "الوصف": "langue-6ème-année-1.pdf",
+          "الرابط": "https://medrassatouna.com/wp-content/uploads/2020/12/langue-6ème-année-1.pdf",
+          "المصدر": "medrassatouna.com"
+        },
+        {
+          "السنة": "6",
+          "النوع": "تقييم",
+          "الوصف": "langue-arabe-1-1.pdf",
+          "الرابط": "https://medrassatouna.com/wp-content/uploads/2020/12/langue-arabe-1-1.pdf",
+          "المصدر": "medrassatouna.com"
+        }
+      ]
+    },
+    "devoir_tn": {
+      "count": 90,
+      "note": "Fichiers derriere pages HTML dans /primaire/Doc/",
+      "items": [
+        {
+          "السنة": "1",
+          "النوع": "تقييم",
+          "المادة": "تمارين-للمراجعة-في-عطلة-الربيع",
+          "الوصف": "انتاج-جمل-تدريب.pdf",
+          "الرابط": "https://www.devoir.tn/primaire/Doc/السـ1ـنة/وثائق-المعلم/وثـائـق-مـتـنـوعـة-4/تمارين-للمراجعة-في-عطلة-الربيع/انتاج-جمل-تدريب.pdf",
+          "المصدر": "devoir.tn"
+        },
+        {
+          "السنة": "1",
+          "النوع": "تقييم",
+          "المادة": "تمارين-للمراجعة-في-عطلة-الربيع",
+          "الوصف": "جدول-الحروف.pdf",
+          "الرابط": "https://www.devoir.tn/primaire/Doc/السـ1ـنة/وثائق-المعلم/وثـائـق-مـتـنـوعـة-4/تمارين-للمراجعة-في-عطلة-الربيع/جدول-الحروف.pdf",
+          "المصدر": "devoir.tn"
+        },
+        {
+          "السنة": "1",
+          "النوع": "تقييم",
+          "المادة": "تمارين-للمراجعة-في-عطلة-الربيع",
+          "الوصف": "خط-حرف-الطاء.pdf",
+          "الرابط": "https://www.devoir.tn/primaire/Doc/السـ1ـنة/وثائق-المعلم/وثـائـق-مـتـنـوعـة-4/تمارين-للمراجعة-في-عطلة-الربيع/خط-حرف-الطاء.pdf",
+          "المصدر": "devoir.tn"
+        },
+        {
+          "السنة": "1",
+          "النوع": "تقييم",
+          "المادة": "تمارين-للمراجعة-في-عطلة-الربيع",
+          "الوصف": "كتابة-مراجعة-1.pdf",
+          "الرابط": "https://www.devoir.tn/primaire/Doc/السـ1ـنة/وثائق-المعلم/وثـائـق-مـتـنـوعـة-4/تمارين-للمراجعة-في-عطلة-الربيع/كتابة-مراجعة-1.pdf",
+          "المصدر": "devoir.tn"
+        },
+        {
+          "السنة": "1",
+          "النوع": "تقييم",
+          "المادة": "تمارين-للمراجعة-في-عطلة-الربيع",
+          "الوصف": "كتابة-مراجعة-2.pdf",
+          "الرابط": "https://www.devoir.tn/primaire/Doc/السـ1ـنة/وثائق-المعلم/وثـائـق-مـتـنـوعـة-4/تمارين-للمراجعة-في-عطلة-الربيع/كتابة-مراجعة-2.pdf",
+          "المصدر": "devoir.tn"
+        },
+        {
+          "السنة": "1",
+          "النوع": "تقييم",
+          "المادة": "تمارين-للمراجعة-في-عطلة-الربيع",
+          "الوصف": "كتابة-مراجعة-3.pdf",
+          "الرابط": "https://www.devoir.tn/primaire/Doc/السـ1ـنة/وثائق-المعلم/وثـائـق-مـتـنـوعـة-4/تمارين-للمراجعة-في-عطلة-الربيع/كتابة-مراجعة-3.pdf",
+          "المصدر": "devoir.tn"
+        },
+        {
+          "السنة": "1",
+          "النوع": "تقييم",
+          "المادة": "تمارين-للمراجعة-في-عطلة-الربيع",
+          "الوصف": "كتابة-مراجعة-4.pdf",
+          "الرابط": "https://www.devoir.tn/primaire/Doc/السـ1ـنة/وثائق-المعلم/وثـائـق-مـتـنـوعـة-4/تمارين-للمراجعة-في-عطلة-الربيع/كتابة-مراجعة-4.pdf",
+          "المصدر": "devoir.tn"
+        },
+        {
+          "السنة": "1",
+          "النوع": "تقييم",
+          "المادة": "تمارين-للمراجعة-في-عطلة-الربيع",
+          "الوصف": "مراجعة-الانتاج-الكتابي.pdf",
+          "الرابط": "https://www.devoir.tn/primaire/Doc/السـ1ـنة/وثائق-المعلم/وثـائـق-مـتـنـوعـة-4/تمارين-للمراجعة-في-عطلة-الربيع/مراجعة-الانتاج-الكتابي.pdf",
+          "المصدر": "devoir.tn"
+        },
+        {
+          "السنة": "1",
+          "النوع": "تقييم",
+          "المادة": "تمارين-للمراجعة-في-عطلة-الربيع",
+          "الوصف": "مراجعة-الرياضيات-الثلاثي-2-سنة-اولى.pdf",
+          "الرابط": "https://www.devoir.tn/primaire/Doc/السـ1ـنة/وثائق-المعلم/وثـائـق-مـتـنـوعـة-4/تمارين-للمراجعة-في-عطلة-الربيع/مراجعة-الرياضيات-الثلاثي-2-سنة-اولى.pdf",
+          "المصدر": "devoir.tn"
+        },
+        {
+          "السنة": "1",
+          "النوع": "تقييم",
+          "المادة": "تمارين-للمراجعة-في-عطلة-الربيع",
+          "الوصف": "نسخ-الوحدة-5-ق-ت-ح.pdf",
+          "الرابط": "https://www.devoir.tn/primaire/Doc/السـ1ـنة/وثائق-المعلم/وثـائـق-مـتـنـوعـة-4/تمارين-للمراجعة-في-عطلة-الربيع/نسخ-الوحدة-5-ق-ت-ح.pdf",
+          "المصدر": "devoir.tn"
+        },
+        {
+          "السنة": "1",
+          "النوع": "تقييم",
+          "المادة": "دروس-و-تمارين-و-إمتحانات-1",
+          "الوصف": "سنتي-الأولى-1.doc",
+          "الرابط": "https://www.devoir.tn/primaire/Doc/السـ1ـنة/وثائق-المعلم/وثـائـق-مـتـنـوعـة-4/دروس-و-تمارين-و-إمتحانات-1/سنتي-الأولى-1.doc",
+          "المصدر": "devoir.tn"
+        },
+        {
+          "السنة": "1",
+          "النوع": "تقييم",
+          "المادة": "دروس-و-تمارين-و-إمتحانات-1",
+          "الوصف": "سنتي-الأولى-1.pdf",
+          "الرابط": "https://www.devoir.tn/primaire/Doc/السـ1ـنة/وثائق-المعلم/وثـائـق-مـتـنـوعـة-4/دروس-و-تمارين-و-إمتحانات-1/سنتي-الأولى-1.pdf",
+          "المصدر": "devoir.tn"
+        },
+        {
+          "السنة": "1",
+          "النوع": "تقييم",
+          "المادة": "دروس-و-تمارين-و-إمتحانات-1",
+          "الوصف": "سنتي-الأولى-10.doc",
+          "الرابط": "https://www.devoir.tn/primaire/Doc/السـ1ـنة/وثائق-المعلم/وثـائـق-مـتـنـوعـة-4/دروس-و-تمارين-و-إمتحانات-1/سنتي-الأولى-10.doc",
+          "المصدر": "devoir.tn"
+        },
+        {
+          "السنة": "1",
+          "النوع": "تقييم",
+          "المادة": "دروس-و-تمارين-و-إمتحانات-1",
+          "الوصف": "سنتي-الأولى-10.pdf",
+          "الرابط": "https://www.devoir.tn/primaire/Doc/السـ1ـنة/وثائق-المعلم/وثـائـق-مـتـنـوعـة-4/دروس-و-تمارين-و-إمتحانات-1/سنتي-الأولى-10.pdf",
+          "المصدر": "devoir.tn"
+        },
+        {
+          "السنة": "1",
+          "النوع": "تقييم",
+          "المادة": "دروس-و-تمارين-و-إمتحانات-1",
+          "الوصف": "سنتي-الأولى-11.docx",
+          "الرابط": "https://www.devoir.tn/primaire/Doc/السـ1ـنة/وثائق-المعلم/وثـائـق-مـتـنـوعـة-4/دروس-و-تمارين-و-إمتحانات-1/سنتي-الأولى-11.docx",
+          "المصدر": "devoir.tn"
+        },
+        {
+          "السنة": "1",
+          "النوع": "تقييم",
+          "المادة": "دروس-و-تمارين-و-إمتحانات-1",
+          "الوصف": "سنتي-الأولى-11.pdf",
+          "الرابط": "https://www.devoir.tn/primaire/Doc/السـ1ـنة/وثائق-المعلم/وثـائـق-مـتـنـوعـة-4/دروس-و-تمارين-و-إمتحانات-1/سنتي-الأولى-11.pdf",
+          "المصدر": "devoir.tn"
+        },
+        {
+          "السنة": "1",
+          "النوع": "تقييم",
+          "المادة": "دروس-و-تمارين-و-إمتحانات-1",
+          "الوصف": "سنتي-الأولى-12.doc",
+          "الرابط": "https://www.devoir.tn/primaire/Doc/السـ1ـنة/وثائق-المعلم/وثـائـق-مـتـنـوعـة-4/دروس-و-تمارين-و-إمتحانات-1/سنتي-الأولى-12.doc",
+          "المصدر": "devoir.tn"
+        },
+        {
+          "السنة": "1",
+          "النوع": "تقييم",
+          "المادة": "دروس-و-تمارين-و-إمتحانات-1",
+          "الوصف": "سنتي-الأولى-12.pdf",
+          "الرابط": "https://www.devoir.tn/primaire/Doc/السـ1ـنة/وثائق-المعلم/وثـائـق-مـتـنـوعـة-4/دروس-و-تمارين-و-إمتحانات-1/سنتي-الأولى-12.pdf",
+          "المصدر": "devoir.tn"
+        },
+        {
+          "السنة": "1",
+          "النوع": "تقييم",
+          "المادة": "دروس-و-تمارين-و-إمتحانات-1",
+          "الوصف": "سنتي-الأولى-13.docx",
+          "الرابط": "https://www.devoir.tn/primaire/Doc/السـ1ـنة/وثائق-المعلم/وثـائـق-مـتـنـوعـة-4/دروس-و-تمارين-و-إمتحانات-1/سنتي-الأولى-13.docx",
+          "المصدر": "devoir.tn"
+        },
+        {
+          "السنة": "1",
+          "النوع": "تقييم",
+          "المادة": "دروس-و-تمارين-و-إمتحانات-1",
+          "الوصف": "سنتي-الأولى-13.pdf",
+          "الرابط": "https://www.devoir.tn/primaire/Doc/السـ1ـنة/وثائق-المعلم/وثـائـق-مـتـنـوعـة-4/دروس-و-تمارين-و-إمتحانات-1/سنتي-الأولى-13.pdf",
+          "المصدر": "devoir.tn"
+        },
+        {
+          "السنة": "1",
+          "النوع": "تقييم",
+          "المادة": "دروس-و-تمارين-و-إمتحانات-1",
+          "الوصف": "سنتي-الأولى-14.docx",
+          "الرابط": "https://www.devoir.tn/primaire/Doc/السـ1ـنة/وثائق-المعلم/وثـائـق-مـتـنـوعـة-4/دروس-و-تمارين-و-إمتحانات-1/سنتي-الأولى-14.docx",
+          "المصدر": "devoir.tn"
+        },
+        {
+          "السنة": "1",
+          "النوع": "تقييم",
+          "المادة": "دروس-و-تمارين-و-إمتحانات-1",
+          "الوصف": "سنتي-الأولى-14.pdf",
+          "الرابط": "https://www.devoir.tn/primaire/Doc/السـ1ـنة/وثائق-المعلم/وثـائـق-مـتـنـوعـة-4/دروس-و-تمارين-و-إمتحانات-1/سنتي-الأولى-14.pdf",
+          "المصدر": "devoir.tn"
+        },
+        {
+          "السنة": "1",
+          "النوع": "تقييم",
+          "المادة": "دروس-و-تمارين-و-إمتحانات-1",
+          "الوصف": "سنتي-الأولى-15.docx",
+          "الرابط": "https://www.devoir.tn/primaire/Doc/السـ1ـنة/وثائق-المعلم/وثـائـق-مـتـنـوعـة-4/دروس-و-تمارين-و-إمتحانات-1/سنتي-الأولى-15.docx",
+          "المصدر": "devoir.tn"
+        },
+        {
+          "السنة": "1",
+          "النوع": "تقييم",
+          "المادة": "دروس-و-تمارين-و-إمتحانات-1",
+          "الوصف": "سنتي-الأولى-15.pdf",
+          "الرابط": "https://www.devoir.tn/primaire/Doc/السـ1ـنة/وثائق-المعلم/وثـائـق-مـتـنـوعـة-4/دروس-و-تمارين-و-إمتحانات-1/سنتي-الأولى-15.pdf",
+          "المصدر": "devoir.tn"
+        },
+        {
+          "السنة": "1",
+          "النوع": "تقييم",
+          "المادة": "دروس-و-تمارين-و-إمتحانات-1",
+          "الوصف": "سنتي-الأولى-16.docx",
+          "الرابط": "https://www.devoir.tn/primaire/Doc/السـ1ـنة/وثائق-المعلم/وثـائـق-مـتـنـوعـة-4/دروس-و-تمارين-و-إمتحانات-1/سنتي-الأولى-16.docx",
+          "المصدر": "devoir.tn"
+        },
+        {
+          "السنة": "1",
+          "النوع": "تقييم",
+          "المادة": "دروس-و-تمارين-و-إمتحانات-1",
+          "الوصف": "سنتي-الأولى-16.pdf",
+          "الرابط": "https://www.devoir.tn/primaire/Doc/السـ1ـنة/وثائق-المعلم/وثـائـق-مـتـنـوعـة-4/دروس-و-تمارين-و-إمتحانات-1/سنتي-الأولى-16.pdf",
+          "المصدر": "devoir.tn"
+        },
+        {
+          "السنة": "1",
+          "النوع": "تقييم",
+          "المادة": "دروس-و-تمارين-و-إمتحانات-1",
+          "الوصف": "سنتي-الأولى-17.docx",
+          "الرابط": "https://www.devoir.tn/primaire/Doc/السـ1ـنة/وثائق-المعلم/وثـائـق-مـتـنـوعـة-4/دروس-و-تمارين-و-إمتحانات-1/سنتي-الأولى-17.docx",
+          "المصدر": "devoir.tn"
+        },
+        {
+          "السنة": "1",
+          "النوع": "تقييم",
+          "المادة": "دروس-و-تمارين-و-إمتحانات-1",
+          "الوصف": "سنتي-الأولى-17.pdf",
+          "الرابط": "https://www.devoir.tn/primaire/Doc/السـ1ـنة/وثائق-المعلم/وثـائـق-مـتـنـوعـة-4/دروس-و-تمارين-و-إمتحانات-1/سنتي-الأولى-17.pdf",
+          "المصدر": "devoir.tn"
+        },
+        {
+          "السنة": "1",
+          "النوع": "تقييم",
+          "المادة": "دروس-و-تمارين-و-إمتحانات-1",
+          "الوصف": "سنتي-الأولى-18.docx",
+          "الرابط": "https://www.devoir.tn/primaire/Doc/السـ1ـنة/وثائق-المعلم/وثـائـق-مـتـنـوعـة-4/دروس-و-تمارين-و-إمتحانات-1/سنتي-الأولى-18.docx",
+          "المصدر": "devoir.tn"
+        },
+        {
+          "السنة": "1",
+          "النوع": "تقييم",
+          "المادة": "دروس-و-تمارين-و-إمتحانات-1",
+          "الوصف": "سنتي-الأولى-18.pdf",
+          "الرابط": "https://www.devoir.tn/primaire/Doc/السـ1ـنة/وثائق-المعلم/وثـائـق-مـتـنـوعـة-4/دروس-و-تمارين-و-إمتحانات-1/سنتي-الأولى-18.pdf",
+          "المصدر": "devoir.tn"
+        },
+        {
+          "السنة": "1",
+          "النوع": "تقييم",
+          "المادة": "دروس-و-تمارين-و-إمتحانات-1",
+          "الوصف": "سنتي-الأولى-2.docx",
+          "الرابط": "https://www.devoir.tn/primaire/Doc/السـ1ـنة/وثائق-المعلم/وثـائـق-مـتـنـوعـة-4/دروس-و-تمارين-و-إمتحانات-1/سنتي-الأولى-2.docx",
+          "المصدر": "devoir.tn"
+        },
+        {
+          "السنة": "1",
+          "النوع": "تقييم",
+          "المادة": "دروس-و-تمارين-و-إمتحانات-1",
+          "الوصف": "سنتي-الأولى-2.pdf",
+          "الرابط": "https://www.devoir.tn/primaire/Doc/السـ1ـنة/وثائق-المعلم/وثـائـق-مـتـنـوعـة-4/دروس-و-تمارين-و-إمتحانات-1/سنتي-الأولى-2.pdf",
+          "المصدر": "devoir.tn"
+        },
+        {
+          "السنة": "1",
+          "النوع": "تقييم",
+          "المادة": "دروس-و-تمارين-و-إمتحانات-1",
+          "الوصف": "سنتي-الأولى-3.pdf",
+          "الرابط": "https://www.devoir.tn/primaire/Doc/السـ1ـنة/وثائق-المعلم/وثـائـق-مـتـنـوعـة-4/دروس-و-تمارين-و-إمتحانات-1/سنتي-الأولى-3.pdf",
+          "المصدر": "devoir.tn"
+        },
+        {
+          "السنة": "1",
+          "النوع": "تقييم",
+          "المادة": "دروس-و-تمارين-و-إمتحانات-1",
+          "الوصف": "سنتي-الأولى-4.doc",
+          "الرابط": "https://www.devoir.tn/primaire/Doc/السـ1ـنة/وثائق-المعلم/وثـائـق-مـتـنـوعـة-4/دروس-و-تمارين-و-إمتحانات-1/سنتي-الأولى-4.doc",
+          "المصدر": "devoir.tn"
+        },
+        {
+          "السنة": "1",
+          "النوع": "تقييم",
+          "المادة": "دروس-و-تمارين-و-إمتحانات-1",
+          "الوصف": "سنتي-الأولى-4.pdf",
+          "الرابط": "https://www.devoir.tn/primaire/Doc/السـ1ـنة/وثائق-المعلم/وثـائـق-مـتـنـوعـة-4/دروس-و-تمارين-و-إمتحانات-1/سنتي-الأولى-4.pdf",
+          "المصدر": "devoir.tn"
+        },
+        {
+          "السنة": "1",
+          "النوع": "تقييم",
+          "المادة": "دروس-و-تمارين-و-إمتحانات-1",
+          "الوصف": "سنتي-الأولى-5.docx",
+          "الرابط": "https://www.devoir.tn/primaire/Doc/السـ1ـنة/وثائق-المعلم/وثـائـق-مـتـنـوعـة-4/دروس-و-تمارين-و-إمتحانات-1/سنتي-الأولى-5.docx",
+          "المصدر": "devoir.tn"
+        },
+        {
+          "السنة": "1",
+          "النوع": "تقييم",
+          "المادة": "دروس-و-تمارين-و-إمتحانات-1",
+          "الوصف": "سنتي-الأولى-5.pdf",
+          "الرابط": "https://www.devoir.tn/primaire/Doc/السـ1ـنة/وثائق-المعلم/وثـائـق-مـتـنـوعـة-4/دروس-و-تمارين-و-إمتحانات-1/سنتي-الأولى-5.pdf",
+          "المصدر": "devoir.tn"
+        },
+        {
+          "السنة": "1",
+          "النوع": "تقييم",
+          "المادة": "دروس-و-تمارين-و-إمتحانات-1",
+          "الوصف": "سنتي-الأولى-6.pdf",
+          "الرابط": "https://www.devoir.tn/primaire/Doc/السـ1ـنة/وثائق-المعلم/وثـائـق-مـتـنـوعـة-4/دروس-و-تمارين-و-إمتحانات-1/سنتي-الأولى-6.pdf",
+          "المصدر": "devoir.tn"
+        },
+        {
+          "السنة": "1",
+          "النوع": "تقييم",
+          "المادة": "دروس-و-تمارين-و-إمتحانات-1",
+          "الوصف": "سنتي-الأولى-7.doc",
+          "الرابط": "https://www.devoir.tn/primaire/Doc/السـ1ـنة/وثائق-المعلم/وثـائـق-مـتـنـوعـة-4/دروس-و-تمارين-و-إمتحانات-1/سنتي-الأولى-7.doc",
+          "المصدر": "devoir.tn"
+        },
+        {
+          "السنة": "1",
+          "النوع": "تقييم",
+          "المادة": "دروس-و-تمارين-و-إمتحانات-1",
+          "الوصف": "سنتي-الأولى-7.pdf",
+          "الرابط": "https://www.devoir.tn/primaire/Doc/السـ1ـنة/وثائق-المعلم/وثـائـق-مـتـنـوعـة-4/دروس-و-تمارين-و-إمتحانات-1/سنتي-الأولى-7.pdf",
+          "المصدر": "devoir.tn"
+        },
+        {
+          "السنة": "1",
+          "النوع": "تقييم",
+          "المادة": "دروس-و-تمارين-و-إمتحانات-1",
+          "الوصف": "سنتي-الأولى-8.docx",
+          "الرابط": "https://www.devoir.tn/primaire/Doc/السـ1ـنة/وثائق-المعلم/وثـائـق-مـتـنـوعـة-4/دروس-و-تمارين-و-إمتحانات-1/سنتي-الأولى-8.docx",
+          "المصدر": "devoir.tn"
+        },
+        {
+          "السنة": "1",
+          "النوع": "تقييم",
+          "المادة": "دروس-و-تمارين-و-إمتحانات-1",
+          "الوصف": "سنتي-الأولى-8.pdf",
+          "الرابط": "https://www.devoir.tn/primaire/Doc/السـ1ـنة/وثائق-المعلم/وثـائـق-مـتـنـوعـة-4/دروس-و-تمارين-و-إمتحانات-1/سنتي-الأولى-8.pdf",
+          "المصدر": "devoir.tn"
+        },
+        {
+          "السنة": "1",
+          "النوع": "تقييم",
+          "المادة": "دروس-و-تمارين-و-إمتحانات-1",
+          "الوصف": "سنتي-الأولى-9.pdf",
+          "الرابط": "https://www.devoir.tn/primaire/Doc/السـ1ـنة/وثائق-المعلم/وثـائـق-مـتـنـوعـة-4/دروس-و-تمارين-و-إمتحانات-1/سنتي-الأولى-9.pdf",
+          "المصدر": "devoir.tn"
+        },
+        {
+          "السنة": "1",
+          "النوع": "تقييم",
+          "المادة": "دروس-و-تمارين-و-إمتحانات-2",
+          "الوصف": "سنتي-الأولى-1.doc",
+          "الرابط": "https://www.devoir.tn/primaire/Doc/السـ1ـنة/وثائق-المعلم/وثـائـق-مـتـنـوعـة-4/دروس-و-تمارين-و-إمتحانات-2/سنتي-الأولى-1.doc",
+          "المصدر": "devoir.tn"
+        },
+        {
+          "السنة": "1",
+          "النوع": "تقييم",
+          "المادة": "دروس-و-تمارين-و-إمتحانات-2",
+          "الوصف": "سنتي-الأولى-1.pdf",
+          "الرابط": "https://www.devoir.tn/primaire/Doc/السـ1ـنة/وثائق-المعلم/وثـائـق-مـتـنـوعـة-4/دروس-و-تمارين-و-إمتحانات-2/سنتي-الأولى-1.pdf",
+          "المصدر": "devoir.tn"
+        },
+        {
+          "السنة": "1",
+          "النوع": "تقييم",
+          "المادة": "دروس-و-تمارين-و-إمتحانات-2",
+          "الوصف": "سنتي-الأولى-10.doc",
+          "الرابط": "https://www.devoir.tn/primaire/Doc/السـ1ـنة/وثائق-المعلم/وثـائـق-مـتـنـوعـة-4/دروس-و-تمارين-و-إمتحانات-2/سنتي-الأولى-10.doc",
+          "المصدر": "devoir.tn"
+        },
+        {
+          "السنة": "1",
+          "النوع": "تقييم",
+          "المادة": "دروس-و-تمارين-و-إمتحانات-2",
+          "الوصف": "سنتي-الأولى-10.pdf",
+          "الرابط": "https://www.devoir.tn/primaire/Doc/السـ1ـنة/وثائق-المعلم/وثـائـق-مـتـنـوعـة-4/دروس-و-تمارين-و-إمتحانات-2/سنتي-الأولى-10.pdf",
+          "المصدر": "devoir.tn"
+        },
+        {
+          "السنة": "1",
+          "النوع": "تقييم",
+          "المادة": "دروس-و-تمارين-و-إمتحانات-2",
+          "الوصف": "سنتي-الأولى-11.doc",
+          "الرابط": "https://www.devoir.tn/primaire/Doc/السـ1ـنة/وثائق-المعلم/وثـائـق-مـتـنـوعـة-4/دروس-و-تمارين-و-إمتحانات-2/سنتي-الأولى-11.doc",
+          "المصدر": "devoir.tn"
+        },
+        {
+          "السنة": "1",
+          "النوع": "تقييم",
+          "المادة": "دروس-و-تمارين-و-إمتحانات-2",
+          "الوصف": "سنتي-الأولى-11.pdf",
+          "الرابط": "https://www.devoir.tn/primaire/Doc/السـ1ـنة/وثائق-المعلم/وثـائـق-مـتـنـوعـة-4/دروس-و-تمارين-و-إمتحانات-2/سنتي-الأولى-11.pdf",
+          "المصدر": "devoir.tn"
+        },
+        {
+          "السنة": "1",
+          "النوع": "تقييم",
+          "المادة": "دروس-و-تمارين-و-إمتحانات-2",
+          "الوصف": "سنتي-الأولى-12.doc",
+          "الرابط": "https://www.devoir.tn/primaire/Doc/السـ1ـنة/وثائق-المعلم/وثـائـق-مـتـنـوعـة-4/دروس-و-تمارين-و-إمتحانات-2/سنتي-الأولى-12.doc",
+          "المصدر": "devoir.tn"
+        },
+        {
+          "السنة": "1",
+          "النوع": "تقييم",
+          "المادة": "دروس-و-تمارين-و-إمتحانات-2",
+          "الوصف": "سنتي-الأولى-12.pdf",
+          "الرابط": "https://www.devoir.tn/primaire/Doc/السـ1ـنة/وثائق-المعلم/وثـائـق-مـتـنـوعـة-4/دروس-و-تمارين-و-إمتحانات-2/سنتي-الأولى-12.pdf",
+          "المصدر": "devoir.tn"
+        },
+        {
+          "السنة": "1",
+          "النوع": "تقييم",
+          "المادة": "دروس-و-تمارين-و-إمتحانات-2",
+          "الوصف": "سنتي-الأولى-13.docx",
+          "الرابط": "https://www.devoir.tn/primaire/Doc/السـ1ـنة/وثائق-المعلم/وثـائـق-مـتـنـوعـة-4/دروس-و-تمارين-و-إمتحانات-2/سنتي-الأولى-13.docx",
+          "المصدر": "devoir.tn"
+        },
+        {
+          "السنة": "1",
+          "النوع": "تقييم",
+          "المادة": "دروس-و-تمارين-و-إمتحانات-2",
+          "الوصف": "سنتي-الأولى-13.pdf",
+          "الرابط": "https://www.devoir.tn/primaire/Doc/السـ1ـنة/وثائق-المعلم/وثـائـق-مـتـنـوعـة-4/دروس-و-تمارين-و-إمتحانات-2/سنتي-الأولى-13.pdf",
+          "المصدر": "devoir.tn"
+        },
+        {
+          "السنة": "1",
+          "النوع": "تقييم",
+          "المادة": "دروس-و-تمارين-و-إمتحانات-2",
+          "الوصف": "سنتي-الأولى-14.doc",
+          "الرابط": "https://www.devoir.tn/primaire/Doc/السـ1ـنة/وثائق-المعلم/وثـائـق-مـتـنـوعـة-4/دروس-و-تمارين-و-إمتحانات-2/سنتي-الأولى-14.doc",
+          "المصدر": "devoir.tn"
+        },
+        {
+          "السنة": "1",
+          "النوع": "تقييم",
+          "المادة": "دروس-و-تمارين-و-إمتحانات-2",
+          "الوصف": "سنتي-الأولى-14.pdf",
+          "الرابط": "https://www.devoir.tn/primaire/Doc/السـ1ـنة/وثائق-المعلم/وثـائـق-مـتـنـوعـة-4/دروس-و-تمارين-و-إمتحانات-2/سنتي-الأولى-14.pdf",
+          "المصدر": "devoir.tn"
+        },
+        {
+          "السنة": "1",
+          "النوع": "تقييم",
+          "المادة": "دروس-و-تمارين-و-إمتحانات-2",
+          "الوصف": "سنتي-الأولى-2.doc",
+          "الرابط": "https://www.devoir.tn/primaire/Doc/السـ1ـنة/وثائق-المعلم/وثـائـق-مـتـنـوعـة-4/دروس-و-تمارين-و-إمتحانات-2/سنتي-الأولى-2.doc",
+          "المصدر": "devoir.tn"
+        },
+        {
+          "السنة": "1",
+          "النوع": "تقييم",
+          "المادة": "دروس-و-تمارين-و-إمتحانات-2",
+          "الوصف": "سنتي-الأولى-2.pdf",
+          "الرابط": "https://www.devoir.tn/primaire/Doc/السـ1ـنة/وثائق-المعلم/وثـائـق-مـتـنـوعـة-4/دروس-و-تمارين-و-إمتحانات-2/سنتي-الأولى-2.pdf",
+          "المصدر": "devoir.tn"
+        },
+        {
+          "السنة": "1",
+          "النوع": "تقييم",
+          "المادة": "دروس-و-تمارين-و-إمتحانات-2",
+          "الوصف": "سنتي-الأولى-3.doc",
+          "الرابط": "https://www.devoir.tn/primaire/Doc/السـ1ـنة/وثائق-المعلم/وثـائـق-مـتـنـوعـة-4/دروس-و-تمارين-و-إمتحانات-2/سنتي-الأولى-3.doc",
+          "المصدر": "devoir.tn"
+        },
+        {
+          "السنة": "1",
+          "النوع": "تقييم",
+          "المادة": "دروس-و-تمارين-و-إمتحانات-2",
+          "الوصف": "سنتي-الأولى-3.pdf",
+          "الرابط": "https://www.devoir.tn/primaire/Doc/السـ1ـنة/وثائق-المعلم/وثـائـق-مـتـنـوعـة-4/دروس-و-تمارين-و-إمتحانات-2/سنتي-الأولى-3.pdf",
+          "المصدر": "devoir.tn"
+        },
+        {
+          "السنة": "1",
+          "النوع": "تقييم",
+          "المادة": "دروس-و-تمارين-و-إمتحانات-2",
+          "الوصف": "سنتي-الأولى-4.docx",
+          "الرابط": "https://www.devoir.tn/primaire/Doc/السـ1ـنة/وثائق-المعلم/وثـائـق-مـتـنـوعـة-4/دروس-و-تمارين-و-إمتحانات-2/سنتي-الأولى-4.docx",
+          "المصدر": "devoir.tn"
+        },
+        {
+          "السنة": "1",
+          "النوع": "تقييم",
+          "المادة": "دروس-و-تمارين-و-إمتحانات-2",
+          "الوصف": "سنتي-الأولى-4.pdf",
+          "الرابط": "https://www.devoir.tn/primaire/Doc/السـ1ـنة/وثائق-المعلم/وثـائـق-مـتـنـوعـة-4/دروس-و-تمارين-و-إمتحانات-2/سنتي-الأولى-4.pdf",
+          "المصدر": "devoir.tn"
+        },
+        {
+          "السنة": "1",
+          "النوع": "تقييم",
+          "المادة": "دروس-و-تمارين-و-إمتحانات-2",
+          "الوصف": "سنتي-الأولى-5.docx",
+          "الرابط": "https://www.devoir.tn/primaire/Doc/السـ1ـنة/وثائق-المعلم/وثـائـق-مـتـنـوعـة-4/دروس-و-تمارين-و-إمتحانات-2/سنتي-الأولى-5.docx",
+          "المصدر": "devoir.tn"
+        },
+        {
+          "السنة": "1",
+          "النوع": "تقييم",
+          "المادة": "دروس-و-تمارين-و-إمتحانات-2",
+          "الوصف": "سنتي-الأولى-5.pdf",
+          "الرابط": "https://www.devoir.tn/primaire/Doc/السـ1ـنة/وثائق-المعلم/وثـائـق-مـتـنـوعـة-4/دروس-و-تمارين-و-إمتحانات-2/سنتي-الأولى-5.pdf",
+          "المصدر": "devoir.tn"
+        },
+        {
+          "السنة": "1",
+          "النوع": "تقييم",
+          "المادة": "دروس-و-تمارين-و-إمتحانات-2",
+          "الوصف": "سنتي-الأولى-6.doc",
+          "الرابط": "https://www.devoir.tn/primaire/Doc/السـ1ـنة/وثائق-المعلم/وثـائـق-مـتـنـوعـة-4/دروس-و-تمارين-و-إمتحانات-2/سنتي-الأولى-6.doc",
+          "المصدر": "devoir.tn"
+        },
+        {
+          "السنة": "1",
+          "النوع": "تقييم",
+          "المادة": "دروس-و-تمارين-و-إمتحانات-2",
+          "الوصف": "سنتي-الأولى-6.pdf",
+          "الرابط": "https://www.devoir.tn/primaire/Doc/السـ1ـنة/وثائق-المعلم/وثـائـق-مـتـنـوعـة-4/دروس-و-تمارين-و-إمتحانات-2/سنتي-الأولى-6.pdf",
+          "المصدر": "devoir.tn"
+        },
+        {
+          "السنة": "1",
+          "النوع": "تقييم",
+          "المادة": "دروس-و-تمارين-و-إمتحانات-2",
+          "الوصف": "سنتي-الأولى-7.doc",
+          "الرابط": "https://www.devoir.tn/primaire/Doc/السـ1ـنة/وثائق-المعلم/وثـائـق-مـتـنـوعـة-4/دروس-و-تمارين-و-إمتحانات-2/سنتي-الأولى-7.doc",
+          "المصدر": "devoir.tn"
+        },
+        {
+          "السنة": "1",
+          "النوع": "تقييم",
+          "المادة": "دروس-و-تمارين-و-إمتحانات-2",
+          "الوصف": "سنتي-الأولى-7.pdf",
+          "الرابط": "https://www.devoir.tn/primaire/Doc/السـ1ـنة/وثائق-المعلم/وثـائـق-مـتـنـوعـة-4/دروس-و-تمارين-و-إمتحانات-2/سنتي-الأولى-7.pdf",
+          "المصدر": "devoir.tn"
+        },
+        {
+          "السنة": "1",
+          "النوع": "تقييم",
+          "المادة": "دروس-و-تمارين-و-إمتحانات-2",
+          "الوصف": "سنتي-الأولى-8.docx",
+          "الرابط": "https://www.devoir.tn/primaire/Doc/السـ1ـنة/وثائق-المعلم/وثـائـق-مـتـنـوعـة-4/دروس-و-تمارين-و-إمتحانات-2/سنتي-الأولى-8.docx",
+          "المصدر": "devoir.tn"
+        },
+        {
+          "السنة": "1",
+          "النوع": "تقييم",
+          "المادة": "دروس-و-تمارين-و-إمتحانات-2",
+          "الوصف": "سنتي-الأولى-8.pdf",
+          "الرابط": "https://www.devoir.tn/primaire/Doc/السـ1ـنة/وثائق-المعلم/وثـائـق-مـتـنـوعـة-4/دروس-و-تمارين-و-إمتحانات-2/سنتي-الأولى-8.pdf",
+          "المصدر": "devoir.tn"
+        },
+        {
+          "السنة": "1",
+          "النوع": "تقييم",
+          "المادة": "دروس-و-تمارين-و-إمتحانات-2",
+          "الوصف": "سنتي-الأولى-9.doc",
+          "الرابط": "https://www.devoir.tn/primaire/Doc/السـ1ـنة/وثائق-المعلم/وثـائـق-مـتـنـوعـة-4/دروس-و-تمارين-و-إمتحانات-2/سنتي-الأولى-9.doc",
+          "المصدر": "devoir.tn"
+        },
+        {
+          "السنة": "1",
+          "النوع": "تقييم",
+          "المادة": "دروس-و-تمارين-و-إمتحانات-2",
+          "الوصف": "سنتي-الأولى-9.pdf",
+          "الرابط": "https://www.devoir.tn/primaire/Doc/السـ1ـنة/وثائق-المعلم/وثـائـق-مـتـنـوعـة-4/دروس-و-تمارين-و-إمتحانات-2/سنتي-الأولى-9.pdf",
+          "المصدر": "devoir.tn"
+        },
+        {
+          "السنة": "1",
+          "النوع": "تقييم",
+          "المادة": "دروس-و-تمارين-و-إمتحانات-3",
+          "الوصف": "سنتي-الأولى-1.doc",
+          "الرابط": "https://www.devoir.tn/primaire/Doc/السـ1ـنة/وثائق-المعلم/وثـائـق-مـتـنـوعـة-4/دروس-و-تمارين-و-إمتحانات-3/سنتي-الأولى-1.doc",
+          "المصدر": "devoir.tn"
+        },
+        {
+          "السنة": "1",
+          "النوع": "تقييم",
+          "المادة": "دروس-و-تمارين-و-إمتحانات-3",
+          "الوصف": "سنتي-الأولى-1.pdf",
+          "الرابط": "https://www.devoir.tn/primaire/Doc/السـ1ـنة/وثائق-المعلم/وثـائـق-مـتـنـوعـة-4/دروس-و-تمارين-و-إمتحانات-3/سنتي-الأولى-1.pdf",
+          "المصدر": "devoir.tn"
+        },
+        {
+          "السنة": "1",
+          "النوع": "تقييم",
+          "المادة": "دروس-و-تمارين-و-إمتحانات-3",
+          "الوصف": "سنتي-الأولى-2.docx",
+          "الرابط": "https://www.devoir.tn/primaire/Doc/السـ1ـنة/وثائق-المعلم/وثـائـق-مـتـنـوعـة-4/دروس-و-تمارين-و-إمتحانات-3/سنتي-الأولى-2.docx",
+          "المصدر": "devoir.tn"
+        },
+        {
+          "السنة": "1",
+          "النوع": "تقييم",
+          "المادة": "دروس-و-تمارين-و-إمتحانات-3",
+          "الوصف": "سنتي-الأولى-2.pdf",
+          "الرابط": "https://www.devoir.tn/primaire/Doc/السـ1ـنة/وثائق-المعلم/وثـائـق-مـتـنـوعـة-4/دروس-و-تمارين-و-إمتحانات-3/سنتي-الأولى-2.pdf",
+          "المصدر": "devoir.tn"
+        },
+        {
+          "السنة": "1",
+          "النوع": "تقييم",
+          "المادة": "دروس-و-تمارين-و-إمتحانات-3",
+          "الوصف": "سنتي-الأولى-3.doc",
+          "الرابط": "https://www.devoir.tn/primaire/Doc/السـ1ـنة/وثائق-المعلم/وثـائـق-مـتـنـوعـة-4/دروس-و-تمارين-و-إمتحانات-3/سنتي-الأولى-3.doc",
+          "المصدر": "devoir.tn"
+        },
+        {
+          "السنة": "1",
+          "النوع": "تقييم",
+          "المادة": "دروس-و-تمارين-و-إمتحانات-3",
+          "الوصف": "سنتي-الأولى-3.pdf",
+          "الرابط": "https://www.devoir.tn/primaire/Doc/السـ1ـنة/وثائق-المعلم/وثـائـق-مـتـنـوعـة-4/دروس-و-تمارين-و-إمتحانات-3/سنتي-الأولى-3.pdf",
+          "المصدر": "devoir.tn"
+        },
+        {
+          "السنة": "1",
+          "النوع": "تقييم",
+          "المادة": "دروس-و-تمارين-و-إمتحانات-3",
+          "الوصف": "سنتي-الأولى-4.docx",
+          "الرابط": "https://www.devoir.tn/primaire/Doc/السـ1ـنة/وثائق-المعلم/وثـائـق-مـتـنـوعـة-4/دروس-و-تمارين-و-إمتحانات-3/سنتي-الأولى-4.docx",
+          "المصدر": "devoir.tn"
+        },
+        {
+          "السنة": "1",
+          "النوع": "تقييم",
+          "المادة": "دروس-و-تمارين-و-إمتحانات-3",
+          "الوصف": "سنتي-الأولى-4.pdf",
+          "الرابط": "https://www.devoir.tn/primaire/Doc/السـ1ـنة/وثائق-المعلم/وثـائـق-مـتـنـوعـة-4/دروس-و-تمارين-و-إمتحانات-3/سنتي-الأولى-4.pdf",
+          "المصدر": "devoir.tn"
+        },
+        {
+          "السنة": "1",
+          "النوع": "تقييم",
+          "المادة": "دروس-و-تمارين-و-إمتحانات-3",
+          "الوصف": "سنتي-الأولى-5.doc",
+          "الرابط": "https://www.devoir.tn/primaire/Doc/السـ1ـنة/وثائق-المعلم/وثـائـق-مـتـنـوعـة-4/دروس-و-تمارين-و-إمتحانات-3/سنتي-الأولى-5.doc",
+          "المصدر": "devoir.tn"
+        },
+        {
+          "السنة": "1",
+          "النوع": "تقييم",
+          "المادة": "دروس-و-تمارين-و-إمتحانات-3",
+          "الوصف": "سنتي-الأولى-5.pdf",
+          "الرابط": "https://www.devoir.tn/primaire/Doc/السـ1ـنة/وثائق-المعلم/وثـائـق-مـتـنـوعـة-4/دروس-و-تمارين-و-إمتحانات-3/سنتي-الأولى-5.pdf",
+          "المصدر": "devoir.tn"
+        },
+        {
+          "السنة": "1",
+          "النوع": "تقييم",
+          "المادة": "دروس-و-تمارين-و-إمتحانات-3",
+          "الوصف": "سنتي-الأولى-6.doc",
+          "الرابط": "https://www.devoir.tn/primaire/Doc/السـ1ـنة/وثائق-المعلم/وثـائـق-مـتـنـوعـة-4/دروس-و-تمارين-و-إمتحانات-3/سنتي-الأولى-6.doc",
+          "المصدر": "devoir.tn"
+        },
+        {
+          "السنة": "1",
+          "النوع": "تقييم",
+          "المادة": "دروس-و-تمارين-و-إمتحانات-3",
+          "الوصف": "سنتي-الأولى-6.pdf",
+          "الرابط": "https://www.devoir.tn/primaire/Doc/السـ1ـنة/وثائق-المعلم/وثـائـق-مـتـنـوعـة-4/دروس-و-تمارين-و-إمتحانات-3/سنتي-الأولى-6.pdf",
+          "المصدر": "devoir.tn"
+        },
+        {
+          "السنة": "2",
+          "النوع": "تقييم",
+          "المادة": "الإنتاج-الكتابي",
+          "الوصف": "تقييم-الوحدة-7-إنتاج-الكتابي.doc",
+          "الرابط": "https://www.devoir.tn/primaire/Doc/السـ2ـنة/وثائق-المعلم/وثـائـق-مـتـنـوعـة-1/الإنـتاج-الكتابـي/تقييم-الوحدة-7-إنتاج-الكتابي.doc",
+          "المصدر": "devoir.tn"
+        },
+        {
+          "السنة": "2",
+          "النوع": "تقييم",
+          "المادة": "الإنتاج-الكتابي",
+          "الوصف": "تقييم-الوحدة-7-إنتاج-الكتابي.pdf",
+          "الرابط": "https://www.devoir.tn/primaire/Doc/السـ2ـنة/وثائق-المعلم/وثـائـق-مـتـنـوعـة-1/الإنـتاج-الكتابـي/تقييم-الوحدة-7-إنتاج-الكتابي.pdf",
+          "المصدر": "devoir.tn"
+        },
+        {
+          "السنة": "2",
+          "النوع": "تقييم",
+          "المادة": "الرياضيات",
+          "الوصف": "كراس-التقييم-و-المتابعة-رياضيات-س2.doc",
+          "الرابط": "https://www.devoir.tn/primaire/Doc/السـ2ـنة/وثائق-المعلم/وثـائـق-مـتـنـوعـة-1/الـريـاضـيـات/كراس-التقييم-و-المتابعة-رياضيات-س2.doc",
+          "المصدر": "devoir.tn"
+        },
+        {
+          "السنة": "2",
+          "النوع": "تقييم",
+          "المادة": "الرياضيات",
+          "الوصف": "كراس-التقييم-و-المتابعة-رياضيات-س2.pdf",
+          "الرابط": "https://www.devoir.tn/primaire/Doc/السـ2ـنة/وثائق-المعلم/وثـائـق-مـتـنـوعـة-1/الـريـاضـيـات/كراس-التقييم-و-المتابعة-رياضيات-س2.pdf",
+          "المصدر": "devoir.tn"
+        },
+        {
+          "السنة": "2",
+          "النوع": "تقييم",
+          "المادة": "القراءة",
+          "الوصف": "تقييم-الوحدة-7.doc",
+          "الرابط": "https://www.devoir.tn/primaire/Doc/السـ2ـنة/وثائق-المعلم/وثـائـق-مـتـنـوعـة-1/الـقـراءة/تقييم-الوحدة-7.doc",
+          "المصدر": "devoir.tn"
+        },
+        {
+          "السنة": "2",
+          "النوع": "تقييم",
+          "المادة": "القراءة",
+          "الوصف": "تقييم-الوحدة-7.pdf",
+          "الرابط": "https://www.devoir.tn/primaire/Doc/السـ2ـنة/وثائق-المعلم/وثـائـق-مـتـنـوعـة-1/الـقـراءة/تقييم-الوحدة-7.pdf",
+          "المصدر": "devoir.tn"
+        },
+        {
+          "السنة": "5",
+          "النوع": "تقييم",
+          "المادة": "الرياضيات",
+          "الوصف": "اختبار-توجيهي-5.pdf",
+          "الرابط": "https://www.devoir.tn/primaire/Doc/السـ5ـنة/وثائق-المعلم/وثـائـق-مـتـنـوعـة-1/الـريـاضـيـات/اختبار-توجيهي-5.pdf",
+          "المصدر": "devoir.tn"
+        }
+      ]
+    },
+    "9raya_tn": {
+      "count": 2,
+      "items": [
+        {
+          "السنة": "5",
+          "المادة": "الرياضيات",
+          "الوصف": "تقييم بداية السنة",
+          "الرابط": "https://9raya.tn/wp-content/uploads/2023/09/%D8%AA%D9%82%D9%8A%D9%8A%D9%85%D8%A7%D8%AA-%D8%A7%D9%84%D8%AB%D9%84%D8%A7%D8%AB%D9%8A-%D8%A7%D9%84%D8%A3%D9%88%D9%84.pdf",
+          "المصدر": "9raya.tn"
+        },
+        {
+          "السنة": "6",
+          "المادة": "الرياضيات",
+          "الوصف": "نموذج قبلي",
+          "الرابط": "https://9raya.tn/wp-content/uploads/2022/09/%D9%86%D9%85%D9%88%D8%B0%D8%AC-%D8%B9%D8%AF%D8%AF1-1.pdf",
+          "المصدر": "9raya.tn"
+        }
+      ]
+    },
+    "najahni_tn": {
+      "count": 6,
+      "items": [
+        {
+          "السنة": "2",
+          "المادة": "القراءة",
+          "الرابط": "https://www.najahni.tn/wp-content/uploads/2024/08/%D8%AA%D9%82%D9%8A%D9%8A%D9%85-%D8%AA%D9%88%D8%AC%D9%8A%D9%87%D9%8A-%D9%81%D9%8A-%D8%A7%D9%84%D9%82%D8%B1%D8%A7%D8%A1%D8%A9.pdf",
+          "المصدر": "najahni.tn"
+        },
+        {
+          "السنة": "2",
+          "المادة": "الإيقاظ العلمي",
+          "الرابط": "https://www.najahni.tn/wp-content/uploads/2024/08/%D8%AA%D9%82%D9%8A%D9%8A%D9%85-%D8%AA%D9%88%D8%AC%D9%8A%D9%87%D9%8A-%D9%81%D9%8A-%D8%A7%D9%84%D8%A5%D9%8A%D9%82%D8%A7%D8%B8-%D8%A7%D9%84%D8%B9%D9%84%D9%85%D9%8A.pdf",
+          "المصدر": "najahni.tn"
+        },
+        {
+          "السنة": "2",
+          "المادة": "الإنتاج الكتابي",
+          "الرابط": "https://www.najahni.tn/wp-content/uploads/2024/08/%D8%AA%D9%82%D9%8A%D9%8A%D9%85-%D8%AA%D9%88%D8%AC%D9%8A%D9%87%D9%8A-%D9%81%D9%8A-%D8%A7%D9%84%D8%A7%D9%86%D8%AA%D8%A7%D8%AC-%D8%A7%D9%84%D9%83%D8%AA%D8%A7%D8%A8%D9%8A.pdf",
+          "المصدر": "najahni.tn"
+        },
+        {
+          "السنة": "2",
+          "المادة": "الرياضيات",
+          "الرابط": "https://www.najahni.tn/wp-content/uploads/2024/08/%D8%AA%D9%82%D9%8A%D9%8A%D9%85-%D8%AA%D9%88%D8%AC%D9%8A%D9%87%D9%8A-%D8%B1%D9%8A%D8%A7%D8%B6%D9%8A%D8%A7%D8%AA.pdf",
+          "المصدر": "najahni.tn"
+        },
+        {
+          "السنة": "6",
+          "المادة": "الإيقاظ العلمي",
+          "الرابط": "https://www.najahni.tn/wp-content/uploads/2024/09/%D8%AA%D9%82%D9%8A%D9%8A%D9%85-%D8%AA%D9%88%D8%AC%D9%8A%D9%87%D9%8A.pdf",
+          "المصدر": "najahni.tn"
+        },
+        {
+          "السنة": "6",
+          "المادة": "اللغة العربية",
+          "الرابط": "https://www.najahni.tn/wp-content/uploads/2022/02/%D8%A7%D9%85%D8%AA%D8%AD%D8%A7%D9%86-%D8%AA%D8%B1%D8%A8%D9%8A%D8%A9-%D8%A7%D8%B3%D9%84%D8%A7%D9%85%D9%8A%D8%A9-%D8%A7%D9%84%D8%B3%D9%86%D8%A9-%D8%A7%D9%84%D8%B3%D8%A7%D8%AF%D8%B3%D8%A9-%D8%A7%D9%84%D8%AB%D9%84%D8%A7%D8%AB%D9%8A-%D8%A7%D9%84%D8%AB%D8%A7%D9%86%D9%8A.pdf",
+          "المصدر": "najahni.tn"
+        }
+      ]
+    },
+    "tunitests_tn": {
+      "count": 2,
+      "items": [
+        {
+          "السنة": "5",
+          "المادة": "العربية",
+          "الوصف": "تقييم مكتسبات",
+          "الرابط": "https://tunitests.tn/DOCS/1/25/259/731/73cf22b926de827c6fbddd32633a4681.docx",
+          "المصدر": "tunitests.tn"
+        },
+        {
+          "السنة": "6",
+          "المادة": "الفرنسية",
+          "الUrlParser": "Evaluation des acquis",
+          "الرابط": "https://tunitests.tn/DOCS/1/1/4/6/c2f5e8afddaba5af3f0a49776d968f3b.pdf",
+          "المصدر": "tunitests.tn"
+        }
+      ]
+    }
+  },
+  "blocked_sources": {
+    "ent_cnte_tn": "WAF FortiGuard 403 - necessite vrai navigateur avec session enseignante",
+    "facebook": "Authentification requise - inaccessible en CLI",
+    "scribd_cloudflare": "Cloudflare 403 - copie equivalente trouvee sur najahni.tn"
+  }
+}
