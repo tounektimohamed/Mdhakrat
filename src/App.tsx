@@ -1069,50 +1069,62 @@ export default function App() {
                     </span>
                   </div>
 
-                  {plan.روابط_تحميل && plan.روابط_تحميل.length > 0 && (
-                    <div className="flex flex-col gap-2 px-5 py-3 border-b border-stone-100 dark:border-stone-800 bg-sky-50/60 dark:bg-sky-500/5">
-                      <div className="flex items-center gap-1.5 text-[11px] font-bold text-sky-800 dark:text-sky-300">
-                        <Download className="w-3.5 h-3.5" />
-                        روابط تحميل إضافية من مصادر خارجية ({plan.روابط_تحميل.length})
-                        <span className="text-sky-500 dark:text-sky-400/70 font-medium">— أنقر لنسخ أو تنزيل المخطط/التقييم</span>
-                      </div>
-                      <div className="flex flex-wrap gap-1.5">
-                        {plan.روابط_تحميل.map((ext, ei) => (
-                          <div
-                            key={ei}
-                            className="flex items-center gap-1 rounded-lg border border-sky-200 bg-white px-2 py-1 shadow-xs dark:bg-stone-900 dark:border-sky-500/30"
-                          >
+                  <div className="divide-y divide-stone-100 dark:divide-stone-800">
+                    {(plan.روابط_تحميل || []).map((ext, ei) => {
+                      const fmt = (ext.الرابط.match(/\.(pdf|docx?|xlsx?|pptx?|jpg|jpeg|png)/i)?.[1] || 'PDF').toUpperCase();
+                      return (
+                        <div
+                          key={`l-${ei}`}
+                          className="px-5 py-3.5 flex flex-col sm:flex-row sm:items-center justify-between gap-3 hover:bg-amber-50/40 dark:hover:bg-amber-500/5 transition-colors"
+                        >
+                          <div className="min-w-0 space-y-1.5">
+                            <div className="flex items-center gap-1.5 flex-wrap">
+                              <a
+                                href={ext.الرابط}
+                                target="_blank"
+                                rel="noopener noreferrer"
+                                download
+                                title={ext.الوصف}
+                                className="font-bold text-stone-800 dark:text-stone-100 text-sm leading-snug hover:text-amber-700 dark:hover:text-amber-300 transition-colors truncate max-w-full"
+                              >
+                                {ext.الوصف}
+                              </a>
+                              <span
+                                className={`text-[10px] px-2 py-0.5 rounded-md font-mono font-bold border shrink-0 ${formatBadge(fmt)}`}
+                              >
+                                {fmt}
+                              </span>
+                            </div>
+                            <div className="flex items-center gap-1.5 flex-wrap">
+                              {ext.نوع && (
+                                <span
+                                  className={`text-[10px] px-2 py-0.5 rounded-full border font-semibold ${docTypeTone(ext.نوع)}`}
+                                >
+                                  {ext.نوع}
+                                </span>
+                              )}
+                              <span className="text-[10px] px-2 py-0.5 rounded-full bg-stone-100 text-stone-500 border border-stone-200 dark:bg-stone-800 dark:text-stone-400 dark:border-stone-700 font-mono">
+                                {ext.المصدر}
+                              </span>
+                            </div>
+                          </div>
+                          <div className="flex items-center gap-2 shrink-0">
                             <a
                               href={ext.الرابط}
                               target="_blank"
                               rel="noopener noreferrer"
                               download
-                              title={ext.الوصف}
-                              className="max-w-[180px] truncate text-[10px] font-semibold text-sky-700 hover:text-sky-950 dark:text-sky-300 dark:hover:text-white flex items-center gap-1"
-                            >
-                              <FolderOpen className="w-3 h-3 shrink-0 text-sky-500" />
-                              <span className="truncate">{ext.الوصف}</span>
-                            </a>
-                            <span className="text-[9px] font-mono text-stone-400 dark:text-stone-500 shrink-0">
-                              {ext.المصدر}
-                            </span>
-                            <a
-                              href={ext.الرابط}
-                              target="_blank"
-                              rel="noopener noreferrer"
-                              download
-                              className="shrink-0 p-0.5 rounded-md text-sky-600 hover:bg-sky-100 dark:text-sky-400 dark:hover:bg-sky-500/10 transition-colors"
+                              className="px-3.5 py-1.5 text-xs font-bold rounded-lg bg-stone-900 text-white hover:bg-amber-600 dark:bg-white dark:text-stone-900 dark:hover:bg-amber-400 transition-colors flex items-center gap-1.5 shadow-xs"
                               title="تحميل الملف"
                             >
                               <Download className="w-3.5 h-3.5" />
+                              تحميل
                             </a>
                           </div>
-                        ))}
-                      </div>
-                    </div>
-                  )}
+                        </div>
+                      );
+                    })}
 
-                  <div className="divide-y divide-stone-100 dark:divide-stone-800">
                     {plan.الوحدات.map((unit: UnitPlanItem, ui: number) => (
                       <div
                         key={ui}
