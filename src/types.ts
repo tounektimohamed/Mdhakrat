@@ -35,6 +35,7 @@ export interface ExternalLink {
 export interface SubjectPlan {
   السنة: number;
   المادة: string;
+  الوصف?: string;
   الوحدات: UnitPlanItem[];
   روابط_تحميل?: ExternalLink[];
 }
@@ -51,6 +52,8 @@ export interface DatasetStats {
   عدد_الصور_التقييمية?: number;
   إجمالي_الملفات_الواقعية?: number;
   إجمالي_الروابط_الخارجية?: number;
+  روابط_موسوعة_المعلم?: number;
+  توزيع_الملفات_حسب_الأنواع?: Record<string, number>;
 }
 
 export interface Dataset {

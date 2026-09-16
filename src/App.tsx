@@ -39,7 +39,7 @@ const normalize = (s: string) =>
     .replace(/ئ/g, 'ي')
     .trim();
 
-const levelLabel = (y: number) => (y === 0 ? 'الوثائق الرسمية' : `السنة ${y}`);
+const levelLabel = (y: number) => (y === 0 ? 'الوثائق الرسمية' : y === 8 ? 'التحضيري' : `السنة ${y}`);
 
 const formatBadge = (format: string) => {
   switch (format.toUpperCase()) {
@@ -78,7 +78,8 @@ const sortPlans = (list: (SubjectPlan | null)[], mode: SortMode): SubjectPlan[] 
     return [...valid].sort((a, b) => a.المادة.localeCompare(b.المادة, 'ar'));
   }
   if (mode === 'level') {
-    return [...valid].sort((a, b) => a.السنة - b.السنة || a.المادة.localeCompare(b.المادة, 'ar'));
+    const ord = (y: number) => (y === 8 ? 0 : y === 0 ? 1 : y + 1);
+    return [...valid].sort((a, b) => ord(a.السنة) - ord(b.السنة) || a.المادة.localeCompare(b.المادة, 'ar'));
   }
   return [...valid].sort((a, b) => {
     const ma = a.الوحدات.length ? Math.max(...a.الوحدات.map((u) => parseInt(u.الحجم) || 0)) : 0;
@@ -195,6 +196,12 @@ export default function App() {
     dataset.المخططات.forEach((p) =>
       p.الوحدات.forEach((u) => m.set(u.نوع_الوثيقة, (m.get(u.نوع_الوثيقة) || 0) + 1)),
     );
+    dataset.المخططات.forEach((p) =>
+      (p.روابط_تحميل || []).forEach((l) => {
+        const t = l.نوع || 'عام';
+        m.set(t, (m.get(t) || 0) + 1);
+      }),
+    );
     return Array.from(m.entries()).sort((a, b) => b[1] - a[1]);
   }, []);
 
@@ -261,7 +268,9 @@ export default function App() {
         ? total
         : y === 0
           ? stats.توزيع_الملفات_حسب_المستويات['البرامج والوثائق الرسمية'] || 0
-          : stats.توزيع_الملفات_حسب_المستويات[`السنة ${y}`] || 0;
+          : y === 8
+            ? stats.توزيع_الملفات_حسب_المستويات['التحضيري'] || 0
+            : stats.توزيع_الملفات_حسب_المستويات[`السنة ${y}`] || 0;
     const links = y === 'all' ? totalLinks : linkCountByYear.get(y as number) || 0;
     return base + links;
   };
@@ -539,7 +548,7 @@ export default function App() {
                   ))}
                 </>
               ) : (
-                (['all', 0, 1, 2, 3, 4, 5, 6] as (number | 'all')[]).map((y) => {
+                (['all', 8, 0, 1, 2, 3, 4, 5, 6] as (number | 'all')[]).map((y) => {
                   const active = year === y;
                   return (
                     <button
