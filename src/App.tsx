@@ -2,6 +2,7 @@ import {useEffect, useMemo, useRef, useState} from 'react';
 import {motion, AnimatePresence} from 'motion/react';
 import {dataset} from './data';
 import {fbImages, FbImage} from './fbImages';
+import {evaluationFiles} from './evaluationData';
 import {SubjectPlan, UnitPlanItem} from './types';
 import {
   BookOpen,
@@ -9,6 +10,7 @@ import {
   Check,
   CheckCircle2,
   ChevronDown,
+  ClipboardList,
   Copy,
   Download,
   FileCheck,
@@ -72,6 +74,20 @@ const docTypeTone = (type: string) => {
   return 'text-stone-600 bg-stone-100 border-stone-200 dark:text-stone-300 dark:bg-stone-500/10 dark:border-stone-500/30';
 };
 
+const evalTypeTone = (t: string) => {
+  if (/Google Drive|Google Docs|UC\?|docs\.google/.test(t))
+    return 'bg-sky-50 text-sky-700 border-sky-200 dark:bg-sky-500/10 dark:text-sky-300 dark:border-sky-500/30';
+  if (/MediaFire|mediafire/.test(t))
+    return 'bg-orange-50 text-orange-700 border-orange-200 dark:bg-orange-500/10 dark:text-orange-300 dark:border-orange-500/30';
+  if (/Word|docx?|مباشر|PDF/.test(t))
+    return 'bg-rose-50 text-rose-700 border-rose-200 dark:bg-rose-500/10 dark:text-rose-300 dark:border-rose-500/30';
+  if (/مختصر|adf|linkvertise/.test(t))
+    return 'bg-violet-50 text-violet-700 border-violet-200 dark:bg-violet-500/10 dark:text-violet-300 dark:border-violet-500/30';
+  if (/صفحة/.test(t))
+    return 'bg-emerald-50 text-emerald-700 border-emerald-200 dark:bg-emerald-500/10 dark:text-emerald-300 dark:border-emerald-500/30';
+  return 'bg-stone-100 text-stone-600 border-stone-200 dark:bg-stone-500/10 dark:text-stone-300 dark:border-stone-500/30';
+};
+
 const sortPlans = (list: (SubjectPlan | null)[], mode: SortMode): SubjectPlan[] => {
   const valid = list.filter(Boolean) as SubjectPlan[];
   if (mode === 'subject') {
@@ -107,10 +123,15 @@ export default function App() {
   const [showJson, setShowJson] = useState(false);
   const [copied, setCopied] = useState<string | null>(null);
   const [previewImg, setPreviewImg] = useState<string | null>(null);
-  const [gallery, setGallery] = useState(false);
+  const [tab, setTab] = useState<'docs' | 'gallery' | 'evaluation'>('docs');
+  const gallery = tab === 'gallery';
+  const evaluation = tab === 'evaluation';
   const [galleryLevel, setGalleryLevel] = useState<'all' | string>('all');
   const [galleryFormat, setGalleryFormat] = useState<'all' | 'JPG' | 'PNG'>('all');
   const [galleryLimit, setGalleryLimit] = useState(60);
+  const [evalYear, setEvalYear] = useState<'all' | string>('all');
+  const [evalSubject, setEvalSubject] = useState('all');
+  const [evalSource, setEvalSource] = useState('all');
   const [showTop, setShowTop] = useState(false);
   const inputRef = useRef<HTMLInputElement>(null);
   const toastTimer = useRef<number | undefined>(undefined);
@@ -269,6 +290,53 @@ export default function App() {
     setGalleryLimit(60);
   };
 
+  const evalSubjects = useMemo(() => {
+    const m = new Map<string, number>();
+    evaluationFiles.forEach((f) => {
+      const s = f.المادة || 'غير مصنّف';
+      m.set(s, (m.get(s) || 0) + 1);
+    });
+    return Array.from(m.entries()).sort((a, b) => b[1] - a[1]);
+  }, []);
+
+  const evalSources = useMemo(() => {
+    const m = new Map<string, number>();
+    evaluationFiles.forEach((f) => {
+      const s = f.المصدر || 'غير معروف';
+      m.set(s, (m.get(s) || 0) + 1);
+    });
+    return Array.from(m.entries()).sort((a, b) => b[1] - a[1]);
+  }, []);
+
+  const filteredEval = useMemo(() => {
+    const q = normalize(search);
+    return evaluationFiles.filter((f) => {
+      if (evalYear !== 'all' && f.السنة !== evalYear && f.السنة !== 'الكل') return false;
+      if (evalSubject !== 'all' && f.المادة !== evalSubject) return false;
+      if (evalSource !== 'all' && f.المصدر !== evalSource) return false;
+      if (!q) return true;
+      return (
+        normalize(f.العنوان).includes(q) ||
+        normalize(f.المادة).includes(q) ||
+        normalize(f.المصدر).includes(q) ||
+        normalize(f.نوع_الرابط).includes(q) ||
+        normalize(f.ملاحظات || '').includes(q)
+      );
+    });
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [evalYear, evalSubject, evalSource, search]);
+
+  const evalCountFor = (y: string) =>
+    evaluationFiles.filter((f) => f.السنة === y || f.السنة === 'الكل').length;
+  const evalActiveFilters =
+    (evalYear !== 'all' ? 1 : 0) + (evalSubject !== 'all' ? 1 : 0) + (evalSource !== 'all' ? 1 : 0) + (search.trim() ? 1 : 0);
+  const resetEval = () => {
+    setEvalYear('all');
+    setEvalSubject('all');
+    setEvalSource('all');
+    if (search) setSearch('');
+  };
+
   const yearCount = (y: number | 'all') => {
     const base =
       y === 'all'
@@ -410,9 +478,9 @@ export default function App() {
           <div className="flex items-center gap-2 shrink-0">
             <div className="flex items-center gap-0.5 p-1 rounded-xl border border-stone-200 bg-stone-100/80 dark:border-stone-700 dark:bg-stone-800/80">
               <button
-                onClick={() => setGallery(false)}
+                onClick={() => setTab('docs')}
                 className={`px-2.5 py-1.5 text-[11px] font-bold rounded-lg transition-colors cursor-pointer ${
-                  !gallery
+                  tab === 'docs'
                     ? 'bg-white text-stone-900 shadow-xs dark:bg-stone-900 dark:text-white'
                     : 'text-stone-500 hover:text-stone-700 dark:text-stone-400 dark:hover:text-stone-200'
                 }`}
@@ -420,9 +488,9 @@ export default function App() {
                 الوثائق
               </button>
               <button
-                onClick={() => setGallery(true)}
+                onClick={() => setTab('gallery')}
                 className={`inline-flex items-center gap-1 px-2.5 py-1.5 text-[11px] font-bold rounded-lg transition-colors cursor-pointer ${
-                  gallery
+                  tab === 'gallery'
                     ? 'bg-white text-amber-700 shadow-xs dark:bg-stone-900 dark:text-amber-400'
                     : 'text-stone-500 hover:text-stone-700 dark:text-stone-400 dark:hover:text-stone-200'
                 }`}
@@ -432,6 +500,18 @@ export default function App() {
                   <span className="absolute -top-1 -right-2 w-1.5 h-1.5 rounded-full bg-amber-500 animate-pulse" />
                 </span>
                 <span className="text-[10px] text-stone-400">{totalImages}</span>
+              </button>
+              <button
+                onClick={() => setTab('evaluation')}
+                className={`inline-flex items-center gap-1 px-2.5 py-1.5 text-[11px] font-bold rounded-lg transition-colors cursor-pointer ${
+                  tab === 'evaluation'
+                    ? 'bg-white text-amber-700 shadow-xs dark:bg-stone-900 dark:text-amber-400'
+                    : 'text-stone-500 hover:text-stone-700 dark:text-stone-400 dark:hover:text-stone-200'
+                }`}
+              >
+                <ClipboardList className="w-3.5 h-3.5" />
+                ملف التقييم
+                <span className="text-[10px] text-stone-400">{evaluationFiles.length}</span>
               </button>
             </div>
             <button
@@ -464,17 +544,25 @@ export default function App() {
           <div className="text-center max-w-2xl mx-auto">
             <span className="inline-flex items-center gap-1.5 px-3 py-1 rounded-full bg-white/70 dark:bg-stone-800/70 border border-stone-200 dark:border-stone-700 text-[11px] font-bold text-stone-600 dark:text-stone-300 shadow-xs">
               <Sparkles className="w-3.5 h-3.5 text-amber-600" />
-              {gallery ? 'معرض الصور التقييمية المحققّة' : 'كل الوثائق البيداغوجية في مكان واحد'}
+              {evaluation
+                ? 'ملف التقييم والمتابعة — روابط محقَّقة'
+                : gallery
+                  ? 'معرض الصور التقييمية المحققّة'
+                  : 'كل الوثائق البيداغوجية في مكان واحد'}
             </span>
             <h2 className="mt-3 text-2xl sm:text-3xl font-extrabold tracking-tight text-stone-900 dark:text-white">
-              {gallery
-                ? 'تصفّح كل الصور حسب المسار والمستوى'
-                : 'ابحث، صفِّ، وحمّل مخطّطاتك في ثوانٍ'}
+              {evaluation
+                ? 'دوسيي التقييم لجميع المستويات'
+                : gallery
+                  ? 'تصفّح كل الصور حسب المسار والمستوى'
+                  : 'ابحث، صفِّ، وحمّل مخطّطاتك في ثوانٍ'}
             </h2>
             <p className="mt-2 text-sm text-stone-600 dark:text-stone-400 leading-relaxed">
-              {gallery
-                ? 'فلاتر حسب المسار (annee-1..6 / autres)، المادة، الصيغة والبحث في الأوصاف.'
-                : 'جذاذات، خطط سنوية وفصلية، أدلة المعلم، وتقييمات رسمية — مصنّفة حسب المستوى والمادة ونوع الوثيقة والصيغة.'}
+              {evaluation
+                ? 'دفاتر التقييم، cahiers d’évaluation، الدوسييهات والمتابعة (تمام، مقيّم، تقييمات دورية) — لكل سنة من 1 إلى 6، مع سنة النشر ومصدر كل رابط.'
+                : gallery
+                  ? 'فلاتر حسب المسار (annee-1..6 / autres)، المادة، الصيغة والبحث في الأوصاف.'
+                  : 'جذاذات، خطط سنوية وفصلية، أدلة المعلم، وتقييمات رسمية — مصنّفة حسب المستوى والمادة ونوع الوثيقة والصيغة.'}
             </p>
           </div>
 
@@ -491,9 +579,11 @@ export default function App() {
                   setLimit(30);
                 }}
                 placeholder={
-                  gallery
-                    ? 'ابحث في المسار أو الأوصاف أو المواد…  (مثال: annee-3، تقييم، Français)'
-                    : 'ابحث بالاسم أو النوع أو المصدر…  (مثال: دليل المعلم، امتحان، فرنسية)'
+                  evaluation
+                    ? 'ابحث في عنوان الملف أو المادة أو المصدر…  (مثال: تمام، تقييم فرنسية)'
+                    : gallery
+                      ? 'ابحث في المسار أو الأوصاف أو المواد…  (مثال: annee-3، تقييم، Français)'
+                      : 'ابحث بالاسم أو النوع أو المصدر…  (مثال: دليل المعلم، امتحان، فرنسية)'
                 }
                 className="w-full pl-12 pr-12 py-3.5 text-sm rounded-2xl border border-stone-200 bg-white shadow-sm placeholder:text-stone-400 focus:outline-hidden focus:ring-4 focus:ring-amber-500/20 focus:border-amber-500 transition-all dark:bg-stone-900 dark:border-stone-700 dark:placeholder:text-stone-500"
               />
@@ -513,7 +603,42 @@ export default function App() {
 
             {/* Level pills */}
             <div className="mt-4 flex flex-wrap items-center justify-center gap-2">
-              {gallery ? (
+              {evaluation ? (
+                <>
+                  <button
+                    onClick={() => setEvalYear('all')}
+                    className={`px-3.5 py-1.5 text-xs font-bold rounded-full border transition-all cursor-pointer ${
+                      evalYear === 'all'
+                        ? 'bg-stone-900 border-stone-900 text-white shadow-xs dark:bg-white dark:border-white dark:text-stone-900'
+                        : 'bg-white/80 border-stone-200 text-stone-600 hover:border-amber-400 hover:text-amber-700 dark:bg-stone-800/80 dark:border-stone-700 dark:text-stone-300 dark:hover:border-amber-500/60'
+                    }`}
+                  >
+                    كل السنوات
+                    <span className="mr-1.5 text-[10px] text-stone-400 dark:text-stone-500">
+                      {evaluationFiles.length}
+                    </span>
+                  </button>
+                  {(['1', '2', '3', '4', '5', '6'] as string[]).map((y) => {
+                    const active = evalYear === y;
+                    return (
+                      <button
+                        key={y}
+                        onClick={() => setEvalYear(evalYear === y ? 'all' : y)}
+                        className={`px-3.5 py-1.5 text-xs font-bold rounded-full border transition-all cursor-pointer ${
+                          active
+                            ? 'bg-amber-600 border-amber-600 text-white shadow-sm dark:bg-amber-500 dark:border-amber-500'
+                            : 'bg-white/80 border-stone-200 text-stone-600 hover:border-amber-400 hover:text-amber-700 dark:bg-stone-800/80 dark:border-stone-700 dark:text-stone-300 dark:hover:border-amber-500/60'
+                        }`}
+                      >
+                        السنة {y}
+                        <span className={`mr-1.5 text-[10px] ${active ? 'opacity-80' : 'text-stone-400 dark:text-stone-500'}`}>
+                          {evalCountFor(y)}
+                        </span>
+                      </button>
+                    );
+                  })}
+                </>
+              ) : gallery ? (
                 <>
                   <button
                     onClick={() => {
@@ -645,14 +770,23 @@ export default function App() {
               <span className="w-7 h-7 rounded-lg bg-amber-500/15 border border-amber-500/25 flex items-center justify-center">
                 <SlidersHorizontal className="w-4 h-4 text-amber-700 dark:text-amber-400" />
               </span>
-              {gallery ? 'تصفية الصور حسب المسار' : 'تصفية دقيقة'}
+              {evaluation
+                ? 'تصفية ملفات التقييم'
+                : gallery
+                  ? 'تصفية الصور حسب المسار'
+                  : 'تصفية دقيقة'}
               <span className="text-[11px] font-semibold text-stone-400 dark:text-stone-500">
-                {gallery ? filteredImages.length : matchCount} نتيجة
+                {evaluation
+                  ? filteredEval.length
+                  : gallery
+                    ? filteredImages.length
+                    : matchCount}{' '}
+                نتيجة
               </span>
             </div>
-            {(gallery ? galleryActiveFilters > 0 : hasActiveFilters) && (
+            {(evaluation ? evalActiveFilters > 0 : gallery ? galleryActiveFilters > 0 : hasActiveFilters) && (
               <button
-                onClick={gallery ? resetGallery : reset}
+                onClick={evaluation ? resetEval : gallery ? resetGallery : reset}
                 className="inline-flex items-center gap-1 text-[11px] font-semibold text-amber-700 hover:text-amber-800 dark:text-amber-400 cursor-pointer"
               >
                 <RotateCcw className="w-3.5 h-3.5" />
@@ -661,7 +795,86 @@ export default function App() {
             )}
           </div>
 
-          {gallery ? (
+{evaluation ? (
+            <div className="p-5 space-y-4">
+              <div>
+                <div className="flex items-center gap-2 text-[11px] font-bold text-stone-500 dark:text-stone-400 mb-2">
+                  <FolderOpen className="w-3.5 h-3.5" />
+                  المادة الدراسية
+                </div>
+                <div className="flex flex-wrap gap-1.5">
+                  <button
+                    onClick={() => setEvalSubject('all')}
+                    className={`px-2.5 py-1 text-xs rounded-lg font-semibold transition-colors cursor-pointer ${
+                      evalSubject === 'all'
+                        ? 'bg-stone-800 text-white dark:bg-white dark:text-stone-900'
+                        : 'bg-stone-100 text-stone-600 hover:bg-stone-200 dark:bg-stone-800 dark:text-stone-300 dark:hover:bg-stone-700'
+                    }`}
+                  >
+                    كل المواد
+                  </button>
+                  {evalSubjects.map(([s, c]) => (
+                    <button
+                      key={s}
+                      onClick={() => setEvalSubject(evalSubject === s ? 'all' : s)}
+                      className={`px-2.5 py-1 text-xs rounded-lg font-semibold transition-colors cursor-pointer ${
+                        evalSubject === s
+                          ? 'bg-amber-600 text-white shadow-sm dark:bg-amber-500'
+                          : 'bg-stone-100 text-stone-600 hover:bg-amber-100 hover:text-amber-800 dark:bg-stone-800 dark:text-stone-300 dark:hover:bg-amber-500/10 dark:hover:text-amber-300'
+                      }`}
+                    >
+                      {s}
+                      <span className={`mr-1 text-[10px] ${evalSubject === s ? 'opacity-80' : 'text-stone-400'}`}>
+                        {c}
+                      </span>
+                    </button>
+                  ))}
+                </div>
+              </div>
+              <div className="pt-1 border-t border-stone-100 dark:border-stone-800">
+                <div className="flex items-center gap-2 text-[11px] font-bold text-stone-500 dark:text-stone-400 mb-2">
+                  <Building className="w-3.5 h-3.5" />
+                  المصدر
+                </div>
+                <div className="flex flex-wrap gap-1.5">
+                  <button
+                    onClick={() => setEvalSource('all')}
+                    className={`px-2.5 py-1 text-xs rounded-lg font-semibold transition-colors cursor-pointer ${
+                      evalSource === 'all'
+                        ? 'bg-stone-800 text-white dark:bg-white dark:text-stone-900'
+                        : 'bg-stone-100 text-stone-600 hover:bg-stone-200 dark:bg-stone-800 dark:text-stone-300 dark:hover:bg-stone-700'
+                    }`}
+                  >
+                    كل المصادر
+                  </button>
+                  {evalSources.map(([s, c]) => (
+                    <button
+                      key={s}
+                      onClick={() => setEvalSource(evalSource === s ? 'all' : s)}
+                      className={`px-2.5 py-1 text-xs rounded-lg font-semibold transition-colors cursor-pointer ${
+                        evalSource === s
+                          ? 'bg-amber-600 text-white shadow-sm dark:bg-amber-500'
+                          : 'bg-stone-100 text-stone-600 hover:bg-amber-100 hover:text-amber-800 dark:bg-stone-800 dark:text-stone-300 dark:hover:bg-amber-500/10 dark:hover:text-amber-300'
+                      }`}
+                    >
+                      <span className="font-mono" dir="ltr">
+                        {s}
+                      </span>
+                      <span className={`mr-1 text-[10px] ${evalSource === s ? 'opacity-80' : 'text-stone-400'}`}>
+                        {c}
+                      </span>
+                    </button>
+                  ))}
+                </div>
+              </div>
+              <div className="pt-1 border-t border-stone-100 dark:border-stone-800">
+                <div className="flex items-center gap-1.5 text-[11px] font-semibold text-stone-400 dark:text-stone-500">
+                  <ClipboardList className="w-3.5 h-3.5" />
+                  النطاق: الكل · {['1', '2', '3', '4', '5', '6'].map((y) => `السنة ${y}`).join(' · ')} — حدّد السنة بالأزرار أعلاه
+                </div>
+              </div>
+            </div>
+          ) : gallery ? (
             <div className="p-5 space-y-4">
               <div>
                 <div className="flex items-center gap-2 text-[11px] font-bold text-stone-500 dark:text-stone-400 mb-2">
@@ -879,7 +1092,127 @@ export default function App() {
 
       {/* ===== Results ===== */}
       <main className="flex-1 max-w-7xl w-full mx-auto px-4 sm:px-6 lg:px-8 py-6">
-        {gallery ? (
+        {evaluation ? (
+          /* ===== Dossier d'évaluation ===== */
+          <motion.div key="eval-results" initial={{opacity: 0}} animate={{opacity: 1}} exit={{opacity: 0}} className="space-y-5">
+            <div className="flex flex-wrap items-center justify-between gap-2 text-xs text-stone-500 dark:text-stone-400 px-1">
+              <span>
+                «
+                <span className="font-extrabold text-stone-900 dark:text-white">{filteredEval.length}</span>
+                » ملف تقييم
+                {evalActiveFilters > 0 ? ' — حسب المعايير المحددة' : ''}
+              </span>
+              <span className="text-[11px] text-stone-400 dark:text-stone-500">
+                روابط محقَّقة (200 OK) — افتح الرابط ثم حمّل/اطبع الملف
+              </span>
+            </div>
+
+            {filteredEval.length === 0 ? (
+              <div className="text-center py-20 bg-white rounded-2xl border border-dashed border-stone-300 dark:bg-stone-900 dark:border-stone-700">
+                <div className="mx-auto w-16 h-16 rounded-2xl bg-stone-100 dark:bg-stone-800 flex items-center justify-center">
+                  <ClipboardList className="w-8 h-8 text-stone-400" />
+                </div>
+                <h3 className="mt-4 font-bold text-stone-800 dark:text-stone-200">لا توجد ملفات مطابقة</h3>
+                <p className="mt-1 text-sm text-stone-500 dark:text-stone-400">
+                  جرّب تغيير السنة أو المادة أو إعادة ضبط الفلاتر.
+                </p>
+                <button
+                  onClick={resetEval}
+                  className="mt-4 inline-flex items-center gap-1.5 px-4 py-2 text-xs font-bold rounded-lg bg-stone-900 text-white hover:bg-amber-600 transition-colors dark:bg-white dark:text-stone-900 cursor-pointer"
+                >
+                  <RotateCcw className="w-3.5 h-3.5" />
+                  إعادة ضبط الفلاتر
+                </button>
+              </div>
+            ) : (
+              filteredEval.map((e, idx) => (
+                <motion.section
+                  key={`${e.السنة}-${e.الرابط}-${idx}`}
+                  initial={{opacity: 0, y: 12}}
+                  animate={{opacity: 1, y: 0}}
+                  transition={{delay: Math.min(idx * 0.03, 0.4), duration: 0.3}}
+                  className="bg-white rounded-2xl border border-stone-200 shadow-xs overflow-hidden dark:bg-stone-900 dark:border-stone-800"
+                >
+                  <div className="px-5 py-3 border-b border-stone-100 dark:border-stone-800 flex items-center justify-between gap-3 bg-gradient-to-l from-emerald-50/60 to-transparent dark:from-emerald-500/5">
+                    <div className="flex items-center gap-2.5 min-w-0">
+                      <span
+                        className={`px-2.5 py-1 text-[11px] font-extrabold rounded-lg shrink-0 ${
+                          e.السنة === 'الكل'
+                            ? 'bg-stone-900 text-white dark:bg-white dark:text-stone-900'
+                            : 'bg-emerald-600/15 text-emerald-800 border border-emerald-600/25 dark:bg-emerald-500/10 dark:text-emerald-300 dark:border-emerald-500/30'
+                        }`}
+                      >
+                        {e.السنة === 'الكل' ? 'جميع المستويات' : `السنة ${e.السنة}`}
+                      </span>
+                      <h3 className="font-extrabold text-stone-900 dark:text-white text-sm leading-snug">
+                        {e.العنوان}
+                      </h3>
+                    </div>
+                    <span className="hidden sm:block text-[10px] font-mono text-stone-300 dark:text-stone-600">
+                      {e.المصدر} · {e.نوع_الرابط}
+                    </span>
+                  </div>
+
+                  <div className="px-5 py-3.5 flex flex-col sm:flex-row sm:items-center justify-between gap-3">
+                    <div className="min-w-0 space-y-1.5">
+                      <div className="flex items-center gap-1.5 flex-wrap">
+                        <span className="inline-flex items-center gap-1 text-[10px] px-2 py-0.5 rounded-full bg-emerald-100 text-emerald-800 border border-emerald-200 dark:bg-emerald-500/10 dark:text-emerald-300 dark:border-emerald-500/30 font-bold">
+                          {e.المادة}
+                        </span>
+                        <span className={`text-[10px] px-2 py-0.5 rounded-md font-mono font-bold border ${evalTypeTone(e.نوع_الرابط)}`}>
+                          {e.نوع_الرابط}
+                        </span>
+                        <span className="text-[10px] px-2 py-0.5 rounded-full bg-stone-100 text-stone-500 border border-stone-200 dark:bg-stone-800 dark:text-stone-400 dark:border-stone-700 font-mono" dir="ltr">
+                          {e.المصدر}
+                        </span>
+                        {e.سنة_النشر && (
+                          <span className="text-[10px] px-2 py-0.5 rounded-full bg-amber-100 text-amber-800 border border-amber-200 dark:bg-amber-500/10 dark:text-amber-300 dark:border-amber-500/30 font-mono">
+                            {e.سنة_النشر}
+                          </span>
+                        )}
+                      </div>
+                      {e.ملاحظات && (
+                        <p className="text-[11px] text-stone-500 dark:text-stone-400 leading-relaxed">
+                          {e.ملاحظات}
+                        </p>
+                      )}
+                    </div>
+                    <div className="flex items-center gap-2 shrink-0">
+                      <button
+                        onClick={() => copyText(e.الرابط, 'الرابط')}
+                        className="px-2.5 py-1.5 text-xs rounded-lg border border-stone-200 text-stone-600 hover:bg-stone-50 dark:border-stone-700 dark:text-stone-300 dark:hover:bg-stone-800 transition-colors flex items-center gap-1.5 cursor-pointer"
+                        title="نسخ الرابط"
+                      >
+                        {copied === e.الرابط ? (
+                          <Check className="w-3.5 h-3.5 text-emerald-600" />
+                        ) : (
+                          <Copy className="w-3.5 h-3.5" />
+                        )}
+                        <span className="hidden lg:inline">نسخ</span>
+                      </button>
+                      {e.متاح ? (
+                        <a
+                          href={e.الرابط}
+                          target="_blank"
+                          rel="noopener noreferrer"
+                          className="px-3.5 py-1.5 text-xs font-bold rounded-lg bg-emerald-700 text-white hover:bg-emerald-600 transition-colors flex items-center gap-1.5 shadow-xs"
+                          title="فتح الملف"
+                        >
+                          <Download className="w-3.5 h-3.5" />
+                          فتح الملف
+                        </a>
+                      ) : (
+                        <span className="text-[10px] font-semibold text-stone-400 px-3.5 py-1.5 rounded-lg border border-stone-200 dark:border-stone-700">
+                          رابط معطل
+                        </span>
+                      )}
+                    </div>
+                  </div>
+                </motion.section>
+              ))
+            )}
+          </motion.div>
+        ) : gallery ? (
           /* ===== Galerie d'images ===== */
           <AnimatePresence mode="wait">
             {visibleImages.length === 0 ? (
@@ -1265,6 +1598,7 @@ export default function App() {
           <p>مكتبة المعلم التونسي — مصادر بيداغوجية رسمية ومحقَّقة (CNP · وزارة التربية · نجحني · موسوعة المعلم)</p>
           <p>
             {total} ملفاً + {totalLinks} رابطاً مصنّفة لجميع سنوات التعليم الأساسي (تحضيري ← 6)
+            + {evaluationFiles.length} ملف تقييم ومتابعة
           </p>
           <p className="pt-1 text-stone-500 dark:text-stone-400">
             برمجة وجمع البيانات:{' '}

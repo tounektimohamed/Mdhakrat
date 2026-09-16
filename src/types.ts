@@ -40,6 +40,18 @@ export interface SubjectPlan {
   روابط_تحميل?: ExternalLink[];
 }
 
+export interface EvaluationFile {
+  السنة: string;
+  العنوان: string;
+  المادة: string;
+  المصدر: string;
+  الرابط: string;
+  نوع_الرابط: string;
+  متاح: boolean;
+  سنة_النشر: string;
+  ملاحظات: string;
+}
+
 export interface DatasetStats {
   إجمالي_الملفات_المحققة: number;
   حالة_التحقق: string;
