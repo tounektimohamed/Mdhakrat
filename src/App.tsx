@@ -3,6 +3,7 @@ import {motion, AnimatePresence} from 'motion/react';
 import {dataset} from './data';
 import {fbImages, FbImage} from './fbImages';
 import {evaluationFiles} from './evaluationData';
+import {supportFiles} from './supportData';
 import {SubjectPlan, UnitPlanItem} from './types';
 import {
   BookOpen,
@@ -17,6 +18,7 @@ import {
   FileText,
   FolderOpen,
   GraduationCap,
+  HeartHandshake,
   Layers,
   Link2,
   Moon,
@@ -123,15 +125,19 @@ export default function App() {
   const [showJson, setShowJson] = useState(false);
   const [copied, setCopied] = useState<string | null>(null);
   const [previewImg, setPreviewImg] = useState<string | null>(null);
-  const [tab, setTab] = useState<'docs' | 'gallery' | 'evaluation'>('docs');
+  const [tab, setTab] = useState<'docs' | 'gallery' | 'evaluation' | 'support'>('docs');
   const gallery = tab === 'gallery';
   const evaluation = tab === 'evaluation';
+  const support = tab === 'support';
   const [galleryLevel, setGalleryLevel] = useState<'all' | string>('all');
   const [galleryFormat, setGalleryFormat] = useState<'all' | 'JPG' | 'PNG'>('all');
   const [galleryLimit, setGalleryLimit] = useState(60);
   const [evalYear, setEvalYear] = useState<'all' | string>('all');
   const [evalSubject, setEvalSubject] = useState('all');
   const [evalSource, setEvalSource] = useState('all');
+  const [supportYear, setSupportYear] = useState<'all' | string>('all');
+  const [supportSubject, setSupportSubject] = useState('all');
+  const [supportSource, setSupportSource] = useState('all');
   const [showTop, setShowTop] = useState(false);
   const inputRef = useRef<HTMLInputElement>(null);
   const toastTimer = useRef<number | undefined>(undefined);
@@ -337,6 +343,53 @@ export default function App() {
     if (search) setSearch('');
   };
 
+  const supportSubjects = useMemo(() => {
+    const m = new Map<string, number>();
+    supportFiles.forEach((f) => {
+      const s = f.المادة || 'غير مصنّف';
+      m.set(s, (m.get(s) || 0) + 1);
+    });
+    return Array.from(m.entries()).sort((a, b) => b[1] - a[1]);
+  }, []);
+
+  const supportSources = useMemo(() => {
+    const m = new Map<string, number>();
+    supportFiles.forEach((f) => {
+      const s = f.المصدر || 'غير معروف';
+      m.set(s, (m.get(s) || 0) + 1);
+    });
+    return Array.from(m.entries()).sort((a, b) => b[1] - a[1]);
+  }, []);
+
+  const filteredSupport = useMemo(() => {
+    const q = normalize(search);
+    return supportFiles.filter((f) => {
+      if (supportYear !== 'all' && f.السنة !== supportYear && f.السنة !== 'الكل') return false;
+      if (supportSubject !== 'all' && f.المادة !== supportSubject) return false;
+      if (supportSource !== 'all' && f.المصدر !== supportSource) return false;
+      if (!q) return true;
+      return (
+        normalize(f.العنوان).includes(q) ||
+        normalize(f.المادة).includes(q) ||
+        normalize(f.المصدر).includes(q) ||
+        normalize(f.نوع_الرابط).includes(q) ||
+        normalize(f.ملاحظات || '').includes(q)
+      );
+    });
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [supportYear, supportSubject, supportSource, search]);
+
+  const supportCountFor = (y: string) =>
+    supportFiles.filter((f) => f.السنة === y || f.السنة === 'الكل').length;
+  const supportActiveFilters =
+    (supportYear !== 'all' ? 1 : 0) + (supportSubject !== 'all' ? 1 : 0) + (supportSource !== 'all' ? 1 : 0) + (search.trim() ? 1 : 0);
+  const resetSupport = () => {
+    setSupportYear('all');
+    setSupportSubject('all');
+    setSupportSource('all');
+    if (search) setSearch('');
+  };
+
   const yearCount = (y: number | 'all') => {
     const base =
       y === 'all'
@@ -513,6 +566,18 @@ export default function App() {
                 ملف التقييم
                 <span className="text-[10px] text-stone-400">{evaluationFiles.length}</span>
               </button>
+              <button
+                onClick={() => setTab('support')}
+                className={`inline-flex items-center gap-1 px-2.5 py-1.5 text-[11px] font-bold rounded-lg transition-colors cursor-pointer ${
+                  tab === 'support'
+                    ? 'bg-white text-rose-700 shadow-xs dark:bg-stone-900 dark:text-rose-400'
+                    : 'text-stone-500 hover:text-stone-700 dark:text-stone-400 dark:hover:text-stone-200'
+                }`}
+              >
+                <HeartHandshake className="w-3.5 h-3.5" />
+                الدعم والعلاج
+                <span className="text-[10px] text-stone-400">{supportFiles.length}</span>
+              </button>
             </div>
             <button
               onClick={downloadJson}
@@ -548,21 +613,27 @@ export default function App() {
                 ? 'ملف التقييم والمتابعة — روابط محقَّقة'
                 : gallery
                   ? 'معرض الصور التقييمية المحققّة'
-                  : 'كل الوثائق البيداغوجية في مكان واحد'}
+                  : support
+                    ? 'تمارين الدعم والعلاج — روابط محقَّقة'
+                    : 'كل الوثائق البيداغوجية في مكان واحد'}
             </span>
             <h2 className="mt-3 text-2xl sm:text-3xl font-extrabold tracking-tight text-stone-900 dark:text-white">
               {evaluation
                 ? 'دوسيي التقييم لجميع المستويات'
                 : gallery
                   ? 'تصفّح كل الصور حسب المسار والمستوى'
-                  : 'ابحث، صفِّ، وحمّل مخطّطاتك في ثوانٍ'}
+                  : support
+                    ? 'دعم وعلاج لكل المستويات والمواد'
+                    : 'ابحث، صفِّ، وحمّل مخطّطاتك في ثوانٍ'}
             </h2>
             <p className="mt-2 text-sm text-stone-600 dark:text-stone-400 leading-relaxed">
               {evaluation
                 ? 'دفاتر التقييم، cahiers d’évaluation، الدوسييهات والمتابعة (تمام، مقيّم، تقييمات دورية) — لكل سنة من 1 إلى 6، مع سنة النشر ومصدر كل رابط.'
                 : gallery
                   ? 'فلاتر حسب المسار (annee-1..6 / autres)، المادة، الصيغة والبحث في الأوصاف.'
-                  : 'جذاذات، خطط سنوية وفصلية، أدلة المعلم، وتقييمات رسمية — مصنّفة حسب المستوى والمادة ونوع الوثيقة والصيغة.'}
+                  : support
+                    ? 'مذكرات علاج، تمارين دعم، وضعيات وخطط دعم وعلاج (نجحني، موسوعة المعلم، devoir.tn، 9raya وinstiressources) — لكل سنة من 1 إلى 6.'
+                    : 'جذاذات، خطط سنوية وفصلية، أدلة المعلم، وتقييمات رسمية — مصنّفة حسب المستوى والمادة ونوع الوثيقة والصيغة.'}
             </p>
           </div>
 
@@ -583,7 +654,9 @@ export default function App() {
                     ? 'ابحث في عنوان الملف أو المادة أو المصدر…  (مثال: تمام، تقييم فرنسية)'
                     : gallery
                       ? 'ابحث في المسار أو الأوصاف أو المواد…  (مثال: annee-3، تقييم، Français)'
-                      : 'ابحث بالاسم أو النوع أو المصدر…  (مثال: دليل المعلم، امتحان، فرنسية)'
+                      : support
+                        ? 'ابحث في عنوان النشاط أو المادة أو المصدر…  (مثال: علاج، رياضيات، دعم)'
+                        : 'ابحث بالاسم أو النوع أو المصدر…  (مثال: دليل المعلم، امتحان، فرنسية)'
                 }
                 className="w-full pl-12 pr-12 py-3.5 text-sm rounded-2xl border border-stone-200 bg-white shadow-sm placeholder:text-stone-400 focus:outline-hidden focus:ring-4 focus:ring-amber-500/20 focus:border-amber-500 transition-all dark:bg-stone-900 dark:border-stone-700 dark:placeholder:text-stone-500"
               />
@@ -633,6 +706,41 @@ export default function App() {
                         السنة {y}
                         <span className={`mr-1.5 text-[10px] ${active ? 'opacity-80' : 'text-stone-400 dark:text-stone-500'}`}>
                           {evalCountFor(y)}
+                        </span>
+                      </button>
+                    );
+                  })}
+                </>
+              ) : support ? (
+                <>
+                  <button
+                    onClick={() => setSupportYear('all')}
+                    className={`px-3.5 py-1.5 text-xs font-bold rounded-full border transition-all cursor-pointer ${
+                      supportYear === 'all'
+                        ? 'bg-stone-900 border-stone-900 text-white shadow-xs dark:bg-white dark:border-white dark:text-stone-900'
+                        : 'bg-white/80 border-stone-200 text-stone-600 hover:border-rose-400 hover:text-rose-700 dark:bg-stone-800/80 dark:border-stone-700 dark:text-stone-300 dark:hover:border-rose-500/60'
+                    }`}
+                  >
+                    كل السنوات
+                    <span className="mr-1.5 text-[10px] text-stone-400 dark:text-stone-500">
+                      {supportFiles.length}
+                    </span>
+                  </button>
+                  {(['1', '2', '3', '4', '5', '6'] as string[]).map((y) => {
+                    const active = supportYear === y;
+                    return (
+                      <button
+                        key={y}
+                        onClick={() => setSupportYear(supportYear === y ? 'all' : y)}
+                        className={`px-3.5 py-1.5 text-xs font-bold rounded-full border transition-all cursor-pointer ${
+                          active
+                            ? 'bg-rose-600 border-rose-600 text-white shadow-sm dark:bg-rose-500 dark:border-rose-500'
+                            : 'bg-white/80 border-stone-200 text-stone-600 hover:border-rose-400 hover:text-rose-700 dark:bg-stone-800/80 dark:border-stone-700 dark:text-stone-300 dark:hover:border-rose-500/60'
+                        }`}
+                      >
+                        السنة {y}
+                        <span className={`mr-1.5 text-[10px] ${active ? 'opacity-80' : 'text-stone-400 dark:text-stone-500'}`}>
+                          {supportCountFor(y)}
                         </span>
                       </button>
                     );
@@ -774,19 +882,23 @@ export default function App() {
                 ? 'تصفية ملفات التقييم'
                 : gallery
                   ? 'تصفية الصور حسب المسار'
-                  : 'تصفية دقيقة'}
+                  : support
+                    ? 'تصفية أنشطة الدعم والعلاج'
+                    : 'تصفية دقيقة'}
               <span className="text-[11px] font-semibold text-stone-400 dark:text-stone-500">
                 {evaluation
                   ? filteredEval.length
                   : gallery
                     ? filteredImages.length
-                    : matchCount}{' '}
+                    : support
+                      ? filteredSupport.length
+                      : matchCount}{' '}
                 نتيجة
               </span>
             </div>
-            {(evaluation ? evalActiveFilters > 0 : gallery ? galleryActiveFilters > 0 : hasActiveFilters) && (
+            {(evaluation ? evalActiveFilters > 0 : gallery ? galleryActiveFilters > 0 : support ? supportActiveFilters > 0 : hasActiveFilters) && (
               <button
-                onClick={evaluation ? resetEval : gallery ? resetGallery : reset}
+                onClick={evaluation ? resetEval : gallery ? resetGallery : support ? resetSupport : reset}
                 className="inline-flex items-center gap-1 text-[11px] font-semibold text-amber-700 hover:text-amber-800 dark:text-amber-400 cursor-pointer"
               >
                 <RotateCcw className="w-3.5 h-3.5" />
@@ -870,6 +982,85 @@ export default function App() {
               <div className="pt-1 border-t border-stone-100 dark:border-stone-800">
                 <div className="flex items-center gap-1.5 text-[11px] font-semibold text-stone-400 dark:text-stone-500">
                   <ClipboardList className="w-3.5 h-3.5" />
+                  النطاق: الكل · {['1', '2', '3', '4', '5', '6'].map((y) => `السنة ${y}`).join(' · ')} — حدّد السنة بالأزرار أعلاه
+                </div>
+              </div>
+            </div>
+          ) : support ? (
+            <div className="p-5 space-y-4">
+              <div>
+                <div className="flex items-center gap-2 text-[11px] font-bold text-stone-500 dark:text-stone-400 mb-2">
+                  <FolderOpen className="w-3.5 h-3.5" />
+                  المادة الدراسية
+                </div>
+                <div className="flex flex-wrap gap-1.5">
+                  <button
+                    onClick={() => setSupportSubject('all')}
+                    className={`px-2.5 py-1 text-xs rounded-lg font-semibold transition-colors cursor-pointer ${
+                      supportSubject === 'all'
+                        ? 'bg-stone-800 text-white dark:bg-white dark:text-stone-900'
+                        : 'bg-stone-100 text-stone-600 hover:bg-stone-200 dark:bg-stone-800 dark:text-stone-300 dark:hover:bg-stone-700'
+                    }`}
+                  >
+                    كل المواد
+                  </button>
+                  {supportSubjects.map(([s, c]) => (
+                    <button
+                      key={s}
+                      onClick={() => setSupportSubject(supportSubject === s ? 'all' : s)}
+                      className={`px-2.5 py-1 text-xs rounded-lg font-semibold transition-colors cursor-pointer ${
+                        supportSubject === s
+                          ? 'bg-rose-600 text-white shadow-sm dark:bg-rose-500'
+                          : 'bg-stone-100 text-stone-600 hover:bg-rose-100 hover:text-rose-800 dark:bg-stone-800 dark:text-stone-300 dark:hover:bg-rose-500/10 dark:hover:text-rose-300'
+                      }`}
+                    >
+                      {s}
+                      <span className={`mr-1 text-[10px] ${supportSubject === s ? 'opacity-80' : 'text-stone-400'}`}>
+                        {c}
+                      </span>
+                    </button>
+                  ))}
+                </div>
+              </div>
+              <div className="pt-1 border-t border-stone-100 dark:border-stone-800">
+                <div className="flex items-center gap-2 text-[11px] font-bold text-stone-500 dark:text-stone-400 mb-2">
+                  <Building className="w-3.5 h-3.5" />
+                  المصدر
+                </div>
+                <div className="flex flex-wrap gap-1.5">
+                  <button
+                    onClick={() => setSupportSource('all')}
+                    className={`px-2.5 py-1 text-xs rounded-lg font-semibold transition-colors cursor-pointer ${
+                      supportSource === 'all'
+                        ? 'bg-stone-800 text-white dark:bg-white dark:text-stone-900'
+                        : 'bg-stone-100 text-stone-600 hover:bg-stone-200 dark:bg-stone-800 dark:text-stone-300 dark:hover:bg-stone-700'
+                    }`}
+                  >
+                    كل المصادر
+                  </button>
+                  {supportSources.map(([s, c]) => (
+                    <button
+                      key={s}
+                      onClick={() => setSupportSource(supportSource === s ? 'all' : s)}
+                      className={`px-2.5 py-1 text-xs rounded-lg font-semibold transition-colors cursor-pointer ${
+                        supportSource === s
+                          ? 'bg-rose-600 text-white shadow-sm dark:bg-rose-500'
+                          : 'bg-stone-100 text-stone-600 hover:bg-rose-100 hover:text-rose-800 dark:bg-stone-800 dark:text-stone-300 dark:hover:bg-rose-500/10 dark:hover:text-rose-300'
+                      }`}
+                    >
+                      <span className="font-mono" dir="ltr">
+                        {s}
+                      </span>
+                      <span className={`mr-1 text-[10px] ${supportSource === s ? 'opacity-80' : 'text-stone-400'}`}>
+                        {c}
+                      </span>
+                    </button>
+                  ))}
+                </div>
+              </div>
+              <div className="pt-1 border-t border-stone-100 dark:border-stone-800">
+                <div className="flex items-center gap-1.5 text-[11px] font-semibold text-stone-400 dark:text-stone-500">
+                  <HeartHandshake className="w-3.5 h-3.5" />
                   النطاق: الكل · {['1', '2', '3', '4', '5', '6'].map((y) => `السنة ${y}`).join(' · ')} — حدّد السنة بالأزرار أعلاه
                 </div>
               </div>
@@ -1200,6 +1391,126 @@ export default function App() {
                         >
                           <Download className="w-3.5 h-3.5" />
                           فتح الملف
+                        </a>
+                      ) : (
+                        <span className="text-[10px] font-semibold text-stone-400 px-3.5 py-1.5 rounded-lg border border-stone-200 dark:border-stone-700">
+                          رابط معطل
+                        </span>
+                      )}
+                    </div>
+                  </div>
+                </motion.section>
+              ))
+            )}
+          </motion.div>
+        ) : support ? (
+          /* ===== Dossier de soutien / remédiation ===== */
+          <motion.div key="support-results" initial={{opacity: 0}} animate={{opacity: 1}} exit={{opacity: 0}} className="space-y-5">
+            <div className="flex flex-wrap items-center justify-between gap-2 text-xs text-stone-500 dark:text-stone-400 px-1">
+              <span>
+                «
+                <span className="font-extrabold text-stone-900 dark:text-white">{filteredSupport.length}</span>
+                » نشاط دعم وعلاج
+                {supportActiveFilters > 0 ? ' — حسب المعايير المحددة' : ''}
+              </span>
+              <span className="text-[11px] text-stone-400 dark:text-stone-500">
+                روابط محقَّقة (200 OK) — افتح الرابط ثم حمّل/اطبع الملف
+              </span>
+            </div>
+
+            {filteredSupport.length === 0 ? (
+              <div className="text-center py-20 bg-white rounded-2xl border border-dashed border-stone-300 dark:bg-stone-900 dark:border-stone-700">
+                <div className="mx-auto w-16 h-16 rounded-2xl bg-stone-100 dark:bg-stone-800 flex items-center justify-center">
+                  <HeartHandshake className="w-8 h-8 text-stone-400" />
+                </div>
+                <h3 className="mt-4 font-bold text-stone-800 dark:text-stone-200">لا توجد أنشطة مطابقة</h3>
+                <p className="mt-1 text-sm text-stone-500 dark:text-stone-400">
+                  جرّب تغيير السنة أو المادة أو إعادة ضبط الفلاتر.
+                </p>
+                <button
+                  onClick={resetSupport}
+                  className="mt-4 inline-flex items-center gap-1.5 px-4 py-2 text-xs font-bold rounded-lg bg-stone-900 text-white hover:bg-rose-600 transition-colors dark:bg-white dark:text-stone-900 cursor-pointer"
+                >
+                  <RotateCcw className="w-3.5 h-3.5" />
+                  إعادة ضبط الفلاتر
+                </button>
+              </div>
+            ) : (
+              filteredSupport.map((e, idx) => (
+                <motion.section
+                  key={`${e.السنة}-${e.الرابط}-${idx}`}
+                  initial={{opacity: 0, y: 12}}
+                  animate={{opacity: 1, y: 0}}
+                  transition={{delay: Math.min(idx * 0.03, 0.4), duration: 0.3}}
+                  className="bg-white rounded-2xl border border-stone-200 shadow-xs overflow-hidden dark:bg-stone-900 dark:border-stone-800"
+                >
+                  <div className="px-5 py-3 border-b border-stone-100 dark:border-stone-800 flex items-center justify-between gap-3 bg-gradient-to-l from-rose-50/60 to-transparent dark:from-rose-500/5">
+                    <div className="flex items-center gap-2.5 min-w-0">
+                      <span
+                        className={`px-2.5 py-1 text-[11px] font-extrabold rounded-lg shrink-0 ${
+                          e.السنة === 'الكل'
+                            ? 'bg-stone-900 text-white dark:bg-white dark:text-stone-900'
+                            : 'bg-rose-600/15 text-rose-800 border border-rose-600/25 dark:bg-rose-500/10 dark:text-rose-300 dark:border-rose-500/30'
+                        }`}
+                      >
+                        {e.السنة === 'الكل' ? 'جميع المستويات' : `السنة ${e.السنة}`}
+                      </span>
+                      <h3 className="font-extrabold text-stone-900 dark:text-white text-sm leading-snug">
+                        {e.العنوان}
+                      </h3>
+                    </div>
+                    <span className="hidden sm:block text-[10px] font-mono text-stone-300 dark:text-stone-600">
+                      {e.المصدر} · {e.نوع_الرابط}
+                    </span>
+                  </div>
+
+                  <div className="px-5 py-3.5 flex flex-col sm:flex-row sm:items-center justify-between gap-3">
+                    <div className="min-w-0 space-y-1.5">
+                      <div className="flex items-center gap-1.5 flex-wrap">
+                        <span className="inline-flex items-center gap-1 text-[10px] px-2 py-0.5 rounded-full bg-rose-100 text-rose-800 border border-rose-200 dark:bg-rose-500/10 dark:text-rose-300 dark:border-rose-500/30 font-bold">
+                          {e.المادة}
+                        </span>
+                        <span className={`text-[10px] px-2 py-0.5 rounded-md font-mono font-bold border ${evalTypeTone(e.نوع_الرابط)}`}>
+                          {e.نوع_الرابط}
+                        </span>
+                        <span className="text-[10px] px-2 py-0.5 rounded-full bg-stone-100 text-stone-500 border border-stone-200 dark:bg-stone-800 dark:text-stone-400 dark:border-stone-700 font-mono" dir="ltr">
+                          {e.المصدر}
+                        </span>
+                        {e.سنة_النشر && (
+                          <span className="text-[10px] px-2 py-0.5 rounded-full bg-amber-100 text-amber-800 border border-amber-200 dark:bg-amber-500/10 dark:text-amber-300 dark:border-amber-500/30 font-mono">
+                            {e.سنة_النشر}
+                          </span>
+                        )}
+                      </div>
+                      {e.ملاحظات && (
+                        <p className="text-[11px] text-stone-500 dark:text-stone-400 leading-relaxed">
+                          {e.ملاحظات}
+                        </p>
+                      )}
+                    </div>
+                    <div className="flex items-center gap-2 shrink-0">
+                      <button
+                        onClick={() => copyText(e.الرابط, 'الرابط')}
+                        className="px-2.5 py-1.5 text-xs rounded-lg border border-stone-200 text-stone-600 hover:bg-stone-50 dark:border-stone-700 dark:text-stone-300 dark:hover:bg-stone-800 transition-colors flex items-center gap-1.5 cursor-pointer"
+                        title="نسخ الرابط"
+                      >
+                        {copied === e.الرابط ? (
+                          <Check className="w-3.5 h-3.5 text-emerald-600" />
+                        ) : (
+                          <Copy className="w-3.5 h-3.5" />
+                        )}
+                        <span className="hidden lg:inline">نسخ</span>
+                      </button>
+                      {e.متاح ? (
+                        <a
+                          href={e.الرابط}
+                          target="_blank"
+                          rel="noopener noreferrer"
+                          className="px-3.5 py-1.5 text-xs font-bold rounded-lg bg-rose-700 text-white hover:bg-rose-600 transition-colors flex items-center gap-1.5 shadow-xs"
+                          title="فتح النشاط"
+                        >
+                          <Download className="w-3.5 h-3.5" />
+                          فتح النشاط
                         </a>
                       ) : (
                         <span className="text-[10px] font-semibold text-stone-400 px-3.5 py-1.5 rounded-lg border border-stone-200 dark:border-stone-700">
@@ -1599,6 +1910,7 @@ export default function App() {
           <p>
             {total} ملفاً + {totalLinks} رابطاً مصنّفة لجميع سنوات التعليم الأساسي (تحضيري ← 6)
             + {evaluationFiles.length} ملف تقييم ومتابعة
+            + {supportFiles.length} نشاط دعم وعلاج
           </p>
           <p className="pt-1 text-stone-500 dark:text-stone-400">
             برمجة وجمع البيانات:{' '}
