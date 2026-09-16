@@ -111,8 +111,15 @@ export default function App() {
   const [galleryLevel, setGalleryLevel] = useState<'all' | string>('all');
   const [galleryFormat, setGalleryFormat] = useState<'all' | 'JPG' | 'PNG'>('all');
   const [galleryLimit, setGalleryLimit] = useState(60);
+  const [showTop, setShowTop] = useState(false);
   const inputRef = useRef<HTMLInputElement>(null);
   const toastTimer = useRef<number | undefined>(undefined);
+
+  useEffect(() => {
+    const onScroll = () => setShowTop(window.scrollY > 600);
+    window.addEventListener('scroll', onScroll, {passive: true});
+    return () => window.removeEventListener('scroll', onScroll);
+  }, []);
 
   useEffect(() => {
     document.documentElement.classList.toggle('dark', dark);
@@ -395,7 +402,7 @@ export default function App() {
                 </span>
               </div>
               <p className="text-[11px] text-stone-500 dark:text-stone-400 truncate">
-                مخططات الوحدات · أدلة CNP · برامج الوزارة · السنوات 1 ← 6
+                مخططات الوحدات · أدلة CNP · برامج الوزارة · مستويات التحضيري ← 6
               </p>
             </div>
           </div>
@@ -424,7 +431,7 @@ export default function App() {
                   الصور
                   <span className="absolute -top-1 -right-2 w-1.5 h-1.5 rounded-full bg-amber-500 animate-pulse" />
                 </span>
-                <span className="text-[10px] text-stone-400">2050</span>
+                <span className="text-[10px] text-stone-400">{totalImages}</span>
               </button>
             </div>
             <button
@@ -467,8 +474,7 @@ export default function App() {
             <p className="mt-2 text-sm text-stone-600 dark:text-stone-400 leading-relaxed">
               {gallery
                 ? 'فلاتر حسب المسار (annee-1..6 / autres)، المادة، الصيغة والبحث في الأوصاف.'
-                : 'جذاذات، خطط سنوية وفصلية، أدلة المعلم، وتقييمات رسمية — مصنّفة حسب المستوى،'}
-              {!gallery && ' المادة، نوع الوثيقة والصيغة.'}
+                : 'جذاذات، خطط سنوية وفصلية، أدلة المعلم، وتقييمات رسمية — مصنّفة حسب المستوى والمادة ونوع الوثيقة والصيغة.'}
             </p>
           </div>
 
@@ -486,8 +492,8 @@ export default function App() {
                 }}
                 placeholder={
                   gallery
-                    ? `ابحث في المسار أو الأوصاف أو المواد… (مثال: annee-3، تقييم، Français)`
-                    : `ابحث في ${total} ملفاً و${totalLinks} رابطاً…  (مثال: دليل المعلم، الوحدة 1، الفرنسية، تقييم، CNP)`
+                    ? 'ابحث في المسار أو الأوصاف أو المواد…  (مثال: annee-3، تقييم، Français)'
+                    : 'ابحث بالاسم أو النوع أو المصدر…  (مثال: دليل المعلم، امتحان، فرنسية)'
                 }
                 className="w-full pl-12 pr-12 py-3.5 text-sm rounded-2xl border border-stone-200 bg-white shadow-sm placeholder:text-stone-400 focus:outline-hidden focus:ring-4 focus:ring-amber-500/20 focus:border-amber-500 transition-all dark:bg-stone-900 dark:border-stone-700 dark:placeholder:text-stone-500"
               />
@@ -601,8 +607,8 @@ export default function App() {
             {
               icon: <Layers className="w-4 h-4 text-sky-600" />,
               label: 'المراحل المغطاة',
-              value: '6 سنوات',
-              hint: '+ الوثائق الرسمية',
+              value: `${new Set(dataset.المخططات.map((p) => p.السنة)).size} مستويات`,
+              hint: 'الفترة 1 ← 6 + التحضيري + الوثائق الرسمية',
             },
             {
               icon: <FileText className="w-4 h-4 text-violet-600" />,
@@ -747,7 +753,7 @@ export default function App() {
                 {subjects.map((s) => (
                   <button
                     key={s}
-                    onClick={() => setSubject(s)}
+                    onClick={() => setSubject(subject === s ? 'all' : s)}
                     className={`px-2.5 py-1 text-xs rounded-lg font-semibold transition-colors cursor-pointer ${
                       subject === s
                         ? 'bg-amber-600 text-white shadow-sm dark:bg-amber-500'
@@ -1022,25 +1028,12 @@ export default function App() {
               <div className="flex flex-wrap items-center justify-between gap-2 text-xs text-stone-500 dark:text-stone-400 px-1">
                 <span>
                   «
-                  <span className="font-extrabold text-stone-900 dark:text-white">{matchUnits}</span>»
-                  {matchLinks > 0 && (
-                    <>
-                      ملف + «
-                      <span className="font-extrabold text-sky-700 dark:text-sky-300">{matchLinks}</span>»
-                      رابط
-                    </>
-                  )}{' '}
-                  من إجمالي{' '}
-                  <span className="font-bold text-stone-700 dark:text-stone-300">
-                    {total}
-                  </span>{' '}
-                  ملف و{' '}
-                  <span className="font-bold text-sky-700 dark:text-sky-300">{totalLinks}</span>{' '}
-                  رابط
+                  <span className="font-extrabold text-stone-900 dark:text-white">{matchCount}</span>
+                  » نتيجة
                   {hasActiveFilters && ' — حسب المعايير المحددة'}
                 </span>
                 <span className="text-[11px] text-stone-400 dark:text-stone-500">
-                  اضغط على «تحميل» لتنزيل الملف مباشرة
+                  {total} ملف و{totalLinks} رابط بالخزانة — اضغط «تحميل» لتنزيل الملف
                 </span>
               </div>
 
@@ -1060,9 +1053,17 @@ export default function App() {
                       <h3 className="font-extrabold text-stone-900 dark:text-white text-sm truncate">
                         {plan.المادة}
                       </h3>
+                      <div className="flex items-center gap-1.5">
                       <span className="text-[11px] font-semibold text-stone-400 dark:text-stone-500 shrink-0">
-                        {plan.الوحدات.length} ملف
+                        {plan.الوحدات.length + (plan.روابط_تحميل?.length || 0)} وثيقة
                       </span>
+                      {plan.روابط_تحميل && plan.روابط_تحميل.length > 0 && (
+                        <span className="inline-flex items-center gap-1 text-[10px] font-semibold text-sky-700 dark:text-sky-300 bg-sky-100 dark:bg-sky-500/10 border border-sky-200 dark:border-sky-500/30 rounded-full px-2 py-0.5 shrink-0">
+                          <Link2 className="w-3 h-3" />
+                          {plan.روابط_تحميل.length} رابط
+                        </span>
+                      )}
+                    </div>
                     </div>
                     <span className="hidden sm:block text-[10px] font-mono text-stone-300 dark:text-stone-600">
                       السنة {plan.السنة} ← {plan.المادة}
@@ -1096,6 +1097,10 @@ export default function App() {
                               </span>
                             </div>
                             <div className="flex items-center gap-1.5 flex-wrap">
+                              <span className="inline-flex items-center gap-1 text-[10px] px-2 py-0.5 rounded-full bg-sky-100 text-sky-700 border border-sky-200 dark:bg-sky-500/10 dark:text-sky-300 dark:border-sky-500/30 font-semibold">
+                                <Link2 className="w-3 h-3" />
+                                رابط
+                              </span>
                               {ext.نوع && (
                                 <span
                                   className={`text-[10px] px-2 py-0.5 rounded-full border font-semibold ${docTypeTone(ext.نوع)}`}
@@ -1133,7 +1138,7 @@ export default function App() {
                         <div className="min-w-0 space-y-1.5">
                           <div className="flex items-center gap-1.5 flex-wrap">
                             <span className="font-bold text-stone-800 dark:text-stone-100 text-sm leading-snug">
-                              {unit.الوحدة}
+                              {unit.الملف}
                             </span>
                             <span
                               className={`text-[10px] px-2 py-0.5 rounded-md font-mono font-bold border shrink-0 ${formatBadge(unit.الصيغة)}`}
@@ -1150,9 +1155,9 @@ export default function App() {
                             <span className="text-[10px] px-2 py-0.5 rounded-full bg-stone-100 text-stone-500 border border-stone-200 dark:bg-stone-800 dark:text-stone-400 dark:border-stone-700 font-mono">
                               {unit.الحجم}
                             </span>
-                          </div>
-                          <div dir="ltr" className="text-left text-[11px] text-stone-400 dark:text-stone-500 font-mono truncate">
-                            {unit.المسار}
+                            <span className="hidden sm:inline-flex text-[10px] font-mono text-stone-400 dark:text-stone-500 truncate max-w-[220px]" dir="ltr" title={unit.المسار}>
+                              {unit.الوحدة}
+                            </span>
                           </div>
                           {unit.الصور && unit.الصور.length > 0 && (
                             <div className="flex items-center gap-1.5">
@@ -1257,8 +1262,10 @@ export default function App() {
       {/* ===== Footer ===== */}
       <footer className="border-t border-stone-200 bg-white py-6 mt-4 dark:bg-stone-900 dark:border-stone-800">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center text-[11px] text-stone-400 dark:text-stone-500 space-y-1">
-          <p>مكتبة المعلم التونسي — مصادر بيداغوجية رسمية ومحقَّقة (CNP · وزارة التربية · نجحني)</p>
-          <p>{total} ملفاً مصنّفة ومرتبة لجميع سنوات التعليم الأساسي (1 ← 6)</p>
+          <p>مكتبة المعلم التونسي — مصادر بيداغوجية رسمية ومحقَّقة (CNP · وزارة التربية · نجحني · موسوعة المعلم)</p>
+          <p>
+            {total} ملفاً + {totalLinks} رابطاً مصنّفة لجميع سنوات التعليم الأساسي (تحضيري ← 6)
+          </p>
           <p className="pt-1 text-stone-500 dark:text-stone-400">
             برمجة وجمع البيانات:{' '}
             <a
@@ -1272,6 +1279,23 @@ export default function App() {
           </p>
         </div>
       </footer>
+
+      {/* ===== Toast ===== */}
+      <AnimatePresence>
+        {showTop && (
+          <motion.button
+            initial={{opacity: 0, y: 12}}
+            animate={{opacity: 1, y: 0}}
+            exit={{opacity: 0, y: 12}}
+            onClick={() => window.scrollTo({top: 0, behavior: 'smooth'})}
+            className="fixed bottom-5 right-5 z-40 w-10 h-10 rounded-full bg-stone-900 text-white shadow-lg hover:bg-amber-600 transition-colors flex items-center justify-center cursor-pointer dark:bg-white dark:text-stone-900 dark:hover:bg-amber-400"
+            title="العودة إلى الأعلى"
+            aria-label="العودة إلى الأعلى"
+          >
+            <ChevronDown className="w-5 h-5 rotate-180" />
+          </motion.button>
+        )}
+      </AnimatePresence>
 
       {/* ===== Toast ===== */}
       <AnimatePresence>
